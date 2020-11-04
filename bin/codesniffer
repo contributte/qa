@@ -1,0 +1,43 @@
+#!/bin/bash
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+RULESET=${RULESET:='ruleset.xml'}
+EXTENSIONS=${EXTENSIONS:='php,phtml,phpt'}
+EXCLUDE_FOLDERS=${EXCLUDE_FOLDERS:='*/temp,*/tmp'}
+FOLDERS=()
+
+# Try several ruleset paths:
+# - <package-dir>/$RULESET
+# - <package-dir>/$RULESET.xml
+# - <vendor-dir>/contributte/qa/$RULESET
+# - <vendor-dir>/contributte/qa/$RULESET.xml
+# - $RULESET
+# - <vendor-dir>/contributte/qa/ruleset.xml (fallback)
+if [ -f "${DIR}/../../${RULESET}" ]; then
+    RULESET="${DIR}/../../${RULESET}"
+elif [ -f "${DIR}/../../${RULESET}.xml" ]; then
+    RULESET="${DIR}/../contributte/qa/${RULESET}.xml"
+elif [ -f "${DIR}/../contributte/qa/${RULESET}" ]; then
+    RULESET="${DIR}/../contributte/qa/${RULESET}"
+elif [ -f "${DIR}/../contributte/qa/ruleset-${RULESET}.xml" ]; then
+    RULESET="${DIR}/../contributte/qa/ruleset-${RULESET}.xml"
+elif [ ! -f "${RULESET}" ]; then
+    RULESET="${RULESET}"
+else
+    RULESET="${DIR}/../contributte/qa/ruleset.xml"
+fi
+
+# Show installed coding standards
+${DIR}/phpcs -i
+
+# Run sniffing
+if [ -z "$1" ]; then
+    # Run codesniffer with default args
+    [ -d "app" ] && FOLDERS+=('app')
+    [ -d "src" ] && FOLDERS+=('src')
+    [ -d "tests" ] && FOLDERS+=('tests')
+    ${DIR}/phpcs --standard="${RULESET}" --ignore="${EXCLUDE_FOLDERS}" --extensions="${EXTENSIONS}" --encoding=utf-8 --colors -nsp ${FOLDERS[*]}
+else
+    # Run codesniffer
+    ${DIR}/phpcs --standard="${RULESET}" --ignore="${EXCLUDE_FOLDERS}" --extensions="${EXTENSIONS}" --encoding=utf-8 --colors -nsp $@
+fi

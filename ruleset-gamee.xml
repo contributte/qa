@@ -36,27 +36,38 @@
 		<exclude name="SlevomatCodingStandard.Namespaces.UnusedUses.MismatchingCaseSensitivity"/>
 		<exclude name="SlevomatCodingStandard.Namespaces.UseOnlyWhitelistedNamespaces"/>
 		<exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalConstants.NonFullyQualified"/>
-		<exclude name="SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly.ReferenceViaFullyQualifiedNameWithoutNamespace"/>
+		<exclude
+			name="SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly.ReferenceViaFullyQualifiedNameWithoutNamespace"/>
 		<exclude name="SlevomatCodingStandard.TypeHints.TypeHintDeclaration.MissingParameterTypeHint"/>
-		<exclude name="SlevomatCodingStandard.TypeHints.TypeHintDeclaration.MissingParameterTypeHint.WhitespaceBeforeColon"/>
+		<exclude
+			name="SlevomatCodingStandard.TypeHints.TypeHintDeclaration.MissingParameterTypeHint.WhitespaceBeforeColon"/>
 		<exclude name="SlevomatCodingStandard.Commenting.RequireOneLinePropertyDocComment.MultiLinePropertyComment"/>
-		<exclude name="SlevomatCodingStandard.Commenting.DocCommentSpacing.IncorrectLinesCountBetweenDifferentAnnotationsTypes" />
-		<exclude name="SlevomatCodingStandard.Commenting.DocCommentSpacing.IncorrectLinesCountBetweenDescriptionAndAnnotations" />
+		<exclude
+			name="SlevomatCodingStandard.Commenting.DocCommentSpacing.IncorrectLinesCountBetweenDifferentAnnotationsTypes"/>
+		<exclude
+			name="SlevomatCodingStandard.Commenting.DocCommentSpacing.IncorrectLinesCountBetweenDescriptionAndAnnotations"/>
 		<exclude name="SlevomatCodingStandard.Classes.SuperfluousAbstractClassNaming.SuperfluousPrefix"/>
 		<exclude name="SlevomatCodingStandard.Classes.SuperfluousExceptionNaming.SuperfluousSuffix"/>
-		<exclude name="SlevomatCodingStandard.Commenting.DocCommentSpacing.IncorrectLinesCountBetweenDescriptionAndAnnotations"/>
-		<exclude name="SlevomatCodingStandard.Operators.DisallowIncrementAndDecrementOperators.DisallowedPostIncrementOperator"/>
-		<exclude name="SlevomatCodingStandard.ControlStructures.DisallowShortTernaryOperator.DisallowedShortTernaryOperator"/>
-		<exclude name="SlevomatCodingStandard.Operators.DisallowIncrementAndDecrementOperators.DisallowedPreIncrementOperator"/>
-		<exclude name="SlevomatCodingStandard.Operators.DisallowIncrementAndDecrementOperators.DisallowedPostDecrementOperator"/>
-		<exclude name="SlevomatCodingStandard.Operators.DisallowIncrementAndDecrementOperators.DisallowedPreDecrementOperator"/>
+		<exclude
+			name="SlevomatCodingStandard.Commenting.DocCommentSpacing.IncorrectLinesCountBetweenDescriptionAndAnnotations"/>
+		<exclude
+			name="SlevomatCodingStandard.Operators.DisallowIncrementAndDecrementOperators.DisallowedPostIncrementOperator"/>
+		<exclude
+			name="SlevomatCodingStandard.ControlStructures.DisallowShortTernaryOperator.DisallowedShortTernaryOperator"/>
+		<exclude
+			name="SlevomatCodingStandard.Operators.DisallowIncrementAndDecrementOperators.DisallowedPreIncrementOperator"/>
+		<exclude
+			name="SlevomatCodingStandard.Operators.DisallowIncrementAndDecrementOperators.DisallowedPostDecrementOperator"/>
+		<exclude
+			name="SlevomatCodingStandard.Operators.DisallowIncrementAndDecrementOperators.DisallowedPreDecrementOperator"/>
 		<exclude name="SlevomatCodingStandard.TypeHints.UselessConstantTypeHint.UselessDocComment"/>
 		<exclude name="SlevomatCodingStandard.ControlStructures.NewWithoutParentheses.UselessParentheses"/>
 		<exclude name="SlevomatCodingStandard.Functions.StaticClosure.ClosureNotStatic"/>
 		<exclude name="SlevomatCodingStandard.Functions.UnusedParameter.UnusedParameter"/>
 		<exclude name="SlevomatCodingStandard.Functions.TrailingCommaInCall.MissingTrailingComma"/>
 		<exclude name="SlevomatCodingStandard.ControlStructures.RequireTernaryOperator.TernaryOperatorNotUsed"/>
-		<exclude name="SlevomatCodingStandard.ControlStructures.ControlStructureSpacing.IncorrectLinesCountBeforeControlStructure"/>
+		<exclude
+			name="SlevomatCodingStandard.ControlStructures.ControlStructureSpacing.IncorrectLinesCountBeforeControlStructure"/>
 		<exclude name="SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces.NoEmptyLineBeforeClosingBrace"/>
 		<exclude name="SlevomatCodingStandard.TypeHints.DisallowMixedTypeHint.DisallowedMixedTypeHint"/>
 		<exclude name="SlevomatCodingStandard.TypeHints.DisallowArrayTypeHintSyntax"/>

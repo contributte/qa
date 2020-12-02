@@ -1,7 +1,7 @@
 {
   "name": "contributte/qa",
   "description": "Tuned & very strict coding standards for PHP projects. Trusted by Contributte, Apitte, Nettrine and many others.",
-  "keywords": ["codesniffer", "codestyle", "contributte", "php"],
+  "keywords": ["codesniffer", "codestyle", "contributte", "qa", "quality assurance"],
   "type": "library",
   "license": ["MIT"],
   "homepage": "https://github.com/contributte/qa",

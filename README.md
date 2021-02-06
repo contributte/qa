@@ -19,7 +19,7 @@ Website ðŸš€ <a href="https://contributte.org">contributte.org</a> | Contact ðŸ‘
 
 ## Usage
 
-To install latest version of `contributte/recaptcha` use [Composer](https://getcomposer.com).
+To install latest version of `contributte/qa` use [Composer](https://getcomposer.com).
 
 ```
 composer require --dev contributte/qa

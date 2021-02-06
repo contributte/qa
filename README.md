@@ -1,8 +1,7 @@
 ![](https://heatbadger.now.sh/github/readme/contributte/qa/)
 
 <p align=center>
-  <a href="https://github.com/contributte/qa/actions"><img src="https://badgen.net/github/checks/contributte/qa/master?cache=300"></a>
-  <a href="https://coveralls.io/r/contributte/qa"><img src="https://badgen.net/coveralls/c/github/contributte/qa?cache=300"></a>
+  <a href="https://github.com/contributte/qa/actions"><img src="https://badgen.net/github/checks/contributte/qa"></a>
   <a href="https://packagist.org/packages/contributte/qa"><img src="https://badgen.net/packagist/dm/contributte/qa"></a>
   <a href="https://packagist.org/packages/contributte/qa"><img src="https://badgen.net/packagist/v/contributte/qa"></a>
 </p>
@@ -32,9 +31,9 @@ For details on how to use this package, check out our [documentation](.docs).
 
 ## Versions
 
-| State  | Branch | Version    | PHP  |Readme |
-|--------|--------|------------|------|-------|
-| dev    | master | 0.1.0     | ^7.4  |-      |
+| State  | Branch | Version    | PHP   |
+|--------|--------|------------|-------|
+| dev    | master | 0.1.0      | >=7.4 |
 
 ## Development
 

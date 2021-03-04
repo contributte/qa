@@ -21,8 +21,8 @@ Website ðŸš€ <a href="https://contributte.org">contributte.org</a> | Contact ðŸ‘
 
 To install latest version of `contributte/qa` use [Composer](https://getcomposer.org).
 
-```
-$ composer require --dev contributte/qa
+```bash
+composer require --dev contributte/qa
 ```
 
 ## Documentation

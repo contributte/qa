@@ -11,9 +11,7 @@ Take a look at our template repository [contributte/bare](https://github.com/con
 ## Usage
 
 - Analyse your codebase with `phpcs` executable e.q. `vendor/bin/phpcs --standard=ruleset.xml app src tests`, as arguments, use your copied config file and directories to be scanned.
-
 - Fix problems effortlessly with `phpcbf` executable e.g. `vendor/bin/phpcs --standard=codesniffer.xml app src tests`.
-
 -  Your code now shines! 🌞
 
 ## Cheatsheet

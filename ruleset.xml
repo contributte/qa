@@ -268,7 +268,6 @@
 			<property name="linesCountBeforeClosingBrace" value="1"/>
 		</properties>
 	</rule>
-	<rule ref="SlevomatCodingStandard.Classes.UnusedPrivateElements"/>
 	<rule ref="SlevomatCodingStandard.Classes.SuperfluousAbstractClassNaming">
 		<exclude name="SlevomatCodingStandard.Classes.SuperfluousAbstractClassNaming.SuperfluousPrefix"/>
 	</rule>
@@ -351,9 +350,7 @@
 	<rule ref="SlevomatCodingStandard.PHP.TypeCast"/>
 	<rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes">
 		<properties>
-			<property name="newlinesCountBetweenOpenTagAndDeclare" value="0"/>
-			<property name="spacesCountAroundEqualsSign" value="1"/>
-			<property name="newlinesCountAfterDeclare" value="2"/>
+			<property name="declareOnFirstLine" value="1"/>
 		</properties>
 	</rule>
 	<rule ref="SlevomatCodingStandard.TypeHints.LongTypeHints"/>
@@ -395,7 +392,6 @@
 	</rule>
 	<rule ref="SlevomatCodingStandard.Functions.UnusedInheritedVariablePassedToClosure"/>
 	<rule ref="SlevomatCodingStandard.Functions.UselessParameterDefaultValue"/>
-	<rule ref="SlevomatCodingStandard.Namespaces.FullyQualifiedClassNameAfterKeyword"/>
 	<rule ref="SlevomatCodingStandard.Namespaces.FullyQualifiedClassNameInAnnotation">
 		<exclude
 			name="SlevomatCodingStandard.Namespaces.FullyQualifiedClassNameInAnnotation.NonFullyQualifiedClassName"/>
@@ -497,11 +493,12 @@
 	</rule>
 	<rule ref="SlevomatCodingStandard.ControlStructures.JumpStatementsSpacing">
 		<properties>
-			<property name="tokensToCheck" type="array">
-				<!--                <element value="T_BREAK"/>-->
-				<element value="T_CONTINUE"/>
-				<element value="T_RETURN"/>
-				<element value="T_THROW"/>
+			<property name="linesCountBefore" value="1"/>
+			<property name="linesCountAfter" value="1"/>
+			<property name="jumpStatements" type="array">
+				<element value="continue"/>
+				<element value="return"/>
+				<element value="throw"/>
 			</property>
 		</properties>
 	</rule>

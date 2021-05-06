@@ -1,7 +1,8 @@
 ![](https://heatbadger.now.sh/github/readme/contributte/qa/)
 
 <p align=center>
-  <a href="https://github.com/contributte/qa/actions"><img src="https://badgen.net/github/checks/contributte/qa"></a>
+  <a href="https://github.com/contributte/qa/actions"><img src="https://badgen.net/github/checks/contributte/qa/master"></a>
+  <a href="https://coveralls.io/r/contributte/qa"><img src="https://badgen.net/coveralls/c/github/contributte/qa"></a>
   <a href="https://packagist.org/packages/contributte/qa"><img src="https://badgen.net/packagist/dm/contributte/qa"></a>
   <a href="https://packagist.org/packages/contributte/qa"><img src="https://badgen.net/packagist/v/contributte/qa"></a>
 </p>
@@ -21,7 +22,7 @@ Website ðŸš€ <a href="https://contributte.org">contributte.org</a> | Contact ðŸ‘
 
 To install latest version of `contributte/qa` use [Composer](https://getcomposer.com).
 
-```bash
+```
 composer require --dev contributte/qa
 ```
 
@@ -31,9 +32,9 @@ For details on how to use this package, check out our [documentation](.docs).
 
 ## Versions
 
-| State  | Branch | Version    | PHP   |
-|--------|--------|------------|-------|
-| dev    | master | 0.1.0      | >=7.4 |
+| State  | Branch | Version | PHP     |
+|--------|--------|---------|---------|
+| dev    | master | `0.1`   | `>=7.4` |
 
 ## Development
 
@@ -49,5 +50,5 @@ See [how to contribute](https://contributte.org) to this package. This package i
 
 -----
 
-Consider to [support](https://contributte.org/partners) **contributte** development team.
+Consider to [support](https://contributte.org/partners.html) **contributte** development team.
 Also thank you for using this package.

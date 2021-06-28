@@ -34,5 +34,8 @@
 				<element key="tests" value="Tests"/>
 			</property>
 		</properties>
+
+		<exclude name="SlevomatCodingStandard.TypeHints.ParameterTypeHint.MissingNativeTypeHint" />
+		<exclude name="SlevomatCodingStandard.TypeHints.PropertyTypeHint.MissingNativeTypeHint" />
 	</rule>
 </ruleset>

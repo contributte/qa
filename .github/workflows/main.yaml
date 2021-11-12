@@ -17,15 +17,16 @@ env:
   composer-install: "composer update --no-interaction --no-progress --no-suggest --prefer-dist --prefer-stable"
 
 jobs:
-  qa:
-    name: "Quality assurance"
-    runs-on: "${{ matrix.operating-system }}"
-
+  test:
+    runs-on: ubuntu-latest
     strategy:
       matrix:
-        php-version: [ "7.4", "8.0" ]
-        operating-system: [ "ubuntu-latest" ]
+        php-version: [ "7.4", "8.0", "8.1" ]
+        ruleset: [ "base", "php74", "php80", "php81", "next", "gamee" ]
+
       fail-fast: false
+
+    name: "Codesniffer (${{ matrix.ruleset }} / ${{ matrix.php-version }})"
 
     steps:
       - name: "Checkout"
@@ -73,5 +74,5 @@ jobs:
       - name: "Install dependencies"
         run: "${{ env.composer-install }}"
 
-      - name: "Coding Standard"
-        run: "make cs"
+      - name: "Test ruleset"
+        run: "make test-${{ matrix.ruleset }}"

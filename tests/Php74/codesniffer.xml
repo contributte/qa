@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ruleset name="Test ruleset-7.4.xml">
+	<arg name="basepath" value="."/>
+	<arg name="extensions" value="php"/>
+	<rule ref="./../../ruleset-7.4.xml"/>
+</ruleset>

@@ -2,7 +2,7 @@
 
 <p align=center>
 	<a href="https://github.com/contributte/qa/actions"><img src="https://badgen.net/github/checks/contributte/qa/master"></a>
-	<a href="https://coveralls.io/r/contributte/qa"><img src="https://badgen.net/coveralls/c/github/contributte/qa"></a>
+	<a href="https://packagist.org/packages/contributte/qa"><img src="https://badgen.net/packagist/dt/contributte/qa"></a>
 	<a href="https://packagist.org/packages/contributte/qa"><img src="https://badgen.net/packagist/dm/contributte/qa"></a>
 	<a href="https://packagist.org/packages/contributte/qa"><img src="https://badgen.net/packagist/v/contributte/qa"></a>
 </p>

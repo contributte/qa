@@ -71,6 +71,7 @@ final class Foobar implements IFoobar
 	protected function getForEach(): array
 	{
 		$result = [];
+
 		foreach ($this->foo as $foo) {
 			if (strlen($foo) === self::FOO_LENGTH) {
 				continue;

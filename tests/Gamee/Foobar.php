@@ -92,4 +92,19 @@ final class Foobar implements IFoobar
 		}
 	}
 
+	private function ifElseStatement(): void
+	{
+		$this->foobar = 1;
+
+		if ($this->bar === 'case1') {
+			$this->baz = 1;
+		} elseif ($this->bar === 'case2') {
+			$this->baz = 2;
+		} else {
+			$this->baz = 3;
+		}
+
+		$this->bar = 'case3';
+	}
+
 }

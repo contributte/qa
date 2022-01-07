@@ -8,16 +8,57 @@ Install by running `composer require --dev contributte/qa` command.
 
 Take a look at our template repository [contributte/bare](https://github.com/contributte/bare/).
 
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Contributte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vendor/squizlabs/php_codesniffer/phpcs.xsd">
+
+  <!-- Check only whitelist files -->
+  <arg name="extensions" value="php"/>
+
+  <!-- Enforce encoding -->
+  <arg name="encoding" value="utf-8"/>
+
+  <!-- Show progress -->
+  <arg value="ps"/>
+
+  <!-- Nice colors -->
+  <arg name="colors"/>
+
+  <!-- Strip filepaths to basepath -->
+  <arg name="basepath" value="./"/>
+
+  <!-- Feel the speed -->
+  <arg name="parallel" value="16"/>
+
+  <!-- Rulesets -->
+  <rule ref="./vendor/contributte/qa/ruleset.xml"/>
+  <!-- <rule ref="./vendor/contributte/qa/ruleset-8.0.xml"/> -->
+  <!-- <rule ref="./vendor/contributte/qa/ruleset-7.4.xml"/> -->
+
+  <!-- Rules -->
+  <rule ref="SlevomatCodingStandard.Files.TypeNameMatchesFileName">
+    <properties>
+      <property name="rootNamespaces" type="array">
+        <element key="src" value="Contributte\Package"/>
+      </property>
+    </properties>
+  </rule>
+
+  <!-- Excludes -->
+  <exclude-pattern>/tests/tmp</exclude-pattern>
+</ruleset>
+```
+
 ## Usage
 
 - Analyse your codebase with `phpcs` executable e.q. `vendor/bin/phpcs --standard=ruleset.xml app src tests`, as arguments, use your copied config file and directories to be scanned.
 - Fix problems effortlessly with `phpcbf` executable e.g. `vendor/bin/phpcs --standard=codesniffer.xml app src tests`.
--  Your code now shines! 🌞
+- Your code now shines! 🌞
 
 ## Cheatsheet
 
-For advanced usage of codesniffer you can find all details in their [wiki](https://github.com/squizlabs/PHP_CodeSniffer/wiki/Advanced-Usage#table-of-contents).
-However, working with codesniffer on daily basis you will often find your code to be unable to conform to the coding standard. That is why we highlighted ways how to cope with it for you.
+For advanced usage of codesniffer you can find all details in their [wiki](https://github.com/squizlabs/PHP_CodeSniffer/wiki/Advanced-Usage#table-of-contents). However, working with codesniffer on daily basis you will often find your code
+to be unable to conform to the coding standard. That is why we highlighted ways how to cope with it for you.
 
 ### Ignoring
 
@@ -65,29 +106,32 @@ protected function($key): void {}
 #### Ignoring all rules in path
 
 ```xml
+
 <ruleset name="Your project">
-    <!-- Exclude all rules in path -->
-    <exclude-pattern>app/FileToSkip.php</exclude-pattern>
-    <exclude-pattern>app/*Test\.php</exclude-pattern>
-    <exclude-pattern>tests/</exclude-pattern>
+  <!-- Exclude all rules in path -->
+  <exclude-pattern>app/FileToSkip.php</exclude-pattern>
+  <exclude-pattern>app/*Test\.php</exclude-pattern>
+  <exclude-pattern>tests/</exclude-pattern>
 </ruleset>
 ```
 
 #### Ignoring specific rules in path
 
 ```xml
+
 <rule ref="SlevomatCodingStandard.Namespaces.UnusedUses.MismatchingCaseSensitivity">
-    <exclude-pattern>src/deprecated</exclude-pattern>
+  <exclude-pattern>src/deprecated</exclude-pattern>
 </rule>
 ```
 
 #### Ignoring rules from ruleset
 
 ```xml
+
 <rule ref="./vendor/contributte/qa/ruleset.xml">
-    <!-- Exclude specific rules from imported ruleset -->
-    <exclude name="Generic.PHP.LowerCaseConstant"/>
-    <exclude name="Squiz.Commenting.FunctionComment.WrongStyle"/>
+  <!-- Exclude specific rules from imported ruleset -->
+  <exclude name="Generic.PHP.LowerCaseConstant"/>
+  <exclude name="Squiz.Commenting.FunctionComment.WrongStyle"/>
 </rule>
 ```
 
@@ -98,9 +142,9 @@ protected function($key): void {}
 ```xml
 <!-- Spaces instead of tabs -->
 <rule ref="Generic.WhiteSpace.ScopeIndent">
-    <properties>
-        <property name="indent" value="4"/>
-        <property name="tabIndent" value="false"/>
-    </properties>
+  <properties>
+    <property name="indent" value="4"/>
+    <property name="tabIndent" value="false"/>
+  </properties>
 </rule>
 ```

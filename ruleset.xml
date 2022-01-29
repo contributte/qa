@@ -429,6 +429,8 @@
 		</properties>
 	</rule>
 	<rule ref="SlevomatCodingStandard.ControlStructures.BlockControlStructureSpacing">
+		<exclude name="SlevomatCodingStandard.ControlStructures.BlockControlStructureSpacing.IncorrectLinesCountBeforeControlStructure" />
+		<exclude name="SlevomatCodingStandard.ControlStructures.BlockControlStructureSpacing.IncorrectLinesCountBeforeFirstControlStructure" />
 		<properties>
 			<property name="controlStructures" type="array">
 				<element value="if"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ruleset name="Contributte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vendor/squizlabs/php_codesniffer/phpcs.xsd">
-	<description>Contributte Coding Standards - for PHP 8.4</description>
+	<description>Contributte Coding Standards - for PHP 7.4</description>
 
 	<!-- ################################################################### -->
 

@@ -2,8 +2,6 @@
 
 namespace Tests;
 
-use Exception;
-
 final class Foobar implements IFoobar
 {
 
@@ -26,6 +24,8 @@ final class Foobar implements IFoobar
 
 	private int $baz;
 
+	private ?\DateTime $date;
+
 	public function __construct()
 	{
 		$this->foo = ['1', '2', '3'];
@@ -33,6 +33,8 @@ final class Foobar implements IFoobar
 		$this->baz = 0;
 
 		$this->getSwitchCase();
+
+		$this->date = new \DateTime();
 	}
 
 	/**
@@ -62,7 +64,7 @@ final class Foobar implements IFoobar
 	 */
 	public function interfaceMethod(string $foo, int $bar, ?array $baz = null): void
 	{
-		throw new Exception('Not yet implemented');
+		throw new \Exception('Not yet implemented');
 	}
 
 	/**
@@ -95,7 +97,7 @@ final class Foobar implements IFoobar
 
 				break;
 			case 'case3':
-				throw new Exception('Case 3 error');
+				throw new \Exception('Case 3 error');
 			default:
 				$this->baz = 4;
 		}

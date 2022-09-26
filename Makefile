@@ -1,19 +1,13 @@
-.PHONY: tests fixes test-base fix-base test-php74 fix-php74 test-php80 fix-php80 test-php81 fix-php81 test-next fix-next test-gamee fix-gamee
+.PHONY: tests fixes test-base fix-base test-php80 fix-php80 test-php81 fix-php81 test-next fix-next test-gamee fix-gamee
 
-tests: test-base test-php74 test-php80 test-php81 test-next test-gamee
-fixes: fix-base fix-php74 fix-php80 fix-php81 fix-next fix-gamee
+tests: test-base test-php80 test-php81 test-next test-gamee
+fixes: fix-base fix-php80 fix-php81 fix-next fix-gamee
 
 test-base:
 	vendor/bin/phpcs --standard=tests/Base/codesniffer.xml tests/Base
 
 fix-base:
 	vendor/bin/phpcbf --standard=tests/Base/codesniffer.xml tests/Base
-
-test-php74:
-	vendor/bin/phpcs --standard=tests/Php74/codesniffer.xml tests/Php74
-
-fix-php74:
-	vendor/bin/phpcbf --standard=tests/Php74/codesniffer.xml tests/Php74
 
 test-php80:
 	vendor/bin/phpcs --standard=tests/Php80/codesniffer.xml tests/Php80

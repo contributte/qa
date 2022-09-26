@@ -13,7 +13,7 @@ Take a look at our template repository [contributte/bare](https://github.com/con
 <ruleset name="Contributte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vendor/squizlabs/php_codesniffer/phpcs.xsd">
 
   <!-- Check only whitelist files -->
-  <arg name="extensions" value="php"/>
+  <arg name="extensions" value="php,phpt"/>
 
   <!-- Enforce encoding -->
   <arg name="encoding" value="utf-8"/>
@@ -31,9 +31,10 @@ Take a look at our template repository [contributte/bare](https://github.com/con
   <arg name="parallel" value="16"/>
 
   <!-- Rulesets -->
-  <rule ref="./vendor/contributte/qa/ruleset.xml"/>
+  <rule ref="./vendor/contributte/qa/ruleset-8.1.xml"/>
   <!-- <rule ref="./vendor/contributte/qa/ruleset-8.0.xml"/> -->
-  <!-- <rule ref="./vendor/contributte/qa/ruleset-7.4.xml"/> -->
+  <!-- <rule ref="./vendor/contributte/qa/ruleset-gamee.xml"/> -->
+  <!-- <rule ref="./vendor/contributte/qa/ruleset-next.xml"/> -->
 
   <!-- Rules -->
   <rule ref="SlevomatCodingStandard.Files.TypeNameMatchesFileName">

@@ -2,5 +2,5 @@
 <ruleset name="Test ruleset-next.xml">
 	<arg name="basepath" value="."/>
 	<arg name="extensions" value="php"/>
-	<rule ref="./../../ruleset-next.xml"/>
+	<rule ref="./../../../../ruleset-next.xml"/>
 </ruleset>

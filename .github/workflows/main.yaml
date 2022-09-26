@@ -22,11 +22,10 @@ jobs:
     strategy:
       matrix:
         php-version: [ "8.0", "8.1" ]
-        ruleset: [ "base", "php80", "php81", "next", "gamee" ]
 
       fail-fast: false
 
-    name: "Codesniffer (${{ matrix.ruleset }} / ${{ matrix.php-version }})"
+    name: "Codesniffer (${{ matrix.php-version }})"
 
     steps:
       - name: "Checkout"
@@ -75,4 +74,4 @@ jobs:
         run: "${{ env.composer-install }}"
 
       - name: "Test ruleset"
-        run: "make test-${{ matrix.ruleset }}"
+        run: "make tests"

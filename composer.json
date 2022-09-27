@@ -22,7 +22,9 @@
   "require": {
     "php": ">=8.0",
     "slevomat/coding-standard": "^8.5.1",
-    "squizlabs/php_codesniffer": "^3.6.1",
+    "squizlabs/php_codesniffer": "^3.6.1"
+  },
+  "require-dev": {
     "contributte/tester": "^0.1.0",
     "symfony/process": "^6.0.0"
   },

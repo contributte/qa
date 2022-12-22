@@ -2,6 +2,9 @@
 
 namespace Tests;
 
+use Tests\Fixtures;
+use Tests\Fixtures as FixturesAlias;
+
 final class Foobar implements IFoobar
 {
 
@@ -116,6 +119,15 @@ final class Foobar implements IFoobar
 		}
 
 		$this->bar = 'case3';
+	}
+
+	private function namespaces(): void
+	{
+		$class1 = \Tests\Fixtures\DummyClass::class;
+
+		$class2 = Fixtures\DummyClass::class;
+
+		$class3 = FixturesAlias\DummyClass::class;
 	}
 
 }

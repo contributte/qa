@@ -20,7 +20,16 @@ class CodestyleTest extends BaseTestCase
 	 */
 	public function testGoodSets(string $folder): void
 	{
-		$args = ['vendor/bin/phpcs', '--standard=' . $folder . '/codesniffer.xml', $folder, '--report=json', '--no-colors', '-q'];
+		$args = [
+			'vendor/bin/phpcs',
+			'--standard=' . $folder . '/codesniffer.xml',
+			'--file-list=' . $folder . '/codesniffer.files',
+			'--report=json',
+			'--no-colors',
+			'-q',
+			$folder,
+		];
+
 		$process = new Process($args);
 		$process->setWorkingDirectory(__DIR__ . '/../../');
 		$process->run();
@@ -46,7 +55,16 @@ class CodestyleTest extends BaseTestCase
 	 */
 	public function testBadSets(string $folder, string $snapshot): void
 	{
-		$args = ['vendor/bin/phpcs', '--standard=' . $folder . '/codesniffer.xml', $folder, '--report=checkstyle', '--no-colors', '-q'];
+		$args = [
+			'vendor/bin/phpcs',
+			'--standard=' . $folder . '/codesniffer.xml',
+			'--file-list=' . $folder . '/codesniffer.files',
+			'--report=checkstyle',
+			'--no-colors',
+			'-q',
+			$folder,
+		];
+
 		$process = new Process($args);
 		$process->setWorkingDirectory(__DIR__ . '/../../');
 		$process->run();

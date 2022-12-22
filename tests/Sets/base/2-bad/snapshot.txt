@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="3.7.1">
-<file name="TFoo.php">
- <error line="12" column="15" severity="error" message="Property \Tests\TFoo::$foobar does not have native type hint for its value but it should be possible to add it based on @var annotation &quot;mixed&quot;." source="SlevomatCodingStandard.TypeHints.PropertyTypeHint.MissingNativeTypeHint"/>
-</file>
 <file name="Foobar.php">
  <error line="5" column="1" severity="error" message="Use Tests\Fixtures is from the same namespace &#x2013; that is prohibited." source="SlevomatCodingStandard.Namespaces.UseFromSameNamespace.UseFromSameNamespace"/>
  <error line="46" column="12" severity="error" message="Method \Tests\Foobar::isBaz() does not have native type hint for its parameter $value but it should be possible to add it based on @param annotation &quot;mixed&quot;." source="SlevomatCodingStandard.TypeHints.ParameterTypeHint.MissingNativeTypeHint"/>
@@ -13,4 +10,8 @@
  <error line="130" column="9" severity="error" message="Unused variable $class3." source="SlevomatCodingStandard.Variables.UnusedVariable.UnusedVariable"/>
  <error line="130" column="19" severity="error" message="Partial use statements are not allowed, but referencing FixturesAlias\DummyClass found." source="SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly.PartialUse"/>
 </file>
+<file name="TFoo.php">
+ <error line="12" column="15" severity="error" message="Property \Tests\TFoo::$foobar does not have native type hint for its value but it should be possible to add it based on @var annotation &quot;mixed&quot;." source="SlevomatCodingStandard.TypeHints.PropertyTypeHint.MissingNativeTypeHint"/>
+</file>
 </checkstyle>
+

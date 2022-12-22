@@ -58,7 +58,6 @@ class CodestyleTest extends BaseTestCase
 	public function provideGoodSets(): Generator
 	{
 		yield [__DIR__ . '/../Sets/base/1-good'];
-		yield [__DIR__ . '/../Sets/gamee/1-good'];
 		yield [__DIR__ . '/../Sets/next/1-good'];
 		yield [__DIR__ . '/../Sets/php80/1-good'];
 		yield [__DIR__ . '/../Sets/php81/1-good'];

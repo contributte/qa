@@ -33,7 +33,6 @@ Take a look at our template repository [contributte/bare](https://github.com/con
   <!-- Rulesets -->
   <rule ref="./vendor/contributte/qa/ruleset-8.1.xml"/>
   <!-- <rule ref="./vendor/contributte/qa/ruleset-8.0.xml"/> -->
-  <!-- <rule ref="./vendor/contributte/qa/ruleset-gamee.xml"/> -->
   <!-- <rule ref="./vendor/contributte/qa/ruleset-next.xml"/> -->
 
   <!-- Rules -->

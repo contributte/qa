@@ -2,17 +2,14 @@
 
 namespace Tests\Cases;
 
-use Contributte\Tester\TestCase\BaseTestCase;
 use Generator;
 use Symfony\Component\Process\Process;
 use Tester\Assert;
+use Tester\TestCase;
 
 require_once __DIR__ . '/../bootstrap.php';
 
-/**
- * @testCase
- */
-class CodestyleTest extends BaseTestCase
+class CodestyleTest extends TestCase
 {
 
 	/**
@@ -79,6 +76,7 @@ class CodestyleTest extends BaseTestCase
 		yield [__DIR__ . '/../Sets/next/1-good'];
 		yield [__DIR__ . '/../Sets/php80/1-good'];
 		yield [__DIR__ . '/../Sets/php81/1-good'];
+		yield [__DIR__ . '/../Sets/php82/1-good'];
 	}
 
 	public function provideBadSets(): iterable

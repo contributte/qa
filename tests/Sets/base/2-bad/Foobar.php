@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
-namespace Tests;
+namespace Tests\Base;
 
 use Tests\Fixtures;
 use Tests\Fixtures as FixturesAlias;

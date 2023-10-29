@@ -37,7 +37,7 @@ else
 fi
 
 # Show installed coding standards
-${DIR}/phpcs -i
+${DIR}/phpcs -i 1>&2
 
 # Run sniffing
 if [ -z "$1" ]; then

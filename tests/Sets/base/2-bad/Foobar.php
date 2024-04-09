@@ -45,6 +45,7 @@ final class Foobar implements IFoobar
 	 */
 	public function isBaz($value): bool
 	{
+
 		if (is_bool($value)) {
 			return true;
 		}
@@ -76,6 +77,7 @@ final class Foobar implements IFoobar
 	protected function getForEach(): array
 	{
 		$result = [];
+
 
 		foreach ($this->foo as $foo) {
 			if (strlen($foo) === self::FOO_LENGTH) {

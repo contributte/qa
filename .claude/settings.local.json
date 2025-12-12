@@ -7,7 +7,9 @@
       "Bash(cat:*)",
       "Bash(vendor/bin/tester:*)",
       "Bash(php bin/snapshots:*)",
-      "Bash(make tests:*)"
+      "Bash(make tests:*)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:github.com)"
     ],
     "deny": [],
     "ask": []

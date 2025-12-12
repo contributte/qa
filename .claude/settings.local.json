@@ -6,7 +6,8 @@
       "Bash(wc:*)",
       "Bash(cat:*)",
       "Bash(vendor/bin/tester:*)",
-      "Bash(php bin/snapshots:*)"
+      "Bash(php bin/snapshots:*)",
+      "Bash(make tests:*)"
     ],
     "deny": [],
     "ask": []

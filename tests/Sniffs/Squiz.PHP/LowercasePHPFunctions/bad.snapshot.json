@@ -1,0 +1,56 @@
+{
+    "totals": {
+        "errors": 6,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 6,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 9,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "Squiz.PHP.LowercasePHPFunctions.CallUppercase",
+                    "message": "Calls to PHP native functions must be lowercase; expected \"count\" but found \"COUNT\""
+                },
+                {
+                    "line": 14,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "Squiz.PHP.LowercasePHPFunctions.CallUppercase",
+                    "message": "Calls to PHP native functions must be lowercase; expected \"strtolower\" but found \"StrToLower\""
+                },
+                {
+                    "line": 14,
+                    "column": 21,
+                    "type": "ERROR",
+                    "source": "Squiz.PHP.LowercasePHPFunctions.CallUppercase",
+                    "message": "Calls to PHP native functions must be lowercase; expected \"trim\" but found \"TRIM\""
+                },
+                {
+                    "line": 19,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "Squiz.PHP.LowercasePHPFunctions.CallUppercase",
+                    "message": "Calls to PHP native functions must be lowercase; expected \"is_array\" but found \"IS_ARRAY\""
+                },
+                {
+                    "line": 19,
+                    "column": 30,
+                    "type": "ERROR",
+                    "source": "Squiz.PHP.LowercasePHPFunctions.CallUppercase",
+                    "message": "Calls to PHP native functions must be lowercase; expected \"is_string\" but found \"Is_String\""
+                },
+                {
+                    "line": 24,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "Squiz.PHP.LowercasePHPFunctions.CallUppercase",
+                    "message": "Calls to PHP native functions must be lowercase; expected \"json_encode\" but found \"JSON_ENCODE\""
+                }
+            ]
+        }
+    }
+}

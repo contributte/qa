@@ -1,0 +1,70 @@
+{
+    "totals": {
+        "errors": 8,
+        "warnings": 0
+    },
+    "files": {
+        "good.php": {
+            "errors": 8,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 8,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Squiz.Functions.MultiLineFunctionDeclaration.Indent",
+                    "message": "Multi-line function declaration not indented correctly; expected 5 spaces but found 2"
+                },
+                {
+                    "line": 9,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Squiz.Functions.MultiLineFunctionDeclaration.Indent",
+                    "message": "Multi-line function declaration not indented correctly; expected 5 spaces but found 2"
+                },
+                {
+                    "line": 10,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Squiz.Functions.MultiLineFunctionDeclaration.Indent",
+                    "message": "Multi-line function declaration not indented correctly; expected 5 spaces but found 2"
+                },
+                {
+                    "line": 15,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Squiz.Functions.MultiLineFunctionDeclaration.Indent",
+                    "message": "Multi-line function declaration not indented correctly; expected 5 spaces but found 2"
+                },
+                {
+                    "line": 16,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Squiz.Functions.MultiLineFunctionDeclaration.Indent",
+                    "message": "Multi-line function declaration not indented correctly; expected 5 spaces but found 2"
+                },
+                {
+                    "line": 17,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Squiz.Functions.MultiLineFunctionDeclaration.Indent",
+                    "message": "Multi-line function declaration not indented correctly; expected 5 spaces but found 2"
+                },
+                {
+                    "line": 23,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Squiz.Functions.MultiLineFunctionDeclaration.Indent",
+                    "message": "Multi-line function declaration not indented correctly; expected 5 spaces but found 2"
+                },
+                {
+                    "line": 24,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Squiz.Functions.MultiLineFunctionDeclaration.Indent",
+                    "message": "Multi-line function declaration not indented correctly; expected 5 spaces but found 2"
+                }
+            ]
+        }
+    }
+}

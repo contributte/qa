@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 5,
+                    "column": 13,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Namespaces.MultipleUsesPerLine.MultipleUsesPerLine",
+                    "message": "Multiple used types per use statement are forbidden."
+                }
+            ]
+        }
+    }
+}

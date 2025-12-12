@@ -1,0 +1,70 @@
+{
+    "totals": {
+        "errors": 8,
+        "warnings": 0
+    },
+    "files": {
+        "good.php": {
+            "errors": 8,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 11,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "Squiz.Commenting.FunctionComment.IncorrectParamVarName",
+                    "message": "Expected \"integer\" but found \"int\" for parameter type"
+                },
+                {
+                    "line": 11,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "Squiz.Commenting.FunctionComment.ParamCommentFullStop",
+                    "message": "Parameter comment must end with a full stop"
+                },
+                {
+                    "line": 12,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "Squiz.Commenting.FunctionComment.IncorrectParamVarName",
+                    "message": "Expected \"integer\" but found \"int\" for parameter type"
+                },
+                {
+                    "line": 12,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "Squiz.Commenting.FunctionComment.ParamCommentFullStop",
+                    "message": "Parameter comment must end with a full stop"
+                },
+                {
+                    "line": 13,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "Squiz.Commenting.FunctionComment.InvalidReturn",
+                    "message": "Expected \"integer\" but found \"int\" for function return type"
+                },
+                {
+                    "line": 23,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "Squiz.Commenting.FunctionComment.ParamCommentFullStop",
+                    "message": "Parameter comment must end with a full stop"
+                },
+                {
+                    "line": 24,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "Squiz.Commenting.FunctionComment.IncorrectParamVarName",
+                    "message": "Expected \"integer\" but found \"int\" for parameter type"
+                },
+                {
+                    "line": 24,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "Squiz.Commenting.FunctionComment.ParamCommentFullStop",
+                    "message": "Parameter comment must end with a full stop"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 16,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "PSR2.Methods.FunctionClosingBrace.SpacingBeforeClose",
+                    "message": "Function closing brace must go on the next line following the body; found 1 blank lines before brace"
+                },
+                {
+                    "line": 23,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "PSR2.Methods.FunctionClosingBrace.SpacingBeforeClose",
+                    "message": "Function closing brace must go on the next line following the body; found 2 blank lines before brace"
+                }
+            ]
+        }
+    }
+}

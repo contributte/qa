@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 9,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.PHP.InnerFunctions.NotAllowed",
+                    "message": "The use of inner functions is forbidden"
+                },
+                {
+                    "line": 19,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.PHP.InnerFunctions.NotAllowed",
+                    "message": "The use of inner functions is forbidden"
+                }
+            ]
+        }
+    }
+}

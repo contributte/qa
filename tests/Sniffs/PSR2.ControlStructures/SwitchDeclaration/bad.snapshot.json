@@ -1,0 +1,98 @@
+{
+    "totals": {
+        "errors": 12,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 12,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 15,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "PSR2.ControlStructures.SwitchDeclaration.BreakIndent",
+                    "message": "Terminating statement must be indented to the same level as the CASE body"
+                },
+                {
+                    "line": 17,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "PSR2.ControlStructures.SwitchDeclaration.BreakIndent",
+                    "message": "Terminating statement must be indented to the same level as the CASE body"
+                },
+                {
+                    "line": 19,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "PSR2.ControlStructures.SwitchDeclaration.BreakIndent",
+                    "message": "Terminating statement must be indented to the same level as the CASE body"
+                },
+                {
+                    "line": 21,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "PSR2.ControlStructures.SwitchDeclaration.BreakIndent",
+                    "message": "Terminating statement must be indented to the same level as the CASE body"
+                },
+                {
+                    "line": 30,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "PSR2.ControlStructures.SwitchDeclaration.BreakIndent",
+                    "message": "Terminating statement must be indented to the same level as the CASE body"
+                },
+                {
+                    "line": 33,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "PSR2.ControlStructures.SwitchDeclaration.BreakIndent",
+                    "message": "Terminating statement must be indented to the same level as the CASE body"
+                },
+                {
+                    "line": 36,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "PSR2.ControlStructures.SwitchDeclaration.BreakIndent",
+                    "message": "Terminating statement must be indented to the same level as the CASE body"
+                },
+                {
+                    "line": 39,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "PSR2.ControlStructures.SwitchDeclaration.BreakIndent",
+                    "message": "Terminating statement must be indented to the same level as the CASE body"
+                },
+                {
+                    "line": 46,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "PSR2.ControlStructures.SwitchDeclaration.BodyOnNextLineCASE",
+                    "message": "The CASE body must start on the line following the statement"
+                },
+                {
+                    "line": 48,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "PSR2.ControlStructures.SwitchDeclaration.BreakIndent",
+                    "message": "Terminating statement must be indented to the same level as the CASE body"
+                },
+                {
+                    "line": 51,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "PSR2.ControlStructures.SwitchDeclaration.BreakIndent",
+                    "message": "Terminating statement must be indented to the same level as the CASE body"
+                },
+                {
+                    "line": 54,
+                    "column": 19,
+                    "type": "ERROR",
+                    "source": "PSR2.ControlStructures.SwitchDeclaration.BreakNotNewLine",
+                    "message": "Terminating statement must be on a line by itself"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 9,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.NullTypeHintOnLastPosition.NullTypeHintNotOnLastPosition",
+                    "message": "Null type hint should be on last position in \"null|string|int\"."
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "totals": {
+        "errors": 10,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 10,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 4,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Generic.PHP.LowerCaseKeyword.Found",
+                    "message": "PHP keywords must be lowercase; expected \"class\" but found \"CLASS\""
+                },
+                {
+                    "line": 7,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "Generic.PHP.LowerCaseKeyword.Found",
+                    "message": "PHP keywords must be lowercase; expected \"public\" but found \"PUBLIC\""
+                },
+                {
+                    "line": 7,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "Generic.PHP.LowerCaseKeyword.Found",
+                    "message": "PHP keywords must be lowercase; expected \"function\" but found \"FUNCTION\""
+                },
+                {
+                    "line": 9,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Generic.PHP.LowerCaseKeyword.Found",
+                    "message": "PHP keywords must be lowercase; expected \"if\" but found \"IF\""
+                },
+                {
+                    "line": 10,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "Generic.PHP.LowerCaseKeyword.Found",
+                    "message": "PHP keywords must be lowercase; expected \"echo\" but found \"ECHO\""
+                },
+                {
+                    "line": 11,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "Generic.PHP.LowerCaseKeyword.Found",
+                    "message": "PHP keywords must be lowercase; expected \"else\" but found \"ELSE\""
+                },
+                {
+                    "line": 12,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "Generic.PHP.LowerCaseKeyword.Found",
+                    "message": "PHP keywords must be lowercase; expected \"foreach\" but found \"FOREACH\""
+                },
+                {
+                    "line": 12,
+                    "column": 23,
+                    "type": "ERROR",
+                    "source": "Generic.PHP.LowerCaseKeyword.Found",
+                    "message": "PHP keywords must be lowercase; expected \"as\" but found \"AS\""
+                },
+                {
+                    "line": 13,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "Generic.PHP.LowerCaseKeyword.Found",
+                    "message": "PHP keywords must be lowercase; expected \"while\" but found \"WHILE\""
+                },
+                {
+                    "line": 14,
+                    "column": 6,
+                    "type": "ERROR",
+                    "source": "Generic.PHP.LowerCaseKeyword.Found",
+                    "message": "PHP keywords must be lowercase; expected \"break\" but found \"BREAK\""
+                }
+            ]
+        }
+    }
+}

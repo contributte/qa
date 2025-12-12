@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 9,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.LongTypeHints.UsedLongTypeHint",
+                    "message": "Expected \"int\" but found \"integer\" in @param annotation."
+                },
+                {
+                    "line": 10,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.LongTypeHints.UsedLongTypeHint",
+                    "message": "Expected \"bool\" but found \"boolean\" in @param annotation."
+                }
+            ]
+        }
+    }
+}

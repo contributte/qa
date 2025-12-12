@@ -1,0 +1,77 @@
+{
+    "totals": {
+        "errors": 9,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 9,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 7,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.ScopeIndent.IncorrectExact",
+                    "message": "Line indented incorrectly; expected 4 spaces, found 1"
+                },
+                {
+                    "line": 8,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.ScopeIndent.Incorrect",
+                    "message": "Line indented incorrectly; expected at least 4 spaces, found 1"
+                },
+                {
+                    "line": 9,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.ScopeIndent.IncorrectExact",
+                    "message": "Line indented incorrectly; expected 8 spaces, found 2"
+                },
+                {
+                    "line": 10,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.ScopeIndent.Incorrect",
+                    "message": "Line indented incorrectly; expected at least 12 spaces, found 1"
+                },
+                {
+                    "line": 12,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.ScopeIndent.IncorrectExact",
+                    "message": "Line indented incorrectly; expected 12 spaces, found 4"
+                },
+                {
+                    "line": 13,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.ScopeIndent.Incorrect",
+                    "message": "Line indented incorrectly; expected at least 16 spaces, found 3"
+                },
+                {
+                    "line": 14,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.ScopeIndent.IncorrectExact",
+                    "message": "Line indented incorrectly; expected 12 spaces, found 2"
+                },
+                {
+                    "line": 15,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.ScopeIndent.IncorrectExact",
+                    "message": "Line indented incorrectly; expected 8 spaces, found 2"
+                },
+                {
+                    "line": 16,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.ScopeIndent.IncorrectExact",
+                    "message": "Line indented incorrectly; expected 4 spaces, found 1"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "totals": {
+        "errors": 4,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 4,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 4,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Generic.NamingConventions.CamelCapsFunctionName.NotCamelCaps",
+                    "message": "Function name \"my_function\" is not in camel caps format"
+                },
+                {
+                    "line": 9,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Generic.NamingConventions.CamelCapsFunctionName.NotCamelCaps",
+                    "message": "Function name \"get_user_data\" is not in camel caps format"
+                },
+                {
+                    "line": 14,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Generic.NamingConventions.CamelCapsFunctionName.NotCamelCaps",
+                    "message": "Function name \"Calculate_Total\" is not in camel caps format"
+                },
+                {
+                    "line": 19,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Generic.NamingConventions.CamelCapsFunctionName.NotCamelCaps",
+                    "message": "Function name \"IS_VALID\" is not in camel caps format"
+                }
+            ]
+        }
+    }
+}

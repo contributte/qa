@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 8,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Commenting.RequireOneLinePropertyDocComment.MultiLinePropertyComment",
+                    "message": "Found multi-line comment for property \\Tests\\Sniffs\\SlevomatCodingStandard\\Commenting\\RequireOneLinePropertyDocComment\\BadExample::$property with single line content, use one-line comment instead."
+                },
+                {
+                    "line": 13,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Commenting.RequireOneLinePropertyDocComment.MultiLinePropertyComment",
+                    "message": "Found multi-line comment for property \\Tests\\Sniffs\\SlevomatCodingStandard\\Commenting\\RequireOneLinePropertyDocComment\\BadExample::$count with single line content, use one-line comment instead."
+                }
+            ]
+        }
+    }
+}

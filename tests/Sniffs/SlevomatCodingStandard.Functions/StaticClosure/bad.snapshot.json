@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 10,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Functions.StaticClosure.ClosureNotStatic",
+                    "message": "Closure not using \"$this\" should be declared static."
+                },
+                {
+                    "line": 14,
+                    "column": 12,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Functions.StaticClosure.ClosureNotStatic",
+                    "message": "Closure not using \"$this\" should be declared static."
+                }
+            ]
+        }
+    }
+}

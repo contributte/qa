@@ -1,0 +1,35 @@
+{
+    "totals": {
+        "errors": 3,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 3,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 10,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Commenting.DocCommentSpacing.IncorrectLinesCountBetweenDescriptionAndAnnotations",
+                    "message": "Expected 1 line between description and annotations, found 0."
+                },
+                {
+                    "line": 20,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Commenting.DocCommentSpacing.IncorrectLinesCountBeforeFirstContent",
+                    "message": "Expected 0 lines before first content, found 1."
+                },
+                {
+                    "line": 20,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Commenting.DocCommentSpacing.IncorrectLinesCountAfterLastContent",
+                    "message": "Expected 0 lines after last content, found 1."
+                }
+            ]
+        }
+    }
+}

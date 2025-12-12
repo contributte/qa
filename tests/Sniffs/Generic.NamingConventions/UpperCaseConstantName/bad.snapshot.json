@@ -1,0 +1,56 @@
+{
+    "totals": {
+        "errors": 6,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 6,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 4,
+                    "column": 7,
+                    "type": "ERROR",
+                    "source": "Generic.NamingConventions.UpperCaseConstantName.ClassConstantNotUpperCase",
+                    "message": "Class constants must be uppercase; expected MYCONSTANT but found myConstant"
+                },
+                {
+                    "line": 5,
+                    "column": 7,
+                    "type": "ERROR",
+                    "source": "Generic.NamingConventions.UpperCaseConstantName.ClassConstantNotUpperCase",
+                    "message": "Class constants must be uppercase; expected ANOTHER_CONSTANT but found another_constant"
+                },
+                {
+                    "line": 6,
+                    "column": 7,
+                    "type": "ERROR",
+                    "source": "Generic.NamingConventions.UpperCaseConstantName.ClassConstantNotUpperCase",
+                    "message": "Class constants must be uppercase; expected MAXSIZE but found maxSize"
+                },
+                {
+                    "line": 11,
+                    "column": 8,
+                    "type": "ERROR",
+                    "source": "Generic.NamingConventions.UpperCaseConstantName.ClassConstantNotUpperCase",
+                    "message": "Class constants must be uppercase; expected CLASSCONSTANT but found classConstant"
+                },
+                {
+                    "line": 13,
+                    "column": 8,
+                    "type": "ERROR",
+                    "source": "Generic.NamingConventions.UpperCaseConstantName.ClassConstantNotUpperCase",
+                    "message": "Class constants must be uppercase; expected ANOTHER_ONE but found Another_One"
+                },
+                {
+                    "line": 15,
+                    "column": 8,
+                    "type": "ERROR",
+                    "source": "Generic.NamingConventions.UpperCaseConstantName.ClassConstantNotUpperCase",
+                    "message": "Class constants must be uppercase; expected VALUE but found value"
+                }
+            ]
+        }
+    }
+}

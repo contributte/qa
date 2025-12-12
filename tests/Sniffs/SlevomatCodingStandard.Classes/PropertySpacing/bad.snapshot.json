@@ -1,0 +1,42 @@
+{
+    "totals": {
+        "errors": 4,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 4,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 11,
+                    "column": 13,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.PropertySpacing.IncorrectCountOfBlankLinesAfterProperty",
+                    "message": "Expected 0 to 1 blank lines after property, found 2."
+                },
+                {
+                    "line": 16,
+                    "column": 23,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.PropertySpacing.IncorrectCountOfBlankLinesAfterProperty",
+                    "message": "Expected 1 blank line after property, found 3."
+                },
+                {
+                    "line": 23,
+                    "column": 16,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.PropertySpacing.IncorrectCountOfBlankLinesAfterProperty",
+                    "message": "Expected 1 blank line after property, found 0."
+                },
+                {
+                    "line": 29,
+                    "column": 15,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.PropertySpacing.IncorrectCountOfBlankLinesAfterProperty",
+                    "message": "Expected 0 to 1 blank lines after property, found 2."
+                }
+            ]
+        }
+    }
+}

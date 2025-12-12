@@ -1,0 +1,56 @@
+{
+    "totals": {
+        "errors": 6,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 6,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 4,
+                    "column": 8,
+                    "type": "ERROR",
+                    "source": "Generic.Formatting.SpaceAfterCast.NoSpace",
+                    "message": "Expected 1 space after cast statement; 0 found"
+                },
+                {
+                    "line": 5,
+                    "column": 8,
+                    "type": "ERROR",
+                    "source": "Generic.Formatting.SpaceAfterCast.NoSpace",
+                    "message": "Expected 1 space after cast statement; 0 found"
+                },
+                {
+                    "line": 6,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "Generic.Formatting.SpaceAfterCast.NoSpace",
+                    "message": "Expected 1 space after cast statement; 0 found"
+                },
+                {
+                    "line": 7,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "Generic.Formatting.SpaceAfterCast.NoSpace",
+                    "message": "Expected 1 space after cast statement; 0 found"
+                },
+                {
+                    "line": 8,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "Generic.Formatting.SpaceAfterCast.NoSpace",
+                    "message": "Expected 1 space after cast statement; 0 found"
+                },
+                {
+                    "line": 9,
+                    "column": 8,
+                    "type": "ERROR",
+                    "source": "Generic.Formatting.SpaceAfterCast.NoSpace",
+                    "message": "Expected 1 space after cast statement; 0 found"
+                }
+            ]
+        }
+    }
+}

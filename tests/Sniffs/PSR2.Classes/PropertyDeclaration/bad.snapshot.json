@@ -1,0 +1,70 @@
+{
+    "totals": {
+        "errors": 8,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 8,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 12,
+                    "column": 6,
+                    "type": "ERROR",
+                    "source": "PSR2.Classes.PropertyDeclaration.VarUsed",
+                    "message": "The var keyword must not be used to declare a property"
+                },
+                {
+                    "line": 12,
+                    "column": 6,
+                    "type": "ERROR",
+                    "source": "PSR2.Classes.PropertyDeclaration.ScopeMissing",
+                    "message": "Visibility must be declared on property \"$oldStyleProperty\""
+                },
+                {
+                    "line": 15,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "PSR2.Classes.PropertyDeclaration.Multiple",
+                    "message": "There must not be more than one property declared per statement"
+                },
+                {
+                    "line": 18,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "PSR2.Classes.PropertyDeclaration.ScopeMissing",
+                    "message": "Visibility must be declared on property \"$noVisibility\""
+                },
+                {
+                    "line": 21,
+                    "column": 6,
+                    "type": "ERROR",
+                    "source": "PSR2.Classes.PropertyDeclaration.VarUsed",
+                    "message": "The var keyword must not be used to declare a property"
+                },
+                {
+                    "line": 21,
+                    "column": 6,
+                    "type": "ERROR",
+                    "source": "PSR2.Classes.PropertyDeclaration.Multiple",
+                    "message": "There must not be more than one property declared per statement"
+                },
+                {
+                    "line": 21,
+                    "column": 6,
+                    "type": "ERROR",
+                    "source": "PSR2.Classes.PropertyDeclaration.ScopeMissing",
+                    "message": "Visibility must be declared on property \"$one\""
+                },
+                {
+                    "line": 24,
+                    "column": 16,
+                    "type": "ERROR",
+                    "source": "PSR2.Classes.PropertyDeclaration.Multiple",
+                    "message": "There must not be more than one property declared per statement"
+                }
+            ]
+        }
+    }
+}

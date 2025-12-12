@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 13,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Operators.DisallowEqualOperators.DisallowedEqualOperator",
+                    "message": "Operator == is disallowed, use === instead."
+                },
+                {
+                    "line": 17,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Operators.DisallowEqualOperators.DisallowedNotEqualOperator",
+                    "message": "Operator != is disallowed, use !== instead."
+                }
+            ]
+        }
+    }
+}

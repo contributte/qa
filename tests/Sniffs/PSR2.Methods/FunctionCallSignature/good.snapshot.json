@@ -1,0 +1,42 @@
+{
+    "totals": {
+        "errors": 4,
+        "warnings": 0
+    },
+    "files": {
+        "good.php": {
+            "errors": 4,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 15,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "PSR2.Methods.FunctionCallSignature.OpeningIndent",
+                    "message": "Opening statement of multi-line function call not indented correctly; expected 0 spaces but found 2"
+                },
+                {
+                    "line": 16,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "PSR2.Methods.FunctionCallSignature.Indent",
+                    "message": "Multi-line function call not indented correctly; expected 6 spaces but found 3"
+                },
+                {
+                    "line": 17,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "PSR2.Methods.FunctionCallSignature.Indent",
+                    "message": "Multi-line function call not indented correctly; expected 6 spaces but found 3"
+                },
+                {
+                    "line": 18,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "PSR2.Methods.FunctionCallSignature.Indent",
+                    "message": "Multi-line function call not indented correctly; expected 6 spaces but found 3"
+                }
+            ]
+        }
+    }
+}

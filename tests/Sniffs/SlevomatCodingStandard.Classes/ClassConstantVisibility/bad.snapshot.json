@@ -1,0 +1,35 @@
+{
+    "totals": {
+        "errors": 3,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 3,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 8,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.ClassConstantVisibility.MissingConstantVisibility",
+                    "message": "Constant \\Tests\\Sniffs\\SlevomatCodingStandard\\Classes\\ClassConstantVisibility\\BadExample::NO_VISIBILITY visibility missing."
+                },
+                {
+                    "line": 10,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.ClassConstantVisibility.MissingConstantVisibility",
+                    "message": "Constant \\Tests\\Sniffs\\SlevomatCodingStandard\\Classes\\ClassConstantVisibility\\BadExample::ANOTHER_CONSTANT visibility missing."
+                },
+                {
+                    "line": 12,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.ClassConstantVisibility.MissingConstantVisibility",
+                    "message": "Constant \\Tests\\Sniffs\\SlevomatCodingStandard\\Classes\\ClassConstantVisibility\\BadExample::TYPED_NO_VISIBILITY visibility missing."
+                }
+            ]
+        }
+    }
+}

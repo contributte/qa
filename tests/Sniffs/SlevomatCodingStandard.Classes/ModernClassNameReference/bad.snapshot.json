@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 12,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.ModernClassNameReference.ClassNameReferencedViaMagicConstant",
+                    "message": "Class name referenced via magic constant."
+                },
+                {
+                    "line": 27,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.ModernClassNameReference.ClassNameReferencedViaFunctionCall",
+                    "message": "Class name referenced via call of function get_class()."
+                }
+            ]
+        }
+    }
+}

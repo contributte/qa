@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "good.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 12,
+                    "column": 17,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.PropertyTypeHint.MissingTraversableTypeHintSpecification",
+                    "message": "@var annotation of property \\Tests\\Sniffs\\SlevomatCodingStandard\\TypeHints\\PropertyTypeHint\\GoodExample::$items does not specify type hint for its items."
+                }
+            ]
+        }
+    }
+}

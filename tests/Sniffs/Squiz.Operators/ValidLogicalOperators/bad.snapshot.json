@@ -1,0 +1,56 @@
+{
+    "totals": {
+        "errors": 6,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 6,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 15,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "Squiz.Operators.ValidLogicalOperators.NotAllowed",
+                    "message": "Logical operator \"and\" is prohibited; use \"&&\" instead"
+                },
+                {
+                    "line": 20,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "Squiz.Operators.ValidLogicalOperators.NotAllowed",
+                    "message": "Logical operator \"or\" is prohibited; use \"||\" instead"
+                },
+                {
+                    "line": 25,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "Squiz.Operators.ValidLogicalOperators.NotAllowed",
+                    "message": "Logical operator \"and\" is prohibited; use \"&&\" instead"
+                },
+                {
+                    "line": 25,
+                    "column": 17,
+                    "type": "ERROR",
+                    "source": "Squiz.Operators.ValidLogicalOperators.NotAllowed",
+                    "message": "Logical operator \"or\" is prohibited; use \"||\" instead"
+                },
+                {
+                    "line": 30,
+                    "column": 16,
+                    "type": "ERROR",
+                    "source": "Squiz.Operators.ValidLogicalOperators.NotAllowed",
+                    "message": "Logical operator \"and\" is prohibited; use \"&&\" instead"
+                },
+                {
+                    "line": 31,
+                    "column": 17,
+                    "type": "ERROR",
+                    "source": "Squiz.Operators.ValidLogicalOperators.NotAllowed",
+                    "message": "Logical operator \"or\" is prohibited; use \"||\" instead"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 13,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.ControlStructures.DisallowContinueWithoutIntegerOperandInSwitch.DisallowedContinueWithoutIntegerOperandInSwitch",
+                    "message": "Usage of \"continue\" without integer operand in \"switch\" is disallowed, use \"break\" instead."
+                },
+                {
+                    "line": 16,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.ControlStructures.DisallowContinueWithoutIntegerOperandInSwitch.DisallowedContinueWithoutIntegerOperandInSwitch",
+                    "message": "Usage of \"continue\" without integer operand in \"switch\" is disallowed, use \"break\" instead."
+                }
+            ]
+        }
+    }
+}

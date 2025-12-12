@@ -1,0 +1,35 @@
+{
+    "totals": {
+        "errors": 3,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 3,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 8,
+                    "column": 23,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.ParameterTypeHintSpacing.MultipleSpacesBetweenTypeHintAndParameter",
+                    "message": "There must be exactly one space between parameter type hint and parameter $name."
+                },
+                {
+                    "line": 8,
+                    "column": 38,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.ParameterTypeHintSpacing.MultipleSpacesBetweenTypeHintAndParameter",
+                    "message": "There must be exactly one space between parameter type hint and parameter $age."
+                },
+                {
+                    "line": 12,
+                    "column": 28,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.ParameterTypeHintSpacing.WhitespaceAfterNullabilitySymbol",
+                    "message": "There must be no whitespace between parameter type hint nullability symbol and parameter type hint of parameter $value."
+                }
+            ]
+        }
+    }
+}

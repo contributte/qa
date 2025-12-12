@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 11,
+                    "column": 18,
+                    "type": "ERROR",
+                    "source": "Squiz.Arrays.ArrayBracketSpacing.SpaceAfterBracket",
+                    "message": "Space found after square bracket; expected \"[0\" but found \"[ 0\""
+                },
+                {
+                    "line": 11,
+                    "column": 22,
+                    "type": "ERROR",
+                    "source": "Squiz.Arrays.ArrayBracketSpacing.SpaceBeforeBracket",
+                    "message": "Space found before square bracket; expected \"0]\" but found \"0 ]\""
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 12,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Functions.RequireArrowFunction.RequiredArrowFunction",
+                    "message": "Use arrow function."
+                },
+                {
+                    "line": 17,
+                    "column": 24,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Functions.RequireArrowFunction.RequiredArrowFunction",
+                    "message": "Use arrow function."
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 9,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.ConstantSpacing.IncorrectCountOfBlankLinesAfterConstant",
+                    "message": "Expected 0 to 1 blank lines after constant, found 2."
+                }
+            ]
+        }
+    }
+}

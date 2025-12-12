@@ -1,0 +1,49 @@
+{
+    "totals": {
+        "errors": 5,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 5,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 4,
+                    "column": 19,
+                    "type": "ERROR",
+                    "source": "Generic.Strings.UnnecessaryStringConcat.Found",
+                    "message": "String concat is not required here; use a single string instead"
+                },
+                {
+                    "line": 5,
+                    "column": 18,
+                    "type": "ERROR",
+                    "source": "Generic.Strings.UnnecessaryStringConcat.Found",
+                    "message": "String concat is not required here; use a single string instead"
+                },
+                {
+                    "line": 5,
+                    "column": 26,
+                    "type": "ERROR",
+                    "source": "Generic.Strings.UnnecessaryStringConcat.Found",
+                    "message": "String concat is not required here; use a single string instead"
+                },
+                {
+                    "line": 8,
+                    "column": 19,
+                    "type": "ERROR",
+                    "source": "Generic.Strings.UnnecessaryStringConcat.Found",
+                    "message": "String concat is not required here; use a single string instead"
+                },
+                {
+                    "line": 8,
+                    "column": 29,
+                    "type": "ERROR",
+                    "source": "Generic.Strings.UnnecessaryStringConcat.Found",
+                    "message": "String concat is not required here; use a single string instead"
+                }
+            ]
+        }
+    }
+}

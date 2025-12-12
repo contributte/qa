@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 3,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Generic.CodeAnalysis.EmptyStatement.DetectedIf",
+                    "message": "Empty IF statement detected"
+                },
+                {
+                    "line": 8,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Generic.CodeAnalysis.EmptyStatement.DetectedCatch",
+                    "message": "Empty CATCH statement detected"
+                }
+            ]
+        }
+    }
+}

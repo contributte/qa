@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 14,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Exceptions.DeadCatch.CatchAfterThrowableCatch",
+                    "message": "Unreachable catch block."
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,119 @@
+{
+    "totals": {
+        "errors": 15,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 15,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 12,
+                    "column": 13,
+                    "type": "ERROR",
+                    "source": "PSR2.Methods.FunctionCallSignature.SpaceBeforeOpenBracket",
+                    "message": "Space before opening parenthesis of function call prohibited"
+                },
+                {
+                    "line": 15,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "PSR2.Methods.FunctionCallSignature.OpeningIndent",
+                    "message": "Opening statement of multi-line function call not indented correctly; expected 0 spaces but found 2"
+                },
+                {
+                    "line": 15,
+                    "column": 13,
+                    "type": "ERROR",
+                    "source": "PSR2.Methods.FunctionCallSignature.SpaceBeforeOpenBracket",
+                    "message": "Space before opening parenthesis of function call prohibited"
+                },
+                {
+                    "line": 15,
+                    "column": 13,
+                    "type": "ERROR",
+                    "source": "PSR2.Methods.FunctionCallSignature.ContentAfterOpenBracket",
+                    "message": "Opening parenthesis of a multi-line function call must be the last content on the line"
+                },
+                {
+                    "line": 16,
+                    "column": 11,
+                    "type": "ERROR",
+                    "source": "PSR2.Methods.FunctionCallSignature.MultipleArguments",
+                    "message": "Only one argument is allowed per line in a multi-line function call"
+                },
+                {
+                    "line": 16,
+                    "column": 16,
+                    "type": "ERROR",
+                    "source": "PSR2.Methods.FunctionCallSignature.CloseBracketLine",
+                    "message": "Closing parenthesis of a multi-line function call must be on a line by itself"
+                },
+                {
+                    "line": 19,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "PSR2.Methods.FunctionCallSignature.OpeningIndent",
+                    "message": "Opening statement of multi-line function call not indented correctly; expected 0 spaces but found 2"
+                },
+                {
+                    "line": 19,
+                    "column": 13,
+                    "type": "ERROR",
+                    "source": "PSR2.Methods.FunctionCallSignature.ContentAfterOpenBracket",
+                    "message": "Opening parenthesis of a multi-line function call must be the last content on the line"
+                },
+                {
+                    "line": 20,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "PSR2.Methods.FunctionCallSignature.Indent",
+                    "message": "Multi-line function call not indented correctly; expected 2 spaces but found 3"
+                },
+                {
+                    "line": 20,
+                    "column": 11,
+                    "type": "ERROR",
+                    "source": "PSR2.Methods.FunctionCallSignature.MultipleArguments",
+                    "message": "Only one argument is allowed per line in a multi-line function call"
+                },
+                {
+                    "line": 20,
+                    "column": 16,
+                    "type": "ERROR",
+                    "source": "PSR2.Methods.FunctionCallSignature.CloseBracketLine",
+                    "message": "Closing parenthesis of a multi-line function call must be on a line by itself"
+                },
+                {
+                    "line": 23,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "PSR2.Methods.FunctionCallSignature.OpeningIndent",
+                    "message": "Opening statement of multi-line function call not indented correctly; expected 0 spaces but found 2"
+                },
+                {
+                    "line": 24,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "PSR2.Methods.FunctionCallSignature.Indent",
+                    "message": "Multi-line function call not indented correctly; expected 6 spaces but found 3"
+                },
+                {
+                    "line": 25,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "PSR2.Methods.FunctionCallSignature.Indent",
+                    "message": "Multi-line function call not indented correctly; expected 2 spaces but found 3"
+                },
+                {
+                    "line": 25,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "PSR2.Methods.FunctionCallSignature.CloseBracketLine",
+                    "message": "Closing parenthesis of a multi-line function call must be on a line by itself"
+                }
+            ]
+        }
+    }
+}

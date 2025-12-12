@@ -1,0 +1,42 @@
+{
+    "totals": {
+        "errors": 4,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 4,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 8,
+                    "column": 27,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Operators.SpreadOperatorSpacing.IncorrectSpacesAfterOperator",
+                    "message": "There must be no whitespace after spread operator."
+                },
+                {
+                    "line": 11,
+                    "column": 14,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Operators.SpreadOperatorSpacing.IncorrectSpacesAfterOperator",
+                    "message": "There must be no whitespace after spread operator."
+                },
+                {
+                    "line": 13,
+                    "column": 15,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Operators.SpreadOperatorSpacing.IncorrectSpacesAfterOperator",
+                    "message": "There must be no whitespace after spread operator."
+                },
+                {
+                    "line": 16,
+                    "column": 28,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Operators.SpreadOperatorSpacing.IncorrectSpacesAfterOperator",
+                    "message": "There must be no whitespace after spread operator."
+                }
+            ]
+        }
+    }
+}

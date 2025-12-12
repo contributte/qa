@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 15,
+                    "column": 13,
+                    "type": "ERROR",
+                    "source": "Squiz.Operators.IncrementDecrementUsage.NotAllowed",
+                    "message": "Increment and decrement operators cannot be used in an arithmetic operation"
+                },
+                {
+                    "line": 17,
+                    "column": 20,
+                    "type": "ERROR",
+                    "source": "Squiz.Operators.IncrementDecrementUsage.NotAllowed",
+                    "message": "Increment and decrement operators cannot be used in an arithmetic operation"
+                }
+            ]
+        }
+    }
+}

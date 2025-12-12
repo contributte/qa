@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 10,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "PEAR.Formatting.MultiLineAssignment.Indent",
+                    "message": "Multi-line assignment not indented correctly; expected 6 spaces but found 0"
+                },
+                {
+                    "line": 13,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "PEAR.Formatting.MultiLineAssignment.Indent",
+                    "message": "Multi-line assignment not indented correctly; expected 6 spaces but found 1"
+                }
+            ]
+        }
+    }
+}

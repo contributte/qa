@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 5,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Namespaces.UseDoesNotStartWithBackslash.UseStartsWithBackslash",
+                    "message": "Use statement cannot start with a backslash."
+                },
+                {
+                    "line": 6,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Namespaces.UseDoesNotStartWithBackslash.UseStartsWithBackslash",
+                    "message": "Use statement cannot start with a backslash."
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "totals": {
+        "errors": 3,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 3,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 5,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Namespaces.UnusedUses.UnusedUse",
+                    "message": "Type DateTime is not used in this file."
+                },
+                {
+                    "line": 6,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Namespaces.UnusedUses.UnusedUse",
+                    "message": "Type Exception is not used in this file."
+                },
+                {
+                    "line": 7,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Namespaces.UnusedUses.UnusedUse",
+                    "message": "Type RuntimeException is not used in this file."
+                }
+            ]
+        }
+    }
+}

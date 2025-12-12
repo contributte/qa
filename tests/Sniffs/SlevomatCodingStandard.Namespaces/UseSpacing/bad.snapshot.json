@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 7,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Namespaces.UseSpacing.IncorrectLinesCountAfterLastUse",
+                    "message": "Expected 1 line after last use statement, found 0."
+                },
+                {
+                    "line": 7,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Namespaces.UseSpacing.IncorrectLinesCountBetweenSameTypeOfUse",
+                    "message": "Expected 0 lines between same types of use statement, found 1."
+                }
+            ]
+        }
+    }
+}

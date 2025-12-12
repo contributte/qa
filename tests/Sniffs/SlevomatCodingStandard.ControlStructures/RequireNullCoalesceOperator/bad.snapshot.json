@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 12,
+                    "column": 27,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.ControlStructures.RequireNullCoalesceOperator.NullCoalesceOperatorNotUsed",
+                    "message": "Use null coalesce operator instead of ternary operator."
+                },
+                {
+                    "line": 15,
+                    "column": 32,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.ControlStructures.RequireNullCoalesceOperator.NullCoalesceOperatorNotUsed",
+                    "message": "Use null coalesce operator instead of ternary operator."
+                }
+            ]
+        }
+    }
+}

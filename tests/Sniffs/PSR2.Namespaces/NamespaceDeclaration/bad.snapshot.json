@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 3,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "PSR2.Namespaces.NamespaceDeclaration.BlankLineAfter",
+                    "message": "There must be one blank line after the namespace declaration"
+                }
+            ]
+        }
+    }
+}

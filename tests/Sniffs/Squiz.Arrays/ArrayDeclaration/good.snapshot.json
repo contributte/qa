@@ -1,0 +1,42 @@
+{
+    "totals": {
+        "errors": 4,
+        "warnings": 0
+    },
+    "files": {
+        "good.php": {
+            "errors": 4,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 11,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "Squiz.Arrays.ArrayDeclaration.KeyNotAligned",
+                    "message": "Array key not aligned correctly; expected 10 spaces but found 3"
+                },
+                {
+                    "line": 11,
+                    "column": 12,
+                    "type": "ERROR",
+                    "source": "Squiz.Arrays.ArrayDeclaration.DoubleArrowNotAligned",
+                    "message": "Array double arrow not aligned correctly; expected 2 spaces but found 1"
+                },
+                {
+                    "line": 12,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "Squiz.Arrays.ArrayDeclaration.KeyNotAligned",
+                    "message": "Array key not aligned correctly; expected 10 spaces but found 3"
+                },
+                {
+                    "line": 13,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.Arrays.ArrayDeclaration.CloseBraceNotAligned",
+                    "message": "Closing parenthesis not aligned correctly; expected 9 spaces but found 2"
+                }
+            ]
+        }
+    }
+}

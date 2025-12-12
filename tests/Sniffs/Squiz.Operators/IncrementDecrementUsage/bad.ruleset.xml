@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test Squiz.Operators.IncrementDecrementUsage">
+	<rule ref="Squiz.Operators.IncrementDecrementUsage"/>
+</ruleset>

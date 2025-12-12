@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "good.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 18,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.ReturnTypeHint.MissingTraversableTypeHintSpecification",
+                    "message": "Method \\Tests\\Sniffs\\SlevomatCodingStandard\\TypeHints\\ReturnTypeHint\\GoodExample::getItems() does not have @return annotation for its traversable return value."
+                }
+            ]
+        }
+    }
+}

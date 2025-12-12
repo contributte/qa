@@ -1,0 +1,56 @@
+{
+    "totals": {
+        "errors": 6,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 6,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 7,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed",
+                    "message": "Tabs must be used to indent lines; spaces are not allowed"
+                },
+                {
+                    "line": 8,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed",
+                    "message": "Tabs must be used to indent lines; spaces are not allowed"
+                },
+                {
+                    "line": 9,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed",
+                    "message": "Tabs must be used to indent lines; spaces are not allowed"
+                },
+                {
+                    "line": 10,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed",
+                    "message": "Tabs must be used to indent lines; spaces are not allowed"
+                },
+                {
+                    "line": 11,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed",
+                    "message": "Tabs must be used to indent lines; spaces are not allowed"
+                },
+                {
+                    "line": 12,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed",
+                    "message": "Tabs must be used to indent lines; spaces are not allowed"
+                }
+            ]
+        }
+    }
+}

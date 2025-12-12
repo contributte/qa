@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 8,
+                    "column": 30,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.NullableTypeForNullDefaultValue.NullabilityTypeMissing",
+                    "message": "Parameter $value has null default value, but is not marked as nullable."
+                },
+                {
+                    "line": 12,
+                    "column": 30,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.NullableTypeForNullDefaultValue.NullabilityTypeMissing",
+                    "message": "Parameter $number has null default value, but is not marked as nullable."
+                }
+            ]
+        }
+    }
+}

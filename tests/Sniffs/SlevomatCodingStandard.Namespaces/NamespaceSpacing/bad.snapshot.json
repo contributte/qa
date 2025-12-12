@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 2,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Namespaces.NamespaceSpacing.IncorrectLinesCountBeforeNamespace",
+                    "message": "Expected 1 line before namespace statement, found 0."
+                },
+                {
+                    "line": 2,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Namespaces.NamespaceSpacing.IncorrectLinesCountAfterNamespace",
+                    "message": "Expected 1 line after namespace statement, found 0."
+                }
+            ]
+        }
+    }
+}

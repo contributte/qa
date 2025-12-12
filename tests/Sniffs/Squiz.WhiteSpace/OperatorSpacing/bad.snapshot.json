@@ -1,0 +1,77 @@
+{
+    "totals": {
+        "errors": 9,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 9,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 9,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.OperatorSpacing.NoSpaceBefore",
+                    "message": "Expected 1 space before \"+\"; 0 found"
+                },
+                {
+                    "line": 9,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.OperatorSpacing.NoSpaceAfter",
+                    "message": "Expected 1 space after \"+\"; 0 found"
+                },
+                {
+                    "line": 10,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.OperatorSpacing.NoSpaceBefore",
+                    "message": "Expected 1 space before \"-\"; 0 found"
+                },
+                {
+                    "line": 11,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.OperatorSpacing.NoSpaceAfter",
+                    "message": "Expected 1 space after \"*\"; 0 found"
+                },
+                {
+                    "line": 12,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.OperatorSpacing.NoSpaceBefore",
+                    "message": "Expected 1 space before \"/\"; 0 found"
+                },
+                {
+                    "line": 12,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.OperatorSpacing.NoSpaceAfter",
+                    "message": "Expected 1 space after \"/\"; 0 found"
+                },
+                {
+                    "line": 13,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.OperatorSpacing.NoSpaceBefore",
+                    "message": "Expected 1 space before \"===\"; 0 found"
+                },
+                {
+                    "line": 13,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.OperatorSpacing.NoSpaceAfter",
+                    "message": "Expected 1 space after \"===\"; 0 found"
+                },
+                {
+                    "line": 14,
+                    "column": 11,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.OperatorSpacing.NoSpaceAfter",
+                    "message": "Expected 1 space after \"!==\"; 0 found"
+                }
+            ]
+        }
+    }
+}

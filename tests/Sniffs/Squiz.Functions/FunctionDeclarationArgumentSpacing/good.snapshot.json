@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "good.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 16,
+                    "column": 53,
+                    "type": "ERROR",
+                    "source": "Squiz.Functions.FunctionDeclarationArgumentSpacing.SpaceBeforeEquals",
+                    "message": "Incorrect spacing between argument \"$force\" and equals sign; expected 0 but found 1"
+                },
+                {
+                    "line": 16,
+                    "column": 53,
+                    "type": "ERROR",
+                    "source": "Squiz.Functions.FunctionDeclarationArgumentSpacing.SpaceAfterEquals",
+                    "message": "Incorrect spacing between default value and equals sign for argument \"$force\"; expected 0 but found 1"
+                }
+            ]
+        }
+    }
+}

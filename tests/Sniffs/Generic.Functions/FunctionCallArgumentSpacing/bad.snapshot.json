@@ -1,0 +1,35 @@
+{
+    "totals": {
+        "errors": 3,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 3,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 4,
+                    "column": 20,
+                    "type": "ERROR",
+                    "source": "Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma",
+                    "message": "No space found after comma in argument list"
+                },
+                {
+                    "line": 4,
+                    "column": 26,
+                    "type": "ERROR",
+                    "source": "Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma",
+                    "message": "No space found after comma in argument list"
+                },
+                {
+                    "line": 5,
+                    "column": 14,
+                    "type": "ERROR",
+                    "source": "Generic.Functions.FunctionCallArgumentSpacing.TooMuchSpaceAfterComma",
+                    "message": "Expected 1 space after comma in argument list; 2 found"
+                }
+            ]
+        }
+    }
+}

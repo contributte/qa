@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 9,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.PropertyTypeHint.MissingNativeTypeHint",
+                    "message": "Property \\Tests\\Sniffs\\SlevomatCodingStandard\\TypeHints\\PropertyTypeHint\\BadExample::$name does not have native type hint for its value but it should be possible to add it based on @var annotation \"string\"."
+                },
+                {
+                    "line": 12,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.PropertyTypeHint.MissingNativeTypeHint",
+                    "message": "Property \\Tests\\Sniffs\\SlevomatCodingStandard\\TypeHints\\PropertyTypeHint\\BadExample::$age does not have native type hint for its value but it should be possible to add it based on @var annotation \"int\"."
+                }
+            ]
+        }
+    }
+}

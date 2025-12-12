@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 8,
+                    "column": 23,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.PHP.ReferenceSpacing.IncorrectSpacesAfterReference",
+                    "message": "There must be no whitespace after reference."
+                },
+                {
+                    "line": 13,
+                    "column": 30,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.PHP.ReferenceSpacing.IncorrectSpacesAfterReference",
+                    "message": "There must be no whitespace after reference."
+                }
+            ]
+        }
+    }
+}

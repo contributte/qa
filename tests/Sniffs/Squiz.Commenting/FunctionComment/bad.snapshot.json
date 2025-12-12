@@ -1,0 +1,63 @@
+{
+    "totals": {
+        "errors": 7,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 7,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 8,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "Squiz.Commenting.FunctionComment.MissingParamTag",
+                    "message": "Doc comment for parameter \"$a\" missing"
+                },
+                {
+                    "line": 8,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "Squiz.Commenting.FunctionComment.MissingParamTag",
+                    "message": "Doc comment for parameter \"$b\" missing"
+                },
+                {
+                    "line": 10,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.Commenting.FunctionComment.MissingReturn",
+                    "message": "Missing @return tag in function comment"
+                },
+                {
+                    "line": 17,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "Squiz.Commenting.FunctionComment.WrongStyle",
+                    "message": "You must use \"/**\" style comments for a function comment"
+                },
+                {
+                    "line": 25,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "Squiz.Commenting.FunctionComment.ParamCommentFullStop",
+                    "message": "Parameter comment must end with a full stop"
+                },
+                {
+                    "line": 26,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "Squiz.Commenting.FunctionComment.InvalidNoReturn",
+                    "message": "Function return type is not void, but function has no return statement"
+                },
+                {
+                    "line": 28,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "Squiz.Commenting.FunctionComment.IncorrectTypeHint",
+                    "message": "Expected type hint \"string\"; found \"array\" for $data"
+                }
+            ]
+        }
+    }
+}

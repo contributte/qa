@@ -1,0 +1,42 @@
+{
+    "totals": {
+        "errors": 4,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 4,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 7,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.FunctionSpacing.BeforeFirst",
+                    "message": "Expected 2 blank lines before function; 0 found"
+                },
+                {
+                    "line": 10,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.FunctionSpacing.After",
+                    "message": "Expected 2 blank lines after function; 0 found"
+                },
+                {
+                    "line": 20,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.FunctionSpacing.After",
+                    "message": "Expected 2 blank lines after function; 3 found"
+                },
+                {
+                    "line": 27,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.FunctionSpacing.AfterLast",
+                    "message": "Expected 2 blank lines after function; 0 found"
+                }
+            ]
+        }
+    }
+}

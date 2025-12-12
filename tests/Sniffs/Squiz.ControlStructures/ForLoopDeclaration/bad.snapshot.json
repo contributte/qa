@@ -1,0 +1,105 @@
+{
+    "totals": {
+        "errors": 13,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 13,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 13,
+                    "column": 14,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ForLoopDeclaration.NoSpaceAfterFirst",
+                    "message": "Expected 1 space after first semicolon of FOR loop; 0 found"
+                },
+                {
+                    "line": 13,
+                    "column": 22,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ForLoopDeclaration.NoSpaceAfterSecond",
+                    "message": "Expected 1 space after second semicolon of FOR loop; 0 found"
+                },
+                {
+                    "line": 17,
+                    "column": 14,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ForLoopDeclaration.SpacingAfterFirst",
+                    "message": "Expected 1 space after first semicolon of FOR loop; 2 found"
+                },
+                {
+                    "line": 17,
+                    "column": 24,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ForLoopDeclaration.SpacingAfterSecond",
+                    "message": "Expected 1 space after second semicolon of FOR loop; 2 found"
+                },
+                {
+                    "line": 21,
+                    "column": 23,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ForLoopDeclaration.SpacingAfterSecond",
+                    "message": "Expected 1 space after second semicolon of FOR loop; 2 found"
+                },
+                {
+                    "line": 25,
+                    "column": 14,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ForLoopDeclaration.SpacingAfterFirst",
+                    "message": "Expected 1 space after first semicolon of FOR loop; 2 found"
+                },
+                {
+                    "line": 29,
+                    "column": 15,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ForLoopDeclaration.SpacingBeforeFirst",
+                    "message": "Whitespace found before first semicolon of FOR loop"
+                },
+                {
+                    "line": 29,
+                    "column": 25,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ForLoopDeclaration.SpacingBeforeSecond",
+                    "message": "Whitespace found before second semicolon of FOR loop"
+                },
+                {
+                    "line": 33,
+                    "column": 24,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ForLoopDeclaration.SpacingBeforeSecond",
+                    "message": "Whitespace found before second semicolon of FOR loop"
+                },
+                {
+                    "line": 45,
+                    "column": 22,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ForLoopDeclaration.NoSpaceAfterFirst",
+                    "message": "Expected 1 space after first semicolon of FOR loop; 0 found"
+                },
+                {
+                    "line": 45,
+                    "column": 30,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ForLoopDeclaration.NoSpaceAfterSecond",
+                    "message": "Expected 1 space after second semicolon of FOR loop; 0 found"
+                },
+                {
+                    "line": 49,
+                    "column": 7,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ForLoopDeclaration.SpacingAfterOpen",
+                    "message": "Whitespace found after opening bracket of FOR loop"
+                },
+                {
+                    "line": 49,
+                    "column": 31,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ForLoopDeclaration.SpacingBeforeClose",
+                    "message": "Whitespace found before closing bracket of FOR loop"
+                }
+            ]
+        }
+    }
+}

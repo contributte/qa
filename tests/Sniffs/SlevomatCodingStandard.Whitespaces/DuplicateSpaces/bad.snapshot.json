@@ -1,0 +1,49 @@
+{
+    "totals": {
+        "errors": 5,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 5,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 8,
+                    "column": 39,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Whitespaces.DuplicateSpaces.DuplicateSpaces",
+                    "message": "Duplicate spaces at position 39."
+                },
+                {
+                    "line": 10,
+                    "column": 18,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Whitespaces.DuplicateSpaces.DuplicateSpaces",
+                    "message": "Duplicate spaces at position 18."
+                },
+                {
+                    "line": 10,
+                    "column": 21,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Whitespaces.DuplicateSpaces.DuplicateSpaces",
+                    "message": "Duplicate spaces at position 21."
+                },
+                {
+                    "line": 10,
+                    "column": 26,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Whitespaces.DuplicateSpaces.DuplicateSpaces",
+                    "message": "Duplicate spaces at position 26."
+                },
+                {
+                    "line": 10,
+                    "column": 29,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Whitespaces.DuplicateSpaces.DuplicateSpaces",
+                    "message": "Duplicate spaces at position 29."
+                }
+            ]
+        }
+    }
+}

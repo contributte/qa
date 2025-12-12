@@ -1,0 +1,42 @@
+{
+    "totals": {
+        "errors": 4,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 4,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 11,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.ControlStructures.BlockControlStructureSpacing.IncorrectLinesCountBeforeControlStructure",
+                    "message": "Expected 1 line before \"if\", found 0."
+                },
+                {
+                    "line": 11,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.ControlStructures.BlockControlStructureSpacing.IncorrectLinesCountAfterControlStructure",
+                    "message": "Expected 1 line after \"if\", found 0."
+                },
+                {
+                    "line": 20,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.ControlStructures.BlockControlStructureSpacing.IncorrectLinesCountBeforeControlStructure",
+                    "message": "Expected 1 line before \"foreach\", found 0."
+                },
+                {
+                    "line": 20,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.ControlStructures.BlockControlStructureSpacing.IncorrectLinesCountAfterControlStructure",
+                    "message": "Expected 1 line after \"foreach\", found 0."
+                }
+            ]
+        }
+    }
+}

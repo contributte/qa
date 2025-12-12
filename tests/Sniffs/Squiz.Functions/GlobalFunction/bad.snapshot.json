@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 0,
+        "warnings": 2
+    },
+    "files": {
+        "bad.php": {
+            "errors": 0,
+            "warnings": 2,
+            "messages": [
+                {
+                    "line": 3,
+                    "column": 1,
+                    "type": "WARNING",
+                    "source": "Squiz.Functions.GlobalFunction.Found",
+                    "message": "Consider putting global function \"globalHelper\" in a static class"
+                },
+                {
+                    "line": 7,
+                    "column": 1,
+                    "type": "WARNING",
+                    "source": "Squiz.Functions.GlobalFunction.Found",
+                    "message": "Consider putting global function \"anotherGlobalFunction\" in a static class"
+                }
+            ]
+        }
+    }
+}

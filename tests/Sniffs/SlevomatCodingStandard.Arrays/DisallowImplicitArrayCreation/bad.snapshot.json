@@ -1,0 +1,35 @@
+{
+    "totals": {
+        "errors": 3,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 3,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 3,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Arrays.DisallowImplicitArrayCreation.ImplicitArrayCreationUsed",
+                    "message": "Implicit array creation is disallowed."
+                },
+                {
+                    "line": 4,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Arrays.DisallowImplicitArrayCreation.ImplicitArrayCreationUsed",
+                    "message": "Implicit array creation is disallowed."
+                },
+                {
+                    "line": 5,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Arrays.DisallowImplicitArrayCreation.ImplicitArrayCreationUsed",
+                    "message": "Implicit array creation is disallowed."
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "totals": {
+        "errors": 4,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 4,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 6,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces.NoEmptyLineAfterOpeningBrace",
+                    "message": "There must be one empty line after class opening brace."
+                },
+                {
+                    "line": 23,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces.NoEmptyLineBeforeClosingBrace",
+                    "message": "There must be one empty line before class closing brace."
+                },
+                {
+                    "line": 26,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces.MultipleEmptyLinesAfterOpeningBrace",
+                    "message": "There must be one empty line after class opening brace."
+                },
+                {
+                    "line": 39,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces.MultipleEmptyLinesBeforeClosingBrace",
+                    "message": "There must be one empty line before class closing brace."
+                }
+            ]
+        }
+    }
+}

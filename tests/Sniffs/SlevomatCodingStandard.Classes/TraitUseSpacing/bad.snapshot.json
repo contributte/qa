@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 12,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.TraitUseSpacing.IncorrectLinesCountAfterLastUse",
+                    "message": "Expected 1 line after last use statement, found 0."
+                }
+            ]
+        }
+    }
+}

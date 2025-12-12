@@ -1,0 +1,63 @@
+{
+    "totals": {
+        "errors": 0,
+        "warnings": 7
+    },
+    "files": {
+        "bad.php": {
+            "errors": 0,
+            "warnings": 7,
+            "messages": [
+                {
+                    "line": 15,
+                    "column": 5,
+                    "type": "WARNING",
+                    "source": "PSR2.ControlStructures.ElseIfDeclaration.NotAllowed",
+                    "message": "Usage of ELSE IF is discouraged; use ELSEIF instead"
+                },
+                {
+                    "line": 17,
+                    "column": 5,
+                    "type": "WARNING",
+                    "source": "PSR2.ControlStructures.ElseIfDeclaration.NotAllowed",
+                    "message": "Usage of ELSE IF is discouraged; use ELSEIF instead"
+                },
+                {
+                    "line": 28,
+                    "column": 5,
+                    "type": "WARNING",
+                    "source": "PSR2.ControlStructures.ElseIfDeclaration.NotAllowed",
+                    "message": "Usage of ELSE IF is discouraged; use ELSEIF instead"
+                },
+                {
+                    "line": 30,
+                    "column": 5,
+                    "type": "WARNING",
+                    "source": "PSR2.ControlStructures.ElseIfDeclaration.NotAllowed",
+                    "message": "Usage of ELSE IF is discouraged; use ELSEIF instead"
+                },
+                {
+                    "line": 32,
+                    "column": 5,
+                    "type": "WARNING",
+                    "source": "PSR2.ControlStructures.ElseIfDeclaration.NotAllowed",
+                    "message": "Usage of ELSE IF is discouraged; use ELSEIF instead"
+                },
+                {
+                    "line": 44,
+                    "column": 6,
+                    "type": "WARNING",
+                    "source": "PSR2.ControlStructures.ElseIfDeclaration.NotAllowed",
+                    "message": "Usage of ELSE IF is discouraged; use ELSEIF instead"
+                },
+                {
+                    "line": 49,
+                    "column": 5,
+                    "type": "WARNING",
+                    "source": "PSR2.ControlStructures.ElseIfDeclaration.NotAllowed",
+                    "message": "Usage of ELSE IF is discouraged; use ELSEIF instead"
+                }
+            ]
+        }
+    }
+}

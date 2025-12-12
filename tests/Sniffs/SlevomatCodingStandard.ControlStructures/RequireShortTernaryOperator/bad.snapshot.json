@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 12,
+                    "column": 20,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.ControlStructures.RequireShortTernaryOperator.RequiredShortTernaryOperator",
+                    "message": "Use short ternary operator."
+                },
+                {
+                    "line": 14,
+                    "column": 28,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.ControlStructures.RequireShortTernaryOperator.RequiredShortTernaryOperator",
+                    "message": "Use short ternary operator."
+                }
+            ]
+        }
+    }
+}

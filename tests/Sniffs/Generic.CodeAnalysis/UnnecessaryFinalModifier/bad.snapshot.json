@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 0,
+        "warnings": 1
+    },
+    "files": {
+        "bad.php": {
+            "errors": 0,
+            "warnings": 1,
+            "messages": [
+                {
+                    "line": 6,
+                    "column": 2,
+                    "type": "WARNING",
+                    "source": "Generic.CodeAnalysis.UnnecessaryFinalModifier.Found",
+                    "message": "Unnecessary FINAL modifier in FINAL class"
+                }
+            ]
+        }
+    }
+}

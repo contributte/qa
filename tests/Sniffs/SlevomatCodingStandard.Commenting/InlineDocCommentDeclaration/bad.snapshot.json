@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 10,
+                    "column": 7,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Commenting.InlineDocCommentDeclaration.InvalidFormat",
+                    "message": "Invalid inline documentation comment format \"@var \\DateTime\", expected \"@var type $variableName Optional description\"."
+                }
+            ]
+        }
+    }
+}

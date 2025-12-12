@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 3,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Generic.Commenting.DocComment.ContentAfterOpen",
+                    "message": "The open comment tag must be the only content on the line"
+                },
+                {
+                    "line": 3,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "Generic.Commenting.DocComment.SpacingBeforeShort",
+                    "message": "Doc comment short description must be on the first line"
+                }
+            ]
+        }
+    }
+}

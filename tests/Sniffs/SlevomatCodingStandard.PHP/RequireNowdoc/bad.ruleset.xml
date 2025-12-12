@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.PHP.RequireNowdoc">
+	<rule ref="SlevomatCodingStandard.PHP.RequireNowdoc"/>
+</ruleset>

@@ -1,0 +1,35 @@
+{
+    "totals": {
+        "errors": 3,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 3,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 10,
+                    "column": 11,
+                    "type": "ERROR",
+                    "source": "Squiz.Arrays.ArrayDeclaration.IndexNoNewline",
+                    "message": "The first index in a multi-value array must be on a new line"
+                },
+                {
+                    "line": 11,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "Squiz.Arrays.ArrayDeclaration.KeyNotAligned",
+                    "message": "Array key not aligned correctly; expected 10 spaces but found 3"
+                },
+                {
+                    "line": 11,
+                    "column": 18,
+                    "type": "ERROR",
+                    "source": "Squiz.Arrays.ArrayDeclaration.CloseBraceNewLine",
+                    "message": "Closing parenthesis of array declaration must be on a new line"
+                }
+            ]
+        }
+    }
+}

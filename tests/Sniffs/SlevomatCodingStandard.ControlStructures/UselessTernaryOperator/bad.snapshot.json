@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 10,
+                    "column": 21,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.ControlStructures.UselessTernaryOperator.UselessTernaryOperator",
+                    "message": "Useless ternary operator."
+                },
+                {
+                    "line": 15,
+                    "column": 23,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.ControlStructures.UselessTernaryOperator.UselessTernaryOperator",
+                    "message": "Useless ternary operator."
+                }
+            ]
+        }
+    }
+}

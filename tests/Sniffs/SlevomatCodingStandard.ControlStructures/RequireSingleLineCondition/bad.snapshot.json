@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 13,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.ControlStructures.RequireSingleLineCondition.RequiredSingleLineCondition",
+                    "message": "Condition of \"if\" should be placed on a single line."
+                },
+                {
+                    "line": 20,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.ControlStructures.RequireSingleLineCondition.RequiredSingleLineCondition",
+                    "message": "Condition of \"while\" should be placed on a single line."
+                }
+            ]
+        }
+    }
+}

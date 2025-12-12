@@ -1,0 +1,119 @@
+{
+    "totals": {
+        "errors": 15,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 15,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 12,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword",
+                    "message": "Expected 1 space after IF keyword; 0 found"
+                },
+                {
+                    "line": 12,
+                    "column": 16,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis",
+                    "message": "Expected 1 space after closing parenthesis; found newline"
+                },
+                {
+                    "line": 17,
+                    "column": 17,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis",
+                    "message": "Expected 1 space after closing parenthesis; found newline"
+                },
+                {
+                    "line": 20,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ControlSignature.SpaceAfterCloseBrace",
+                    "message": "Expected 1 space after closing brace; newline found"
+                },
+                {
+                    "line": 27,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ControlSignature.SpaceAfterCloseBrace",
+                    "message": "Expected 1 space after closing brace; newline found"
+                },
+                {
+                    "line": 28,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword",
+                    "message": "Expected 1 space after ELSEIF keyword; 0 found"
+                },
+                {
+                    "line": 28,
+                    "column": 20,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis",
+                    "message": "Expected 1 space after closing parenthesis; found newline"
+                },
+                {
+                    "line": 33,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword",
+                    "message": "Expected 1 space after WHILE keyword; 0 found"
+                },
+                {
+                    "line": 33,
+                    "column": 19,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis",
+                    "message": "Expected 1 space after closing parenthesis; found 0"
+                },
+                {
+                    "line": 37,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword",
+                    "message": "Expected 1 space after DO keyword; newline found"
+                },
+                {
+                    "line": 40,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ControlSignature.SpaceAfterCloseBrace",
+                    "message": "Expected 1 space after closing brace; newline found"
+                },
+                {
+                    "line": 43,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword",
+                    "message": "Expected 1 space after FOR keyword; 0 found"
+                },
+                {
+                    "line": 43,
+                    "column": 28,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis",
+                    "message": "Expected 1 space after closing parenthesis; found newline"
+                },
+                {
+                    "line": 48,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword",
+                    "message": "Expected 1 space after TRY keyword; newline found"
+                },
+                {
+                    "line": 51,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ControlSignature.SpaceAfterCloseBrace",
+                    "message": "Expected 1 space after closing brace; newline found"
+                }
+            ]
+        }
+    }
+}

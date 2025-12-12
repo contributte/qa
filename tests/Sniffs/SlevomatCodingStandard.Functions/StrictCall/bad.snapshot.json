@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 13,
+                    "column": 12,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Functions.StrictCall.StrictParameterMissing",
+                    "message": "Strict parameter missing in in_array() call."
+                },
+                {
+                    "line": 15,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Functions.StrictCall.StrictParameterMissing",
+                    "message": "Strict parameter missing in array_search() call."
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "totals": {
+        "errors": 3,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 3,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 9,
+                    "column": 13,
+                    "type": "ERROR",
+                    "source": "Squiz.Strings.DoubleQuoteUsage.NotRequired",
+                    "message": "String \"hello world\" does not require double quotes; use single quotes instead"
+                },
+                {
+                    "line": 10,
+                    "column": 14,
+                    "type": "ERROR",
+                    "source": "Squiz.Strings.DoubleQuoteUsage.NotRequired",
+                    "message": "String \"simple string\" does not require double quotes; use single quotes instead"
+                },
+                {
+                    "line": 11,
+                    "column": 22,
+                    "type": "ERROR",
+                    "source": "Squiz.Strings.DoubleQuoteUsage.NotRequired",
+                    "message": "String \"no variables here\" does not require double quotes; use single quotes instead"
+                }
+            ]
+        }
+    }
+}

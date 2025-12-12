@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 12,
+                    "column": 31,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Functions.UnusedInheritedVariablePassedToClosure.UnusedInheritedVariable",
+                    "message": "Unused inherited variable $unused passed to closure."
+                }
+            ]
+        }
+    }
+}

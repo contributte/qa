@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 10,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Variables.DisallowSuperGlobalVariable.DisallowedSuperGlobalVariable",
+                    "message": "Use of super global variable is disallowed."
+                },
+                {
+                    "line": 15,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Variables.DisallowSuperGlobalVariable.DisallowedSuperGlobalVariable",
+                    "message": "Use of super global variable is disallowed."
+                }
+            ]
+        }
+    }
+}

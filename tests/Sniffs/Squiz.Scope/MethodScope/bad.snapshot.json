@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 7,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "Squiz.Scope.MethodScope.Missing",
+                    "message": "Visibility must be declared on method \"methodWithoutVisibility\""
+                }
+            ]
+        }
+    }
+}

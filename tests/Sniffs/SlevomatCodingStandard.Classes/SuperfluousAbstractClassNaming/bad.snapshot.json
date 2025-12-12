@@ -1,0 +1,35 @@
+{
+    "totals": {
+        "errors": 3,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 3,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 5,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.SuperfluousAbstractClassNaming.SuperfluousPrefix",
+                    "message": "Superfluous prefix \"Abstract\"."
+                },
+                {
+                    "line": 9,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.SuperfluousAbstractClassNaming.SuperfluousPrefix",
+                    "message": "Superfluous prefix \"Abstract\"."
+                },
+                {
+                    "line": 13,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.SuperfluousAbstractClassNaming.SuperfluousPrefix",
+                    "message": "Superfluous prefix \"Abstract\"."
+                }
+            ]
+        }
+    }
+}

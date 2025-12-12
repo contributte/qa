@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "good.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 5,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Squiz.Classes.ClassFileName.NoMatch",
+                    "message": "Filename doesn't match class name; expected file name \"GoodExample.php\""
+                }
+            ]
+        }
+    }
+}

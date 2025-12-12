@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 10,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "Squiz.Commenting.DocCommentAlignment.SpaceBeforeStar",
+                    "message": "Expected 2 spaces before asterisk; 3 found"
+                },
+                {
+                    "line": 12,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "Squiz.Commenting.DocCommentAlignment.SpaceBeforeStar",
+                    "message": "Expected 2 spaces before asterisk; 3 found"
+                }
+            ]
+        }
+    }
+}

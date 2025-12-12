@@ -1,0 +1,84 @@
+{
+    "totals": {
+        "errors": 10,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 10,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 9,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.LogicalOperatorSpacing.NoSpaceBefore",
+                    "message": "Expected 1 space before logical operator; 0 found"
+                },
+                {
+                    "line": 9,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.LogicalOperatorSpacing.NoSpaceAfter",
+                    "message": "Expected 1 space after logical operator; 0 found"
+                },
+                {
+                    "line": 13,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.LogicalOperatorSpacing.TooMuchSpaceAfter",
+                    "message": "Expected 1 space after logical operator; 2 found"
+                },
+                {
+                    "line": 17,
+                    "column": 25,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.LogicalOperatorSpacing.NoSpaceAfter",
+                    "message": "Expected 1 space after logical operator; 0 found"
+                },
+                {
+                    "line": 17,
+                    "column": 38,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.LogicalOperatorSpacing.NoSpaceBefore",
+                    "message": "Expected 1 space before logical operator; 0 found"
+                },
+                {
+                    "line": 17,
+                    "column": 38,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.LogicalOperatorSpacing.TooMuchSpaceAfter",
+                    "message": "Expected 1 space after logical operator; 2 found"
+                },
+                {
+                    "line": 18,
+                    "column": 18,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.LogicalOperatorSpacing.NoSpaceBefore",
+                    "message": "Expected 1 space before logical operator; 0 found"
+                },
+                {
+                    "line": 18,
+                    "column": 18,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.LogicalOperatorSpacing.NoSpaceAfter",
+                    "message": "Expected 1 space after logical operator; 0 found"
+                },
+                {
+                    "line": 18,
+                    "column": 28,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.LogicalOperatorSpacing.TooMuchSpaceBefore",
+                    "message": "Expected 1 space before logical operator; 2 found"
+                },
+                {
+                    "line": 18,
+                    "column": 28,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.LogicalOperatorSpacing.NoSpaceAfter",
+                    "message": "Expected 1 space after logical operator; 0 found"
+                }
+            ]
+        }
+    }
+}

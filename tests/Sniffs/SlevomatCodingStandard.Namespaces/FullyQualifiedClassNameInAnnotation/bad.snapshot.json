@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 8,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Namespaces.FullyQualifiedClassNameInAnnotation.NonFullyQualifiedClassName",
+                    "message": "Class name \\DateTime in @param should be referenced via a fully qualified name."
+                },
+                {
+                    "line": 14,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Namespaces.FullyQualifiedClassNameInAnnotation.NonFullyQualifiedClassName",
+                    "message": "Class name \\DateTime in @var should be referenced via a fully qualified name."
+                }
+            ]
+        }
+    }
+}

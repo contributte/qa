@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 17,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "Squiz.Classes.SelfMemberReference.NotUsed",
+                    "message": "Must use \"self::\" for local static member reference"
+                }
+            ]
+        }
+    }
+}

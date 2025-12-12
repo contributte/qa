@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 5,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Namespaces.UseFromSameNamespace.UseFromSameNamespace",
+                    "message": "Use Tests\\Sniffs\\SlevomatCodingStandard\\Namespaces\\UseFromSameNamespace\\BadExample is from the same namespace \u2013 that is prohibited."
+                }
+            ]
+        }
+    }
+}

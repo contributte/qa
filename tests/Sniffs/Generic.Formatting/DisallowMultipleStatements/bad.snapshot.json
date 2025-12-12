@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 3,
+                    "column": 15,
+                    "type": "ERROR",
+                    "source": "Generic.Formatting.DisallowMultipleStatements.SameLine",
+                    "message": "Each PHP statement must be on a line by itself"
+                },
+                {
+                    "line": 3,
+                    "column": 23,
+                    "type": "ERROR",
+                    "source": "Generic.Formatting.DisallowMultipleStatements.SameLine",
+                    "message": "Each PHP statement must be on a line by itself"
+                }
+            ]
+        }
+    }
+}

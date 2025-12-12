@@ -1,0 +1,84 @@
+{
+    "totals": {
+        "errors": 10,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 10,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 16,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ForEachLoopDeclaration.SpacingBeforeAs",
+                    "message": "Expected 1 space before \"as\"; 2 found"
+                },
+                {
+                    "line": 20,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ForEachLoopDeclaration.SpacingAfterAs",
+                    "message": "Expected 1 space after \"as\"; 2 found"
+                },
+                {
+                    "line": 24,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ForEachLoopDeclaration.NoSpaceBeforeArrow",
+                    "message": "Expected 1 space before \"=>\"; 0 found"
+                },
+                {
+                    "line": 24,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ForEachLoopDeclaration.NoSpaceAfterArrow",
+                    "message": "Expected 1 space after \"=>\"; 0 found"
+                },
+                {
+                    "line": 28,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ForEachLoopDeclaration.NoSpaceAfterArrow",
+                    "message": "Expected 1 space after \"=>\"; 0 found"
+                },
+                {
+                    "line": 32,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ForEachLoopDeclaration.NoSpaceBeforeArrow",
+                    "message": "Expected 1 space before \"=>\"; 0 found"
+                },
+                {
+                    "line": 36,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ForEachLoopDeclaration.SpacingBeforeArrow",
+                    "message": "Expected 1 space before \"=>\"; 2 found"
+                },
+                {
+                    "line": 36,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ForEachLoopDeclaration.SpacingAfterArrow",
+                    "message": "Expected 1 space after \"=>\"; 2 found"
+                },
+                {
+                    "line": 40,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ForEachLoopDeclaration.NoSpaceAfterAs",
+                    "message": "Expected 1 space after \"as\"; 0 found"
+                },
+                {
+                    "line": 48,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ForEachLoopDeclaration.NoSpaceAfterArrow",
+                    "message": "Expected 1 space after \"=>\"; 0 found"
+                }
+            ]
+        }
+    }
+}

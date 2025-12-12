@@ -1,0 +1,49 @@
+{
+    "totals": {
+        "errors": 0,
+        "warnings": 5
+    },
+    "files": {
+        "bad.php": {
+            "errors": 0,
+            "warnings": 5,
+            "messages": [
+                {
+                    "line": 1,
+                    "column": 1,
+                    "type": "WARNING",
+                    "source": "Generic.PHP.DisallowShortOpenTag.PossibleFound",
+                    "message": "Possible use of short open tags detected; found: <? declare(strict_types = 1); ?>\\n"
+                },
+                {
+                    "line": 1,
+                    "column": 1,
+                    "type": "WARNING",
+                    "source": "Internal.NoCodeFound",
+                    "message": "No PHP code was found in this file and short open tags are not allowed by this install of PHP. This file may be using short open tags but PHP does not allow them."
+                },
+                {
+                    "line": 3,
+                    "column": 1,
+                    "type": "WARNING",
+                    "source": "Generic.PHP.DisallowShortOpenTag.PossibleFound",
+                    "message": "Possible use of short open tags detected; found: <? // Using short open tag - violation ?>\\n"
+                },
+                {
+                    "line": 4,
+                    "column": 1,
+                    "type": "WARNING",
+                    "source": "Generic.PHP.DisallowShortOpenTag.PossibleFound",
+                    "message": "Possible use of short open tags detected; found: <? echo 'This uses short open tag'; ?>\\n"
+                },
+                {
+                    "line": 6,
+                    "column": 1,
+                    "type": "WARNING",
+                    "source": "Generic.PHP.DisallowShortOpenTag.PossibleFound",
+                    "message": "Possible use of short open tags detected; found: <?\\n"
+                }
+            ]
+        }
+    }
+}

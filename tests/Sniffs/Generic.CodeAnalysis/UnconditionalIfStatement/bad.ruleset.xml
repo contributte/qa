@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test Generic.CodeAnalysis.UnconditionalIfStatement">
+	<rule ref="Generic.CodeAnalysis.UnconditionalIfStatement"/>
+</ruleset>

@@ -1,0 +1,42 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 2
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 2,
+            "messages": [
+                {
+                    "line": 8,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "PSR2.Methods.MethodDeclaration.StaticBeforeVisibility",
+                    "message": "The static declaration must come after the visibility declaration"
+                },
+                {
+                    "line": 12,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "PSR2.Methods.MethodDeclaration.StaticBeforeVisibility",
+                    "message": "The static declaration must come after the visibility declaration"
+                },
+                {
+                    "line": 16,
+                    "column": 10,
+                    "type": "WARNING",
+                    "source": "PSR2.Methods.MethodDeclaration.Underscore",
+                    "message": "Method name \"_privateMethod\" should not be prefixed with an underscore to indicate visibility"
+                },
+                {
+                    "line": 20,
+                    "column": 12,
+                    "type": "WARNING",
+                    "source": "PSR2.Methods.MethodDeclaration.Underscore",
+                    "message": "Method name \"_protectedMethod\" should not be prefixed with an underscore to indicate visibility"
+                }
+            ]
+        }
+    }
+}

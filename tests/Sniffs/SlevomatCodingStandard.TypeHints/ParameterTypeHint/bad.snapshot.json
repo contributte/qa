@@ -1,0 +1,42 @@
+{
+    "totals": {
+        "errors": 4,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 4,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 8,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.ParameterTypeHint.MissingAnyTypeHint",
+                    "message": "Method \\Tests\\Sniffs\\SlevomatCodingStandard\\TypeHints\\ParameterTypeHint\\BadExample::test() does not have parameter type hint nor @param annotation for its parameter $name."
+                },
+                {
+                    "line": 8,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.ParameterTypeHint.MissingAnyTypeHint",
+                    "message": "Method \\Tests\\Sniffs\\SlevomatCodingStandard\\TypeHints\\ParameterTypeHint\\BadExample::test() does not have parameter type hint nor @param annotation for its parameter $age."
+                },
+                {
+                    "line": 13,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.ParameterTypeHint.MissingTraversableTypeHintSpecification",
+                    "message": "@param annotation of method \\Tests\\Sniffs\\SlevomatCodingStandard\\TypeHints\\ParameterTypeHint\\BadExample::another() does not specify type hint for items of its traversable parameter $items."
+                },
+                {
+                    "line": 15,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.ParameterTypeHint.MissingNativeTypeHint",
+                    "message": "Method \\Tests\\Sniffs\\SlevomatCodingStandard\\TypeHints\\ParameterTypeHint\\BadExample::another() does not have native type hint for its parameter $items but it should be possible to add it based on @param annotation \"array\"."
+                }
+            ]
+        }
+    }
+}

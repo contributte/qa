@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 7,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "Generic.NamingConventions.ConstructorName.OldStyle",
+                    "message": "PHP4 style constructors are not allowed; use \"__construct()\" instead"
+                },
+                {
+                    "line": 17,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "Generic.NamingConventions.ConstructorName.OldStyle",
+                    "message": "PHP4 style constructors are not allowed; use \"__construct()\" instead"
+                }
+            ]
+        }
+    }
+}

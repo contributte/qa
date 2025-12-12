@@ -1,0 +1,35 @@
+{
+    "totals": {
+        "errors": 3,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 3,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 10,
+                    "column": 16,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore",
+                    "message": "Closing brace must be on a line by itself"
+                },
+                {
+                    "line": 14,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.ScopeClosingBrace.Indent",
+                    "message": "Closing brace indented incorrectly; expected 2 spaces, found 3"
+                },
+                {
+                    "line": 18,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.ScopeClosingBrace.Indent",
+                    "message": "Closing brace indented incorrectly; expected 2 spaces, found 3"
+                }
+            ]
+        }
+    }
+}

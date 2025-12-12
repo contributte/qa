@@ -1,0 +1,42 @@
+{
+    "totals": {
+        "errors": 4,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 4,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 9,
+                    "column": 14,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.SemicolonSpacing.Incorrect",
+                    "message": "Space found before semicolon; expected \"1;\" but found \"1 ;\""
+                },
+                {
+                    "line": 10,
+                    "column": 17,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.SemicolonSpacing.Incorrect",
+                    "message": "Space found before semicolon; expected \"2;\" but found \"2  ;\""
+                },
+                {
+                    "line": 11,
+                    "column": 31,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.SemicolonSpacing.Incorrect",
+                    "message": "Space found before semicolon; expected \"$another;\" but found \"$another ;\""
+                },
+                {
+                    "line": 12,
+                    "column": 16,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.SemicolonSpacing.Incorrect",
+                    "message": "Space found before semicolon; expected \"$result;\" but found \"$result ;\""
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "totals": {
+        "errors": 11,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 11,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 3,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Arrays.SingleLineArrayWhitespace.SpaceAfterArrayOpen",
+                    "message": "Expected 0 spaces after array opening bracket, 1 found."
+                },
+                {
+                    "line": 3,
+                    "column": 20,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Arrays.SingleLineArrayWhitespace.SpaceBeforeArrayClose",
+                    "message": "Expected 0 spaces before array closing bracket, 1 found."
+                },
+                {
+                    "line": 4,
+                    "column": 14,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Arrays.SingleLineArrayWhitespace.SpaceAfterArrayOpen",
+                    "message": "Expected 0 spaces after array opening bracket, 2 found."
+                },
+                {
+                    "line": 4,
+                    "column": 26,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Arrays.SingleLineArrayWhitespace.SpaceBeforeArrayClose",
+                    "message": "Expected 0 spaces before array closing bracket, 2 found."
+                },
+                {
+                    "line": 5,
+                    "column": 12,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Arrays.SingleLineArrayWhitespace.SpaceAfterArrayOpen",
+                    "message": "Expected 0 spaces after array opening bracket, 1 found."
+                },
+                {
+                    "line": 5,
+                    "column": 33,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Arrays.SingleLineArrayWhitespace.SpaceBeforeArrayClose",
+                    "message": "Expected 0 spaces before array closing bracket, 1 found."
+                },
+                {
+                    "line": 7,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Arrays.SingleLineArrayWhitespace.SpaceAfterArrayOpen",
+                    "message": "Expected 0 spaces after array opening bracket, 1 found."
+                },
+                {
+                    "line": 7,
+                    "column": 20,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Arrays.SingleLineArrayWhitespace.SpaceBeforeComma",
+                    "message": "Expected 0 spaces between \"'first'\" and comma, 1 found."
+                },
+                {
+                    "line": 7,
+                    "column": 20,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Arrays.SingleLineArrayWhitespace.SpaceAfterComma",
+                    "message": "Expected 1 space between comma and \"'second'\", 0 found."
+                },
+                {
+                    "line": 7,
+                    "column": 30,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Arrays.SingleLineArrayWhitespace.SpaceBeforeComma",
+                    "message": "Expected 0 spaces between \"'second'\" and comma, 1 found."
+                },
+                {
+                    "line": 7,
+                    "column": 40,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Arrays.SingleLineArrayWhitespace.SpaceBeforeArrayClose",
+                    "message": "Expected 0 spaces before array closing bracket, 1 found."
+                }
+            ]
+        }
+    }
+}

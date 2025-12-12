@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 15,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Commenting.UselessInheritDocComment.UselessInheritDocComment",
+                    "message": "Useless documentation comment with @inheritDoc."
+                },
+                {
+                    "line": 22,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Commenting.UselessInheritDocComment.UselessInheritDocComment",
+                    "message": "Useless documentation comment with @inheritDoc."
+                }
+            ]
+        }
+    }
+}

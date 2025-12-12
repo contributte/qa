@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "good.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 14,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "Squiz.Commenting.VariableComment.IncorrectVarType",
+                    "message": "Expected \"integer\" but found \"int\" for @var tag in member variable comment"
+                },
+                {
+                    "line": 24,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "Squiz.Commenting.VariableComment.IncorrectVarType",
+                    "message": "Expected \"boolean\" but found \"bool\" for @var tag in member variable comment"
+                }
+            ]
+        }
+    }
+}

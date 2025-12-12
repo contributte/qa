@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 4,
+                    "column": 15,
+                    "type": "ERROR",
+                    "source": "PEAR.Classes.ClassDeclaration.OpenBraceNewLine",
+                    "message": "Opening brace of a class must be on the line after the definition"
+                },
+                {
+                    "line": 13,
+                    "column": 25,
+                    "type": "ERROR",
+                    "source": "PEAR.Classes.ClassDeclaration.OpenBraceNewLine",
+                    "message": "Opening brace of a interface must be on the line after the definition"
+                }
+            ]
+        }
+    }
+}

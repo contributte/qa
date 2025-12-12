@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.Commenting.ForbiddenAnnotations">
+	<rule ref="SlevomatCodingStandard.Commenting.ForbiddenAnnotations"/>
+</ruleset>

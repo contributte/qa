@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test PSR1.Files.SideEffects">
+	<rule ref="PSR1.Files.SideEffects"/>
+</ruleset>

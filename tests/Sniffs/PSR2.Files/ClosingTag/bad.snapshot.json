@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 15,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "PSR2.Files.ClosingTag.NotAllowed",
+                    "message": "A closing tag is not permitted at the end of a PHP file"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 8,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.UselessConstantTypeHint.UselessDocComment",
+                    "message": "Useless documentation comment."
+                },
+                {
+                    "line": 11,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.UselessConstantTypeHint.UselessDocComment",
+                    "message": "Useless documentation comment."
+                }
+            ]
+        }
+    }
+}

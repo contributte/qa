@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 11,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.ReturnTypeHint.MissingNativeTypeHint",
+                    "message": "Method \\Tests\\Sniffs\\SlevomatCodingStandard\\TypeHints\\ReturnTypeHint\\BadExample::getName() does not have native return type hint for its return value but it should be possible to add it based on @return annotation \"string\"."
+                },
+                {
+                    "line": 19,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.ReturnTypeHint.MissingNativeTypeHint",
+                    "message": "Method \\Tests\\Sniffs\\SlevomatCodingStandard\\TypeHints\\ReturnTypeHint\\BadExample::getAge() does not have native return type hint for its return value but it should be possible to add it based on @return annotation \"int\"."
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test Squiz.WhiteSpace.SuperfluousWhitespace">
+	<rule ref="Squiz.WhiteSpace.SuperfluousWhitespace"/>
+</ruleset>

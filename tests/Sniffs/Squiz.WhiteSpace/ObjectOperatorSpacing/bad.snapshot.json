@@ -1,0 +1,56 @@
+{
+    "totals": {
+        "errors": 6,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 6,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 10,
+                    "column": 11,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.ObjectOperatorSpacing.Before",
+                    "message": "Space found before object operator"
+                },
+                {
+                    "line": 11,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.ObjectOperatorSpacing.After",
+                    "message": "Space found after object operator"
+                },
+                {
+                    "line": 12,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.ObjectOperatorSpacing.Before",
+                    "message": "Space found before object operator"
+                },
+                {
+                    "line": 12,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.ObjectOperatorSpacing.After",
+                    "message": "Space found after object operator"
+                },
+                {
+                    "line": 12,
+                    "column": 28,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.ObjectOperatorSpacing.Before",
+                    "message": "Space found before object operator"
+                },
+                {
+                    "line": 12,
+                    "column": 28,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.ObjectOperatorSpacing.After",
+                    "message": "Space found after object operator"
+                }
+            ]
+        }
+    }
+}

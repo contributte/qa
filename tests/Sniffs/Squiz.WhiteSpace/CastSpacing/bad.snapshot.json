@@ -1,0 +1,42 @@
+{
+    "totals": {
+        "errors": 4,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 4,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 9,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.CastSpacing.ContainsWhiteSpace",
+                    "message": "Cast statements must not contain whitespace; expected \"(int)\" but found \"( int )\""
+                },
+                {
+                    "line": 10,
+                    "column": 13,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.CastSpacing.ContainsWhiteSpace",
+                    "message": "Cast statements must not contain whitespace; expected \"(string)\" but found \"(string  )\""
+                },
+                {
+                    "line": 11,
+                    "column": 11,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.CastSpacing.ContainsWhiteSpace",
+                    "message": "Cast statements must not contain whitespace; expected \"(bool)\" but found \"(  bool)\""
+                },
+                {
+                    "line": 12,
+                    "column": 12,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.CastSpacing.ContainsWhiteSpace",
+                    "message": "Cast statements must not contain whitespace; expected \"(float)\" but found \"( float )\""
+                }
+            ]
+        }
+    }
+}

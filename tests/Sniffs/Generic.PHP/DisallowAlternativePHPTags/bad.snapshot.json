@@ -1,0 +1,49 @@
+{
+    "totals": {
+        "errors": 0,
+        "warnings": 5
+    },
+    "files": {
+        "bad.php": {
+            "errors": 0,
+            "warnings": 5,
+            "messages": [
+                {
+                    "line": 1,
+                    "column": 1,
+                    "type": "WARNING",
+                    "source": "Generic.PHP.DisallowAlternativePHPTags.MaybeASPOpenTagFound",
+                    "message": "Possible use of ASP style opening tags detected; found: <% declare(strict_types = 1); %>\\n"
+                },
+                {
+                    "line": 1,
+                    "column": 1,
+                    "type": "WARNING",
+                    "source": "Internal.NoCodeFound",
+                    "message": "No PHP code was found in this file and short open tags are not allowed by this install of PHP. This file may be using short open tags but PHP does not allow them."
+                },
+                {
+                    "line": 3,
+                    "column": 1,
+                    "type": "WARNING",
+                    "source": "Generic.PHP.DisallowAlternativePHPTags.MaybeASPOpenTagFound",
+                    "message": "Possible use of ASP style opening tags detected; found: <% // Using ASP-style tags - violation %>\\n"
+                },
+                {
+                    "line": 4,
+                    "column": 1,
+                    "type": "WARNING",
+                    "source": "Generic.PHP.DisallowAlternativePHPTags.MaybeASPOpenTagFound",
+                    "message": "Possible use of ASP style opening tags detected; found: <% echo 'This uses ASP-style tags'; %>\\n"
+                },
+                {
+                    "line": 6,
+                    "column": 1,
+                    "type": "WARNING",
+                    "source": "Generic.PHP.DisallowAlternativePHPTags.MaybeASPOpenTagFound",
+                    "message": "Possible use of ASP style opening tags detected; found: <%\\n"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 10,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "Squiz.PHP.Heredoc.NotAllowed",
+                    "message": "Use of heredoc and nowdoc syntax (\"<<<\") is not allowed; use standard strings or inline HTML instead"
+                },
+                {
+                    "line": 19,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "Squiz.PHP.Heredoc.NotAllowed",
+                    "message": "Use of heredoc and nowdoc syntax (\"<<<\") is not allowed; use standard strings or inline HTML instead"
+                }
+            ]
+        }
+    }
+}

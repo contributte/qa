@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test Squiz.WhiteSpace.LogicalOperatorSpacing">
+	<rule ref="Squiz.WhiteSpace.LogicalOperatorSpacing"/>
+</ruleset>

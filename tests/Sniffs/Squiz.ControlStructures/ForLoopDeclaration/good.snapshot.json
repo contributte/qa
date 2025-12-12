@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "good.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 42,
+                    "column": 16,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ForLoopDeclaration.SpacingBeforeSecond",
+                    "message": "Whitespace found before second semicolon of FOR loop"
+                },
+                {
+                    "line": 46,
+                    "column": 25,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ForLoopDeclaration.SpacingBeforeClose",
+                    "message": "Whitespace found before closing bracket of FOR loop"
+                }
+            ]
+        }
+    }
+}

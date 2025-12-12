@@ -1,0 +1,49 @@
+{
+    "totals": {
+        "errors": 5,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 5,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 6,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Arrays.TrailingArrayComma.MissingTrailingComma",
+                    "message": "Multi-line arrays must have a trailing comma after the last element."
+                },
+                {
+                    "line": 12,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Arrays.TrailingArrayComma.MissingTrailingComma",
+                    "message": "Multi-line arrays must have a trailing comma after the last element."
+                },
+                {
+                    "line": 19,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Arrays.TrailingArrayComma.MissingTrailingComma",
+                    "message": "Multi-line arrays must have a trailing comma after the last element."
+                },
+                {
+                    "line": 24,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Arrays.TrailingArrayComma.MissingTrailingComma",
+                    "message": "Multi-line arrays must have a trailing comma after the last element."
+                },
+                {
+                    "line": 25,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Arrays.TrailingArrayComma.MissingTrailingComma",
+                    "message": "Multi-line arrays must have a trailing comma after the last element."
+                }
+            ]
+        }
+    }
+}

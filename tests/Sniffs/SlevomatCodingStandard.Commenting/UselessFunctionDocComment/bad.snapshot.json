@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 12,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Commenting.UselessFunctionDocComment.UselessDocComment",
+                    "message": "Method \\Tests\\Sniffs\\SlevomatCodingStandard\\Commenting\\UselessFunctionDocComment\\BadExample::method() does not need documentation comment."
+                },
+                {
+                    "line": 21,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Commenting.UselessFunctionDocComment.UselessDocComment",
+                    "message": "Method \\Tests\\Sniffs\\SlevomatCodingStandard\\Commenting\\UselessFunctionDocComment\\BadExample::another() does not need documentation comment."
+                }
+            ]
+        }
+    }
+}

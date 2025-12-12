@@ -1,0 +1,35 @@
+{
+    "totals": {
+        "errors": 3,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 3,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 4,
+                    "column": 23,
+                    "type": "ERROR",
+                    "source": "Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine",
+                    "message": "Opening brace should be on a new line"
+                },
+                {
+                    "line": 8,
+                    "column": 29,
+                    "type": "ERROR",
+                    "source": "Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine",
+                    "message": "Opening brace should be on a new line"
+                },
+                {
+                    "line": 15,
+                    "column": 31,
+                    "type": "ERROR",
+                    "source": "Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine",
+                    "message": "Opening brace should be on a new line"
+                }
+            ]
+        }
+    }
+}

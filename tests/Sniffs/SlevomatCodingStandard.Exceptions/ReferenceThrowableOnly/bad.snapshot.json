@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 12,
+                    "column": 12,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Exceptions.ReferenceThrowableOnly.ReferencedGeneralException",
+                    "message": "Referencing general \\Exception; use \\Throwable instead."
+                }
+            ]
+        }
+    }
+}

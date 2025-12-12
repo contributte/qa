@@ -1,0 +1,49 @@
+{
+    "totals": {
+        "errors": 5,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 5,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 19,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "PSR1.Methods.CamelCapsMethodName.NotCamelCaps",
+                    "message": "Method name \"BadExample::get_name\" is not in camel caps format"
+                },
+                {
+                    "line": 25,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "PSR1.Methods.CamelCapsMethodName.NotCamelCaps",
+                    "message": "Method name \"BadExample::set_name\" is not in camel caps format"
+                },
+                {
+                    "line": 31,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "PSR1.Methods.CamelCapsMethodName.NotCamelCaps",
+                    "message": "Method name \"BadExample::process_user_data\" is not in camel caps format"
+                },
+                {
+                    "line": 37,
+                    "column": 12,
+                    "type": "ERROR",
+                    "source": "PSR1.Methods.CamelCapsMethodName.NotCamelCaps",
+                    "message": "Method name \"BadExample::validate_input\" is not in camel caps format"
+                },
+                {
+                    "line": 43,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "PSR1.Methods.CamelCapsMethodName.NotCamelCaps",
+                    "message": "Method name \"BadExample::format_output\" is not in camel caps format"
+                }
+            ]
+        }
+    }
+}

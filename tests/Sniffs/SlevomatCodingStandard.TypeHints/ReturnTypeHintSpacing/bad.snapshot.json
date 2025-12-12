@@ -1,0 +1,35 @@
+{
+    "totals": {
+        "errors": 3,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 3,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 8,
+                    "column": 28,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing.NoSpaceBetweenColonAndTypeHint",
+                    "message": "There must be exactly one space between return type hint colon and return type hint."
+                },
+                {
+                    "line": 13,
+                    "column": 28,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing.NoSpaceBetweenColonAndTypeHint",
+                    "message": "There must be exactly one space between return type hint colon and return type hint."
+                },
+                {
+                    "line": 13,
+                    "column": 28,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing.WhitespaceBeforeColon",
+                    "message": "There must be no whitespace between closing parenthesis and return type colon."
+                }
+            ]
+        }
+    }
+}

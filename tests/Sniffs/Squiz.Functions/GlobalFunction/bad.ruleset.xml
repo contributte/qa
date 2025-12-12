@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test Squiz.Functions.GlobalFunction">
+	<rule ref="Squiz.Functions.GlobalFunction"/>
+</ruleset>

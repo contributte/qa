@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 0,
+        "warnings": 1
+    },
+    "files": {
+        "bad.php": {
+            "errors": 0,
+            "warnings": 1,
+            "messages": [
+                {
+                    "line": 8,
+                    "column": 1,
+                    "type": "WARNING",
+                    "source": "Generic.Classes.DuplicateClassName.Found",
+                    "message": "Duplicate class name \"DuplicateClass\" found; first defined in /Users/felix/Data/code/oss/contributte/qa/tests/Sniffs/Generic.Classes/DuplicateClassName/bad.php on line 3"
+                }
+            ]
+        }
+    }
+}

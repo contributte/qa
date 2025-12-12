@@ -1,0 +1,49 @@
+{
+    "totals": {
+        "errors": 5,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 5,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 10,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.ClassStructure.IncorrectGroupOrder",
+                    "message": "The placement of \"private constants\" group is invalid. Last group was \"private properties\" and one of these is expected after it: private properties, private static properties, public static final methods, public static abstract methods, protected static final methods, protected static abstract methods, public final methods, public abstract methods, protected final methods, protected abstract methods, constructor, static constructors, destructor, public methods, public static methods, protected methods, protected static methods, private methods, private static methods, magic methods"
+                },
+                {
+                    "line": 12,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.ClassStructure.IncorrectGroupOrder",
+                    "message": "The placement of \"uses\" group is invalid. Last group was \"private properties\" and one of these is expected after it: private properties, private static properties, public static final methods, public static abstract methods, protected static final methods, protected static abstract methods, public final methods, public abstract methods, protected final methods, protected abstract methods, constructor, static constructors, destructor, public methods, public static methods, protected methods, protected static methods, private methods, private static methods, magic methods"
+                },
+                {
+                    "line": 18,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.ClassStructure.IncorrectGroupOrder",
+                    "message": "The placement of \"constructor\" group is invalid. Last group was \"private methods\" and one of these is expected after it: private methods, private static methods, magic methods"
+                },
+                {
+                    "line": 22,
+                    "column": 12,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.ClassStructure.IncorrectGroupOrder",
+                    "message": "The placement of \"protected methods\" group is invalid. Last group was \"private methods\" and one of these is expected after it: private methods, private static methods, magic methods"
+                },
+                {
+                    "line": 26,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.ClassStructure.IncorrectGroupOrder",
+                    "message": "The placement of \"public methods\" group is invalid. Last group was \"private methods\" and one of these is expected after it: private methods, private static methods, magic methods"
+                }
+            ]
+        }
+    }
+}

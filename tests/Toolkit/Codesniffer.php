@@ -40,7 +40,7 @@ final class Codesniffer
 					'column' => $message['column'],
 					'type' => $message['type'],
 					'source' => $message['source'],
-					'message' => $message['message'],
+					'message' => self::sanitizePaths($message['message']),
 				];
 			}
 
@@ -58,6 +58,16 @@ final class Codesniffer
 		}
 
 		return $normalized;
+	}
+
+	private static function sanitizePaths(string $message): string
+	{
+		// Replace absolute paths (like /path/to/file.php) with just the filename
+		return preg_replace_callback(
+			'#/[^\s]+/([^\s/]+\.php)#',
+			static fn(array $matches) => $matches[1],
+			$message
+		) ?? $message;
 	}
 
 }

@@ -52,3 +52,17 @@ vendor/bin/phpcbf --standard=ruleset-8.4.xml path/to/code  # Auto-fix
 ## Code Style
 
 Uses tabs for indentation (4-space equivalent). The ruleset enforces strict typing with `declare(strict_types=1)` on the first line.
+
+## Sniff Management
+
+When adding, removing, or updating a sniff:
+
+1. **Modify ruleset.xml** - Add/remove/update the sniff rule reference
+2. **Update tests in `tests/Sniffs/{Category.Subcategory}/{SniffName}/`**:
+   - Create/update `good.php` (code that passes the sniff)
+   - Create/update `bad.php` (code that fails the sniff)
+   - Create/update `good.ruleset.xml` and `bad.ruleset.xml` with the sniff reference
+3. **Update Makefile**: manage rulsets
+4. **Regenerate snapshots**: `php bin/snapshots --sniffs`
+5. **Regenerate documentation**: `make docs`
+6. **Run tests**: `make tests`

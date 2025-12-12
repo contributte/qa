@@ -55,6 +55,34 @@ Take a look at our template repository [contributte/bare](https://github.com/con
 - Fix problems effortlessly with `phpcbf` executable e.g. `vendor/bin/phpcbf --standard=codesniffer.xml app src tests`.
 - Your code now shines! 🌞
 
+### Listing Sniffs
+
+To list all sniffs included in the ruleset, run:
+
+```bash
+vendor/bin/phpcs --standard=ruleset.xml -e
+```
+
+Example output:
+
+```
+The Contributte standard contains 186 sniffs
+
+Generic (27 sniffs)
+-------------------
+  Generic.Arrays.DisallowLongArraySyntax
+  Generic.Classes.DuplicateClassName
+  Generic.CodeAnalysis.EmptyStatement
+  ...
+
+SlevomatCodingStandard (101 sniffs)
+-----------------------------------
+  SlevomatCodingStandard.Arrays.DisallowImplicitArrayCreation
+  SlevomatCodingStandard.Arrays.MultiLineArrayEndBracketPlacement
+  SlevomatCodingStandard.Arrays.SingleLineArrayWhitespace
+  ...
+```
+
 ## Cheatsheet
 
 For advanced usage of codesniffer you can find all details in their [wiki](https://github.com/squizlabs/PHP_CodeSniffer/wiki/Advanced-Usage#table-of-contents). However, working with codesniffer on daily basis you will often find your code

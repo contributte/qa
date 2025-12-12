@@ -3,7 +3,7 @@
 
 The Contributte standard contains 185 sniffs
 
-Generic (27 sniffs)
+Generic (28 sniffs)
 -------------------
   Generic.Arrays.DisallowLongArraySyntax
   Generic.Classes.DuplicateClassName
@@ -31,6 +31,7 @@ Generic (27 sniffs)
   Generic.PHP.LowerCaseKeyword
   Generic.Strings.UnnecessaryStringConcat
   Generic.WhiteSpace.DisallowSpaceIndent
+  Generic.WhiteSpace.LanguageConstructSpacing
   Generic.WhiteSpace.ScopeIndent
 
 PEAR (4 sniffs)
@@ -163,7 +164,7 @@ SlevomatCodingStandard (100 sniffs)
   SlevomatCodingStandard.Variables.UselessVariable
   SlevomatCodingStandard.Whitespaces.DuplicateSpaces
 
-Squiz (40 sniffs)
+Squiz (39 sniffs)
 -----------------
   Squiz.Arrays.ArrayBracketSpacing
   Squiz.Arrays.ArrayDeclaration
@@ -197,7 +198,6 @@ Squiz (40 sniffs)
   Squiz.WhiteSpace.ControlStructureSpacing
   Squiz.WhiteSpace.FunctionOpeningBraceSpace
   Squiz.WhiteSpace.FunctionSpacing
-  Squiz.WhiteSpace.LanguageConstructSpacing *
   Squiz.WhiteSpace.LogicalOperatorSpacing
   Squiz.WhiteSpace.ObjectOperatorSpacing
   Squiz.WhiteSpace.OperatorSpacing
@@ -205,5 +205,3 @@ Squiz (40 sniffs)
   Squiz.WhiteSpace.ScopeKeywordSpacing
   Squiz.WhiteSpace.SemicolonSpacing
   Squiz.WhiteSpace.SuperfluousWhitespace
-
-* Sniffs marked with an asterisk are deprecated.

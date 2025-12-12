@@ -1,7 +1,12 @@
 {
   "permissions": {
     "allow": [
-      "Bash(vendor/bin/phpcs:*)"
+      "Bash(vendor/bin/phpcs:*)",
+      "Bash(ls:*)",
+      "Bash(wc:*)",
+      "Bash(cat:*)",
+      "Bash(vendor/bin/tester:*)",
+      "Bash(php bin/snapshots:*)"
     ],
     "deny": [],
     "ask": []

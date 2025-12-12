@@ -1,0 +1,93 @@
+#!/usr/bin/env php
+<?php declare(strict_types=1);
+
+/**
+ * Generates JSON snapshots for ruleset tests.
+ *
+ * Usage: php bin/snapshots [--set=8.0]
+ */
+
+$rootDir = dirname(__DIR__);
+
+require $rootDir . '/vendor/autoload.php';
+require $rootDir . '/tests/Toolkit/Codesniffer.php';
+
+use Symfony\Component\Process\Process;
+use Tests\Toolkit\Codesniffer;
+
+// Parse CLI arguments
+$filterSet = null;
+
+foreach ($argv as $arg) {
+	if (str_starts_with($arg, '--set=')) {
+		$filterSet = substr($arg, 6);
+	}
+}
+
+// Static list of sets
+$setNames = ['8.0', '8.1', '8.2', '8.3', '8.4', '8.5'];
+$setsDir = $rootDir . '/tests/Sets';
+
+// Generate snapshots
+$generated = 0;
+$failed = 0;
+
+foreach ($setNames as $setName) {
+	if ($filterSet !== null && $filterSet !== $setName) {
+		continue;
+	}
+
+	$setDir = $setsDir . '/' . $setName;
+	$ruleset = $setDir . '/ruleset.xml';
+	$fixturesDir = $setDir . '/Fixtures';
+	$outputPath = $setDir . '/snapshot.json';
+
+	if (!file_exists($ruleset)) {
+		echo "Warning: Ruleset not found: {$ruleset}\n";
+
+		continue;
+	}
+
+	if (!is_dir($fixturesDir)) {
+		echo "Warning: Fixtures directory not found: {$fixturesDir}\n";
+
+		continue;
+	}
+
+	$process = new Process([
+		'vendor/bin/phpcs',
+		'--standard=' . $ruleset,
+		'--report=json',
+		'-q',
+		$fixturesDir,
+	], $rootDir);
+	$process->run();
+
+	$output = $process->getOutput();
+	$data = json_decode($output, true);
+
+	if ($data === null) {
+		echo "Error: Failed to parse phpcs output for {$setName}\n";
+		$failed++;
+
+		continue;
+	}
+
+	$normalized = Codesniffer::normalize($data);
+	$json = json_encode($normalized, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES) . "\n";
+
+	file_put_contents($outputPath, $json);
+	$errorCount = $normalized['totals']['errors'];
+	$warningCount = $normalized['totals']['warnings'];
+	$fileCount = count($normalized['files']);
+	echo "Generated: {$setName}/snapshot.json ({$fileCount} files, {$errorCount} errors, {$warningCount} warnings)\n";
+	$generated++;
+}
+
+echo "\nDone! Generated {$generated} snapshots";
+
+if ($failed > 0) {
+	echo ", {$failed} failed";
+}
+
+echo ".\n";

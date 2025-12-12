@@ -16,8 +16,6 @@ snapshots:
 
 .PHONY: docs
 docs:
-	echo "# Ruleset 8.0\n" > .docs/rulesets/ruleset-8.0.md && vendor/bin/phpcs --standard=ruleset-8.0.xml -e >> .docs/rulesets/ruleset-8.0.md
-	echo "# Ruleset 8.1\n" > .docs/rulesets/ruleset-8.1.md && vendor/bin/phpcs --standard=ruleset-8.1.xml -e >> .docs/rulesets/ruleset-8.1.md
 	echo "# Ruleset 8.2\n" > .docs/rulesets/ruleset-8.2.md && vendor/bin/phpcs --standard=ruleset-8.2.xml -e >> .docs/rulesets/ruleset-8.2.md
 	echo "# Ruleset 8.3\n" > .docs/rulesets/ruleset-8.3.md && vendor/bin/phpcs --standard=ruleset-8.3.xml -e >> .docs/rulesets/ruleset-8.3.md
 	echo "# Ruleset 8.4\n" > .docs/rulesets/ruleset-8.4.md && vendor/bin/phpcs --standard=ruleset-8.4.xml -e >> .docs/rulesets/ruleset-8.4.md

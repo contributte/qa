@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test Generic.Files.LineLength">
+	<rule ref="Generic.Files.LineLength">
+		<properties>
+			<property name="lineLimit" value="80"/>
+			<property name="absoluteLineLimit" value="120"/>
+		</properties>
+	</rule>
+</ruleset>

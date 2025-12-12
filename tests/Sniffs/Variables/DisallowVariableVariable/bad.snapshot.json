@@ -1,0 +1,42 @@
+{
+    "totals": {
+        "errors": 4,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 4,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 9,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Variables.DisallowVariableVariable.DisallowedVariableVariable",
+                    "message": "Use of variable variable is disallowed."
+                },
+                {
+                    "line": 14,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Variables.DisallowVariableVariable.DisallowedVariableVariable",
+                    "message": "Use of variable variable is disallowed."
+                },
+                {
+                    "line": 21,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Variables.DisallowVariableVariable.DisallowedVariableVariable",
+                    "message": "Use of variable variable is disallowed."
+                },
+                {
+                    "line": 28,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Variables.DisallowVariableVariable.DisallowedVariableVariable",
+                    "message": "Use of variable variable is disallowed."
+                }
+            ]
+        }
+    }
+}

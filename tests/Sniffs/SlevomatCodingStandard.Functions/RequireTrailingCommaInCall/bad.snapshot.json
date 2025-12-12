@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 13,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Functions.RequireTrailingCommaInCall.MissingTrailingComma",
+                    "message": "Multi-line function calls must have a trailing comma after the last parameter."
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "good.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 7,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.DisallowArrayTypeHintSyntax.DisallowedArrayTypeHintSyntax",
+                    "message": "Usage of array type hint syntax in \"string[]\" is disallowed, use generic type hint syntax instead."
+                },
+                {
+                    "line": 8,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.DisallowArrayTypeHintSyntax.DisallowedArrayTypeHintSyntax",
+                    "message": "Usage of array type hint syntax in \"int[]\" is disallowed, use generic type hint syntax instead."
+                }
+            ]
+        }
+    }
+}

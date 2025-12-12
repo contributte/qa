@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test Generic.Arrays.DisallowShortArraySyntax">
+	<rule ref="Generic.Arrays.DisallowShortArraySyntax"/>
+</ruleset>

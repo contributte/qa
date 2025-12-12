@@ -1,0 +1,35 @@
+{
+    "totals": {
+        "errors": 0,
+        "warnings": 3
+    },
+    "files": {
+        "bad.php": {
+            "errors": 0,
+            "warnings": 3,
+            "messages": [
+                {
+                    "line": 4,
+                    "column": 1,
+                    "type": "WARNING",
+                    "source": "Generic.CodeAnalysis.UnusedFunctionParameter.FoundAfterLastUsed",
+                    "message": "The method parameter $flag is never used"
+                },
+                {
+                    "line": 11,
+                    "column": 9,
+                    "type": "WARNING",
+                    "source": "Generic.CodeAnalysis.UnusedFunctionParameter.FoundAfterLastUsed",
+                    "message": "The method parameter $c is never used"
+                },
+                {
+                    "line": 16,
+                    "column": 9,
+                    "type": "WARNING",
+                    "source": "Generic.CodeAnalysis.UnusedFunctionParameter.FoundAfterLastUsed",
+                    "message": "The method parameter $suffix is never used"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 3,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Generic.Files.LineLength.MaxExceeded",
+                    "message": "Line exceeds maximum limit of 120 characters; contains 135 characters"
+                },
+                {
+                    "line": 4,
+                    "column": 134,
+                    "type": "ERROR",
+                    "source": "Generic.Files.LineLength.MaxExceeded",
+                    "message": "Line exceeds maximum limit of 120 characters; contains 134 characters"
+                }
+            ]
+        }
+    }
+}

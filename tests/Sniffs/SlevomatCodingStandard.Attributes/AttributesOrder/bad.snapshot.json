@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 1,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Internal.Exception",
+                    "message": "An error occurred during processing; checking has been aborted. The error message was: Neither manual or alphabetical order is set."
+                }
+            ]
+        }
+    }
+}

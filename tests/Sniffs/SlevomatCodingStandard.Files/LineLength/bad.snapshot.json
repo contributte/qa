@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 10,
+                    "column": 155,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Files.LineLength.LineTooLong",
+                    "message": "Line exceeds maximum limit of 120 characters, contains 155 characters."
+                },
+                {
+                    "line": 11,
+                    "column": 145,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Files.LineLength.LineTooLong",
+                    "message": "Line exceeds maximum limit of 120 characters, contains 145 characters."
+                }
+            ]
+        }
+    }
+}

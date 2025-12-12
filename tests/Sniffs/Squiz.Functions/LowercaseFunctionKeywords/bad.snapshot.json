@@ -1,0 +1,49 @@
+{
+    "totals": {
+        "errors": 5,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 5,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 8,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "Squiz.Functions.LowercaseFunctionKeywords.FoundUppercase",
+                    "message": "FUNCTION keyword must be lowercase; expected \"function\" but found \"FUNCTION\""
+                },
+                {
+                    "line": 10,
+                    "column": 15,
+                    "type": "ERROR",
+                    "source": "Squiz.Functions.LowercaseFunctionKeywords.FoundUppercase",
+                    "message": "FUNCTION keyword must be lowercase; expected \"function\" but found \"FUNCTION\""
+                },
+                {
+                    "line": 14,
+                    "column": 12,
+                    "type": "ERROR",
+                    "source": "Squiz.Functions.LowercaseFunctionKeywords.FoundUppercase",
+                    "message": "FN keyword must be lowercase; expected \"fn\" but found \"FN\""
+                },
+                {
+                    "line": 17,
+                    "column": 17,
+                    "type": "ERROR",
+                    "source": "Squiz.Functions.LowercaseFunctionKeywords.FoundUppercase",
+                    "message": "FUNCTION keyword must be lowercase; expected \"function\" but found \"FUNCTION\""
+                },
+                {
+                    "line": 24,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Squiz.Functions.LowercaseFunctionKeywords.FoundUppercase",
+                    "message": "FUNCTION keyword must be lowercase; expected \"function\" but found \"FUNCTION\""
+                }
+            ]
+        }
+    }
+}

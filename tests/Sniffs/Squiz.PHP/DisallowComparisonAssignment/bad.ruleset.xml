@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test Squiz.PHP.DisallowComparisonAssignment">
+	<rule ref="Squiz.PHP.DisallowComparisonAssignment"/>
+</ruleset>

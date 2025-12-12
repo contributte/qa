@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 18,
+                    "column": 20,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.DisallowStringExpressionPropertyFetch.DisallowedStringExpressionPropertyFetch",
+                    "message": "String expression property fetch is disallowed, use identifier property fetch."
+                },
+                {
+                    "line": 19,
+                    "column": 19,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.DisallowStringExpressionPropertyFetch.DisallowedStringExpressionPropertyFetch",
+                    "message": "String expression property fetch is disallowed, use identifier property fetch."
+                }
+            ]
+        }
+    }
+}

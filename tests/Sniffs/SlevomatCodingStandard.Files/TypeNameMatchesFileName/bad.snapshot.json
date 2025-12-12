@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 5,
+                    "column": 7,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Files.TypeNameMatchesFileName.NoMatchBetweenTypeNameAndFileName",
+                    "message": "Class name Tests\\Sniffs\\SlevomatCodingStandard\\Files\\TypeNameMatchesFileName\\MismatchedClassName does not match filepath bad.php."
+                }
+            ]
+        }
+    }
+}

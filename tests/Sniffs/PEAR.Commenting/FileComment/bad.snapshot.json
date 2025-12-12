@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 1,
+                    "column": 6,
+                    "type": "ERROR",
+                    "source": "PEAR.Commenting.FileComment.WrongStyle",
+                    "message": "You must use \"/**\" style comments for a file comment"
+                }
+            ]
+        }
+    }
+}

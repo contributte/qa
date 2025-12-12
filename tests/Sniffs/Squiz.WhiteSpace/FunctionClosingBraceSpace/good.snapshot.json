@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "good.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 10,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.FunctionClosingBraceSpace.SpacingBeforeClose",
+                    "message": "Expected 1 blank line before closing function brace; 0 found"
+                },
+                {
+                    "line": 15,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.FunctionClosingBraceSpace.SpacingBeforeClose",
+                    "message": "Expected 1 blank line before closing function brace; 0 found"
+                }
+            ]
+        }
+    }
+}

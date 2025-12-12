@@ -1,0 +1,42 @@
+{
+    "totals": {
+        "errors": 4,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 4,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 11,
+                    "column": 15,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Operators.RequireOnlyStandaloneIncrementAndDecrementOperators.PostIncrementOperatorNotUsedStandalone",
+                    "message": "Post-increment operator should be used only as single instruction."
+                },
+                {
+                    "line": 12,
+                    "column": 14,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Operators.RequireOnlyStandaloneIncrementAndDecrementOperators.PreIncrementOperatorNotUsedStandalone",
+                    "message": "Pre-increment operator should be used only as single instruction."
+                },
+                {
+                    "line": 15,
+                    "column": 16,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Operators.RequireOnlyStandaloneIncrementAndDecrementOperators.PostDecrementOperatorNotUsedStandalone",
+                    "message": "Post-decrement operator should be used only as single instruction."
+                },
+                {
+                    "line": 16,
+                    "column": 14,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Operators.RequireOnlyStandaloneIncrementAndDecrementOperators.PreDecrementOperatorNotUsedAsStandalone",
+                    "message": "Pre-decrement operator should be used only as single instruction."
+                }
+            ]
+        }
+    }
+}

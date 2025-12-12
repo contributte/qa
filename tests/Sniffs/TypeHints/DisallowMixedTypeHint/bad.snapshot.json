@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 17,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.DisallowMixedTypeHint.DisallowedMixedTypeHint",
+                    "message": "Usage of \"mixed\" type hint is disallowed."
+                },
+                {
+                    "line": 18,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.DisallowMixedTypeHint.DisallowedMixedTypeHint",
+                    "message": "Usage of \"mixed\" type hint is disallowed."
+                }
+            ]
+        }
+    }
+}

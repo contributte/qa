@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.Namespaces.UseOnlyWhitelistedNamespaces">
+	<rule ref="SlevomatCodingStandard.Namespaces.UseOnlyWhitelistedNamespaces">
+		<properties>
+			<property name="namespacesRequiredToUse" type="array">
+				<element value="DateTime"/>
+				<element value="Exception"/>
+			</property>
+		</properties>
+	</rule>
+</ruleset>

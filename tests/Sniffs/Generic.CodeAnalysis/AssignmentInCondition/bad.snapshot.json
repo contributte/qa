@@ -1,0 +1,35 @@
+{
+    "totals": {
+        "errors": 0,
+        "warnings": 3
+    },
+    "files": {
+        "bad.php": {
+            "errors": 0,
+            "warnings": 3,
+            "messages": [
+                {
+                    "line": 4,
+                    "column": 12,
+                    "type": "WARNING",
+                    "source": "Generic.CodeAnalysis.AssignmentInCondition.Found",
+                    "message": "Variable assignment found within a condition. Did you mean to do a comparison ?"
+                },
+                {
+                    "line": 8,
+                    "column": 16,
+                    "type": "WARNING",
+                    "source": "Generic.CodeAnalysis.AssignmentInCondition.FoundInWhileCondition",
+                    "message": "Variable assignment found within a condition. Did you mean to do a comparison ?"
+                },
+                {
+                    "line": 13,
+                    "column": 12,
+                    "type": "WARNING",
+                    "source": "Generic.CodeAnalysis.AssignmentInCondition.Found",
+                    "message": "Variable assignment found within a condition. Did you mean to do a comparison ?"
+                }
+            ]
+        }
+    }
+}

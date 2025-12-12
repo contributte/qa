@@ -1,0 +1,56 @@
+{
+    "totals": {
+        "errors": 6,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 6,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 7,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "Squiz.NamingConventions.ValidFunctionName.ScopeNotCamelCaps",
+                    "message": "Public method name \"BadExample::get_user_name\" is not in camel caps format"
+                },
+                {
+                    "line": 12,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "Squiz.NamingConventions.ValidFunctionName.ScopeNotCamelCaps",
+                    "message": "Public method name \"BadExample::Calculate_Total\" is not in camel caps format"
+                },
+                {
+                    "line": 17,
+                    "column": 12,
+                    "type": "ERROR",
+                    "source": "Squiz.NamingConventions.ValidFunctionName.ScopeNotCamelCaps",
+                    "message": "Protected method name \"BadExample::PROCESS_DATA\" is not in camel caps format"
+                },
+                {
+                    "line": 21,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "Squiz.NamingConventions.ValidFunctionName.PrivateNoUnderscore",
+                    "message": "Private method name \"BadExample::Validate_Input\" must be prefixed with an underscore"
+                },
+                {
+                    "line": 21,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "Squiz.NamingConventions.ValidFunctionName.ScopeNotCamelCaps",
+                    "message": "Private method name \"BadExample::Validate_Input\" is not in camel caps format"
+                },
+                {
+                    "line": 27,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Squiz.NamingConventions.ValidFunctionName.NotCamelCaps",
+                    "message": "Function name \"get_global_data\" is not in camel caps format"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 16,
+                    "column": 14,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.PHP.ForbiddenClasses.ForbiddenClass",
+                    "message": "Usage of \\stdClass class is forbidden, use \\Use a proper class instead instead."
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 10,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.ControlStructures.EarlyExit.EarlyExitNotUsed",
+                    "message": "Use early exit to reduce code nesting."
+                },
+                {
+                    "line": 17,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.ControlStructures.EarlyExit.EarlyExitNotUsed",
+                    "message": "Use early exit to reduce code nesting."
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "totals": {
+        "errors": 3,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 3,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 8,
+                    "column": 44,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Functions.UnusedParameter.UnusedParameter",
+                    "message": "Unused parameter $arg2."
+                },
+                {
+                    "line": 13,
+                    "column": 49,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Functions.UnusedParameter.UnusedParameter",
+                    "message": "Unused parameter $value."
+                },
+                {
+                    "line": 13,
+                    "column": 62,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Functions.UnusedParameter.UnusedParameter",
+                    "message": "Unused parameter $flag."
+                }
+            ]
+        }
+    }
+}

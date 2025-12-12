@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test Generic.Classes.OpeningBraceSameLine">
+	<rule ref="Generic.Classes.OpeningBraceSameLine"/>
+</ruleset>

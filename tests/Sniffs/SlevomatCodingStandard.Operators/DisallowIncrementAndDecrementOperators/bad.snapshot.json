@@ -1,0 +1,42 @@
+{
+    "totals": {
+        "errors": 4,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 4,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 11,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Operators.DisallowIncrementAndDecrementOperators.DisallowedPostIncrementOperator",
+                    "message": "Use of post-increment operator is disallowed."
+                },
+                {
+                    "line": 12,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Operators.DisallowIncrementAndDecrementOperators.DisallowedPreIncrementOperator",
+                    "message": "Use of pre-increment operator is disallowed."
+                },
+                {
+                    "line": 15,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Operators.DisallowIncrementAndDecrementOperators.DisallowedPostDecrementOperator",
+                    "message": "Use of post-decrement operator is disallowed."
+                },
+                {
+                    "line": 16,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Operators.DisallowIncrementAndDecrementOperators.DisallowedPreDecrementOperator",
+                    "message": "Use of pre-decrement operator is disallowed."
+                }
+            ]
+        }
+    }
+}

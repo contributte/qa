@@ -1,0 +1,91 @@
+{
+    "totals": {
+        "errors": 11,
+        "warnings": 0
+    },
+    "files": {
+        "good.php": {
+            "errors": 11,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 11,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.SwitchDeclaration.CaseIndent",
+                    "message": "CASE keyword must be indented 4 spaces from SWITCH keyword"
+                },
+                {
+                    "line": 12,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.SwitchDeclaration.BreakIndent",
+                    "message": "Case breaking statement must be indented 4 spaces from SWITCH keyword"
+                },
+                {
+                    "line": 12,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.SwitchDeclaration.SpacingAfterBreak",
+                    "message": "Case breaking statements must be followed by a single blank line"
+                },
+                {
+                    "line": 13,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.SwitchDeclaration.CaseIndent",
+                    "message": "CASE keyword must be indented 4 spaces from SWITCH keyword"
+                },
+                {
+                    "line": 14,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.SwitchDeclaration.BreakIndent",
+                    "message": "Case breaking statement must be indented 4 spaces from SWITCH keyword"
+                },
+                {
+                    "line": 14,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.SwitchDeclaration.SpacingAfterBreak",
+                    "message": "Case breaking statements must be followed by a single blank line"
+                },
+                {
+                    "line": 15,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.SwitchDeclaration.CaseIndent",
+                    "message": "CASE keyword must be indented 4 spaces from SWITCH keyword"
+                },
+                {
+                    "line": 16,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.SwitchDeclaration.BreakIndent",
+                    "message": "Case breaking statement must be indented 4 spaces from SWITCH keyword"
+                },
+                {
+                    "line": 16,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.SwitchDeclaration.SpacingAfterBreak",
+                    "message": "Case breaking statements must be followed by a single blank line"
+                },
+                {
+                    "line": 17,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.SwitchDeclaration.DefaultIndent",
+                    "message": "DEFAULT keyword must be indented 4 spaces from SWITCH keyword"
+                },
+                {
+                    "line": 18,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.SwitchDeclaration.BreakIndent",
+                    "message": "Case breaking statement must be indented 4 spaces from SWITCH keyword"
+                }
+            ]
+        }
+    }
+}

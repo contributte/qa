@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 8,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Complexity.Cognitive.ComplexityTooHigh",
+                    "message": "Cognitive complexity for \"complexMethod\" is 29 but has to be less than or equal to 10."
+                }
+            ]
+        }
+    }
+}

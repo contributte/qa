@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 10,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalConstants.NonFullyQualified",
+                    "message": "Constant PHP_INT_MAX should be referenced via a fully qualified name."
+                },
+                {
+                    "line": 11,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalConstants.NonFullyQualified",
+                    "message": "Constant M_PI should be referenced via a fully qualified name."
+                }
+            ]
+        }
+    }
+}

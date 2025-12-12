@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 7,
+                    "column": 18,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.DisallowConstructorPropertyPromotion.DisallowedConstructorPropertyPromotion",
+                    "message": "Constructor property promotion is disallowed, promotion of property $name found."
+                },
+                {
+                    "line": 8,
+                    "column": 15,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.DisallowConstructorPropertyPromotion.DisallowedConstructorPropertyPromotion",
+                    "message": "Constructor property promotion is disallowed, promotion of property $age found."
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 1,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Generic.PHP.ClosingPHPTag.NotFound",
+                    "message": "The PHP open tag does not have a corresponding PHP close tag"
+                }
+            ]
+        }
+    }
+}

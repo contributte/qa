@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 1,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Files.FileLength.FileTooLong",
+                    "message": "Your file is too long. Currently using 95 lines. Can be up to 50 lines."
+                }
+            ]
+        }
+    }
+}

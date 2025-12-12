@@ -1,0 +1,35 @@
+{
+    "totals": {
+        "errors": 3,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 3,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 5,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Squiz.Classes.LowercaseClassKeywords.FoundUppercase",
+                    "message": "CLASS keyword must be lowercase; expected \"class\" but found \"CLASS\""
+                },
+                {
+                    "line": 10,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Squiz.Classes.LowercaseClassKeywords.FoundUppercase",
+                    "message": "INTERFACE keyword must be lowercase; expected \"interface\" but found \"INTERFACE\""
+                },
+                {
+                    "line": 15,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Squiz.Classes.LowercaseClassKeywords.FoundUppercase",
+                    "message": "TRAIT keyword must be lowercase; expected \"trait\" but found \"TRAIT\""
+                }
+            ]
+        }
+    }
+}

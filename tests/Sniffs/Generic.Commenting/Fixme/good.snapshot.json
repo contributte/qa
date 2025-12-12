@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "good.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 3,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Generic.Commenting.Fixme.CommentFound",
+                    "message": "Comment refers to a FIXME task"
+                }
+            ]
+        }
+    }
+}

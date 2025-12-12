@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 9,
+                    "column": 21,
+                    "type": "ERROR",
+                    "source": "Squiz.PHP.DisallowSizeFunctionsInLoops.Found",
+                    "message": "The use of count() inside a loop condition is not allowed; assign the return value to a variable and use the variable in the loop condition instead"
+                },
+                {
+                    "line": 18,
+                    "column": 19,
+                    "type": "ERROR",
+                    "source": "Squiz.PHP.DisallowSizeFunctionsInLoops.Found",
+                    "message": "The use of count() inside a loop condition is not allowed; assign the return value to a variable and use the variable in the loop condition instead"
+                }
+            ]
+        }
+    }
+}

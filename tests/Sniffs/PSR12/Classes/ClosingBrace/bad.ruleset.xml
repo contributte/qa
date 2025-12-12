@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test ClosingBrace">
+	<rule ref="PSR12.Classes.ClosingBrace"/>
+</ruleset>

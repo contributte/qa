@@ -1,0 +1,35 @@
+{
+    "totals": {
+        "errors": 3,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 3,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 6,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.RequireSingleLineMethodSignature.RequiredSingleLineSignature",
+                    "message": "Signature of method \"add\" should be placed on a single line."
+                },
+                {
+                    "line": 14,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.RequireSingleLineMethodSignature.RequiredSingleLineSignature",
+                    "message": "Signature of method \"multiply\" should be placed on a single line."
+                },
+                {
+                    "line": 22,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.RequireSingleLineMethodSignature.RequiredSingleLineSignature",
+                    "message": "Signature of method \"getValue\" should be placed on a single line."
+                }
+            ]
+        }
+    }
+}

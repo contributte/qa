@@ -1,0 +1,35 @@
+{
+    "totals": {
+        "errors": 0,
+        "warnings": 3
+    },
+    "files": {
+        "good.php": {
+            "errors": 0,
+            "warnings": 3,
+            "messages": [
+                {
+                    "line": 4,
+                    "column": 9,
+                    "type": "WARNING",
+                    "source": "Generic.Formatting.MultipleStatementAlignment.NotSame",
+                    "message": "Equals sign not aligned with surrounding assignments; expected 1 space but found 3 spaces"
+                },
+                {
+                    "line": 5,
+                    "column": 9,
+                    "type": "WARNING",
+                    "source": "Generic.Formatting.MultipleStatementAlignment.NotSame",
+                    "message": "Equals sign not aligned with surrounding assignments; expected 1 space but found 3 spaces"
+                },
+                {
+                    "line": 6,
+                    "column": 9,
+                    "type": "WARNING",
+                    "source": "Generic.Formatting.MultipleStatementAlignment.NotSame",
+                    "message": "Equals sign not aligned with surrounding assignments; expected 1 space but found 3 spaces"
+                }
+            ]
+        }
+    }
+}

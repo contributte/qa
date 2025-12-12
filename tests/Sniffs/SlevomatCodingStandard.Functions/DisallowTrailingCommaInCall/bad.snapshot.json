@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 13,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Functions.DisallowTrailingCommaInCall.DisallowedTrailingComma",
+                    "message": "Trailing comma after the last parameter in function call is disallowed."
+                }
+            ]
+        }
+    }
+}

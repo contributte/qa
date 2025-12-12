@@ -1,0 +1,42 @@
+{
+    "totals": {
+        "errors": 4,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 4,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 5,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Generic.Functions.OpeningFunctionBraceKernighanRitchie.BraceOnNewLine",
+                    "message": "Opening brace should be on the same line as the declaration"
+                },
+                {
+                    "line": 10,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Generic.Functions.OpeningFunctionBraceKernighanRitchie.BraceOnNewLine",
+                    "message": "Opening brace should be on the same line as the declaration"
+                },
+                {
+                    "line": 18,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "Generic.Functions.OpeningFunctionBraceKernighanRitchie.BraceOnNewLine",
+                    "message": "Opening brace should be on the same line as the declaration"
+                },
+                {
+                    "line": 23,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "Generic.Functions.OpeningFunctionBraceKernighanRitchie.BraceOnNewLine",
+                    "message": "Opening brace should be on the same line as the declaration"
+                }
+            ]
+        }
+    }
+}

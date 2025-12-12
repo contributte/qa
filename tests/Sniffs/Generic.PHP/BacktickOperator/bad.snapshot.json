@@ -1,0 +1,42 @@
+{
+    "totals": {
+        "errors": 4,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 4,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 4,
+                    "column": 11,
+                    "type": "ERROR",
+                    "source": "Generic.PHP.BacktickOperator.Found",
+                    "message": "Use of the backtick operator is forbidden"
+                },
+                {
+                    "line": 4,
+                    "column": 18,
+                    "type": "ERROR",
+                    "source": "Generic.PHP.BacktickOperator.Found",
+                    "message": "Use of the backtick operator is forbidden"
+                },
+                {
+                    "line": 5,
+                    "column": 11,
+                    "type": "ERROR",
+                    "source": "Generic.PHP.BacktickOperator.Found",
+                    "message": "Use of the backtick operator is forbidden"
+                },
+                {
+                    "line": 5,
+                    "column": 18,
+                    "type": "ERROR",
+                    "source": "Generic.PHP.BacktickOperator.Found",
+                    "message": "Use of the backtick operator is forbidden"
+                }
+            ]
+        }
+    }
+}

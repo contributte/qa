@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 0,
+        "warnings": 2
+    },
+    "files": {
+        "bad.php": {
+            "errors": 0,
+            "warnings": 2,
+            "messages": [
+                {
+                    "line": 21,
+                    "column": 9,
+                    "type": "WARNING",
+                    "source": "Generic.CodeAnalysis.UselessOverridingMethod.Found",
+                    "message": "Possible useless method overriding detected"
+                },
+                {
+                    "line": 27,
+                    "column": 9,
+                    "type": "WARNING",
+                    "source": "Generic.CodeAnalysis.UselessOverridingMethod.Found",
+                    "message": "Possible useless method overriding detected"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.PHP.ForbiddenClasses">
+	<rule ref="SlevomatCodingStandard.PHP.ForbiddenClasses">
+		<properties>
+			<property name="forbiddenClasses" type="array">
+				<element key="stdClass" value="Use a proper class instead"/>
+			</property>
+		</properties>
+	</rule>
+</ruleset>

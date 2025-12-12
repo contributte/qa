@@ -1,0 +1,49 @@
+{
+    "totals": {
+        "errors": 5,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 5,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 5,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Attributes.AttributeAndTargetSpacing.IncorrectLinesCountBetweenAttributeAndTarget",
+                    "message": "Expected 0 blank lines between attribute and its target, found 1."
+                },
+                {
+                    "line": 12,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Attributes.AttributeAndTargetSpacing.IncorrectLinesCountBetweenAttributeAndTarget",
+                    "message": "Expected 0 blank lines between attribute and its target, found 2."
+                },
+                {
+                    "line": 20,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Attributes.AttributeAndTargetSpacing.IncorrectLinesCountBetweenAttributeAndTarget",
+                    "message": "Expected 0 blank lines between attribute and its target, found 1."
+                },
+                {
+                    "line": 30,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Attributes.AttributeAndTargetSpacing.IncorrectLinesCountBetweenAttributeAndTarget",
+                    "message": "Expected 0 blank lines between attribute and its target, found 1."
+                },
+                {
+                    "line": 34,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Attributes.AttributeAndTargetSpacing.IncorrectLinesCountBetweenAttributeAndTarget",
+                    "message": "Expected 0 blank lines between attribute and its target, found 2."
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "good.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 7,
+                    "column": 17,
+                    "type": "ERROR",
+                    "source": "Squiz.NamingConventions.ValidVariableName.PrivateNoUnderscore",
+                    "message": "Private member variable \"userName\" must contain a leading underscore"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 13,
+                    "column": 43,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Functions.DisallowTrailingCommaInClosureUse.DisallowedTrailingComma",
+                    "message": "Trailing comma after the last inherited variable in \"use\" of closure declaration is disallowed."
+                }
+            ]
+        }
+    }
+}

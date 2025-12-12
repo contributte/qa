@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.Files.TypeNameMatchesFileName">
+	<rule ref="SlevomatCodingStandard.Files.TypeNameMatchesFileName"/>
+</ruleset>

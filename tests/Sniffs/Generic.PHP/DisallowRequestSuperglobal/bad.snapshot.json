@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 4,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "Generic.PHP.DisallowRequestSuperglobal.Found",
+                    "message": "The $_REQUEST superglobal should not be used; use $_GET, $_POST, or $_COOKIE instead"
+                },
+                {
+                    "line": 5,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "Generic.PHP.DisallowRequestSuperglobal.Found",
+                    "message": "The $_REQUEST superglobal should not be used; use $_GET, $_POST, or $_COOKIE instead"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 10,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Functions.RequireMultiLineCall.RequiredMultiLineCall",
+                    "message": "Call of method method() should be split to more lines."
+                }
+            ]
+        }
+    }
+}

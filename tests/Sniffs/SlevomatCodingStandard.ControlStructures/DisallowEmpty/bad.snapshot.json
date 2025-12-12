@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 10,
+                    "column": 7,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.ControlStructures.DisallowEmpty.DisallowedEmpty",
+                    "message": "Use of empty() is disallowed."
+                },
+                {
+                    "line": 17,
+                    "column": 7,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.ControlStructures.DisallowEmpty.DisallowedEmpty",
+                    "message": "Use of empty() is disallowed."
+                }
+            ]
+        }
+    }
+}

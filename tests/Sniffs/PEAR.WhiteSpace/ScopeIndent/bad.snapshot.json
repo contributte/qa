@@ -1,0 +1,119 @@
+{
+    "totals": {
+        "errors": 15,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 15,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 6,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "PEAR.WhiteSpace.ScopeIndent.IncorrectExact",
+                    "message": "Line indented incorrectly; expected 4 spaces, found 1"
+                },
+                {
+                    "line": 7,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "PEAR.WhiteSpace.ScopeIndent.Incorrect",
+                    "message": "Line indented incorrectly; expected at least 4 spaces, found 1"
+                },
+                {
+                    "line": 8,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "PEAR.WhiteSpace.ScopeIndent.IncorrectExact",
+                    "message": "Line indented incorrectly; expected 8 spaces, found 2"
+                },
+                {
+                    "line": 9,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "PEAR.WhiteSpace.ScopeIndent.Incorrect",
+                    "message": "Line indented incorrectly; expected at least 12 spaces, found 2"
+                },
+                {
+                    "line": 10,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "PEAR.WhiteSpace.ScopeIndent.IncorrectExact",
+                    "message": "Line indented incorrectly; expected 12 spaces, found 3"
+                },
+                {
+                    "line": 11,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "PEAR.WhiteSpace.ScopeIndent.Incorrect",
+                    "message": "Line indented incorrectly; expected at least 16 spaces, found 3"
+                },
+                {
+                    "line": 12,
+                    "column": 6,
+                    "type": "ERROR",
+                    "source": "PEAR.WhiteSpace.ScopeIndent.IncorrectExact",
+                    "message": "Line indented incorrectly; expected 16 spaces, found 5"
+                },
+                {
+                    "line": 13,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "PEAR.WhiteSpace.ScopeIndent.Incorrect",
+                    "message": "Line indented incorrectly; expected at least 20 spaces, found 4"
+                },
+                {
+                    "line": 14,
+                    "column": 6,
+                    "type": "ERROR",
+                    "source": "PEAR.WhiteSpace.ScopeIndent.IncorrectExact",
+                    "message": "Line indented incorrectly; expected 16 spaces, found 5"
+                },
+                {
+                    "line": 15,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "PEAR.WhiteSpace.ScopeIndent.IncorrectExact",
+                    "message": "Line indented incorrectly; expected 12 spaces, found 3"
+                },
+                {
+                    "line": 16,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "PEAR.WhiteSpace.ScopeIndent.IncorrectExact",
+                    "message": "Line indented incorrectly; expected 8 spaces, found 2"
+                },
+                {
+                    "line": 18,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "PEAR.WhiteSpace.ScopeIndent.IncorrectExact",
+                    "message": "Line indented incorrectly; expected 8 spaces, found 2"
+                },
+                {
+                    "line": 19,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "PEAR.WhiteSpace.ScopeIndent.Incorrect",
+                    "message": "Line indented incorrectly; expected at least 12 spaces, found 2"
+                },
+                {
+                    "line": 20,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "PEAR.WhiteSpace.ScopeIndent.IncorrectExact",
+                    "message": "Line indented incorrectly; expected 8 spaces, found 2"
+                },
+                {
+                    "line": 21,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "PEAR.WhiteSpace.ScopeIndent.IncorrectExact",
+                    "message": "Line indented incorrectly; expected 4 spaces, found 1"
+                }
+            ]
+        }
+    }
+}

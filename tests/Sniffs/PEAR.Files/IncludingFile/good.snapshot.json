@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "good.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 4,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "PEAR.Files.IncludingFile.UseRequireOnce",
+                    "message": "File is being unconditionally included; use \"require_once\" instead"
+                },
+                {
+                    "line": 11,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "PEAR.Files.IncludingFile.UseIncludeOnce",
+                    "message": "File is being conditionally included; use \"include_once\" instead"
+                }
+            ]
+        }
+    }
+}

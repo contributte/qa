@@ -1,0 +1,35 @@
+{
+    "totals": {
+        "errors": 3,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 3,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 10,
+                    "column": 17,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Functions.DisallowNamedArguments.DisallowedNamedArgument",
+                    "message": "Named arguments are disallowed, usage of named argument \"arg1\" found."
+                },
+                {
+                    "line": 10,
+                    "column": 33,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Functions.DisallowNamedArguments.DisallowedNamedArgument",
+                    "message": "Named arguments are disallowed, usage of named argument \"arg2\" found."
+                },
+                {
+                    "line": 10,
+                    "column": 49,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Functions.DisallowNamedArguments.DisallowedNamedArgument",
+                    "message": "Named arguments are disallowed, usage of named argument \"arg3\" found."
+                }
+            ]
+        }
+    }
+}

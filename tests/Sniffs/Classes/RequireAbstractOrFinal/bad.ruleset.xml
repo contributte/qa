@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test RequireAbstractOrFinal">
+	<rule ref="SlevomatCodingStandard.Classes.RequireAbstractOrFinal"/>
+</ruleset>

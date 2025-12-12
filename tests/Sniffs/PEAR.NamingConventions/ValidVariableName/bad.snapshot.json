@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 6,
+                    "column": 17,
+                    "type": "ERROR",
+                    "source": "PEAR.NamingConventions.ValidVariableName.PrivateNoUnderscore",
+                    "message": "Private member variable \"User_Name\" must be prefixed with an underscore"
+                }
+            ]
+        }
+    }
+}

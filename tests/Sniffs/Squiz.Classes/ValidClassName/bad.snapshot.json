@@ -12,7 +12,7 @@
                     "line": 5,
                     "column": 7,
                     "type": "ERROR",
-                    "source": "Squiz.Classes.ValidClassName.NotCamelCaps",
+                    "source": "Squiz.Classes.ValidClassName.NotPascalCase",
                     "message": "Class name \"badexample\" is not in PascalCase format"
                 }
             ]

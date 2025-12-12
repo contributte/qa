@@ -1,0 +1,56 @@
+{
+    "totals": {
+        "errors": 6,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 6,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 3,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "PEAR.Files.IncludingFile.BracketsNotRequired",
+                    "message": "\"require_once\" is a statement not a function; no parentheses are required"
+                },
+                {
+                    "line": 4,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "PEAR.Files.IncludingFile.BracketsNotRequired",
+                    "message": "\"include_once\" is a statement not a function; no parentheses are required"
+                },
+                {
+                    "line": 4,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "PEAR.Files.IncludingFile.UseRequireOnce",
+                    "message": "File is being unconditionally included; use \"require_once\" instead"
+                },
+                {
+                    "line": 11,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "PEAR.Files.IncludingFile.BracketsNotRequired",
+                    "message": "\"require_once\" is a statement not a function; no parentheses are required"
+                },
+                {
+                    "line": 11,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "PEAR.Files.IncludingFile.UseIncludeOnce",
+                    "message": "File is being conditionally included; use \"include_once\" instead"
+                },
+                {
+                    "line": 12,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "PEAR.Files.IncludingFile.BracketsNotRequired",
+                    "message": "\"include_once\" is a statement not a function; no parentheses are required"
+                }
+            ]
+        }
+    }
+}

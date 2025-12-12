@@ -1,0 +1,35 @@
+{
+    "totals": {
+        "errors": 3,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 3,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 9,
+                    "column": 20,
+                    "type": "ERROR",
+                    "source": "Squiz.PHP.DisallowMultipleAssignments.Found",
+                    "message": "Assignments must be the first block of code on a line"
+                },
+                {
+                    "line": 9,
+                    "column": 29,
+                    "type": "ERROR",
+                    "source": "Squiz.PHP.DisallowMultipleAssignments.Found",
+                    "message": "Assignments must be the first block of code on a line"
+                },
+                {
+                    "line": 14,
+                    "column": 20,
+                    "type": "ERROR",
+                    "source": "Squiz.PHP.DisallowMultipleAssignments.Found",
+                    "message": "Assignments must be the first block of code on a line"
+                }
+            ]
+        }
+    }
+}

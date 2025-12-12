@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 0,
+        "warnings": 2
+    },
+    "files": {
+        "bad.php": {
+            "errors": 0,
+            "warnings": 2,
+            "messages": [
+                {
+                    "line": 4,
+                    "column": 9,
+                    "type": "WARNING",
+                    "source": "Generic.PHP.NoSilencedErrors.Discouraged",
+                    "message": "Silencing errors is discouraged; found: @fopen('test.txt'..."
+                },
+                {
+                    "line": 5,
+                    "column": 11,
+                    "type": "WARNING",
+                    "source": "Generic.PHP.NoSilencedErrors.Discouraged",
+                    "message": "Silencing errors is discouraged; found: @file_get_contents('data.json'..."
+                }
+            ]
+        }
+    }
+}

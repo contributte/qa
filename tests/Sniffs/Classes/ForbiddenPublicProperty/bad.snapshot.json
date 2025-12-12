@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 6,
+                    "column": 16,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.ForbiddenPublicProperty.ForbiddenPublicProperty",
+                    "message": "Do not use public properties. Use method access instead."
+                },
+                {
+                    "line": 7,
+                    "column": 13,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.ForbiddenPublicProperty.ForbiddenPublicProperty",
+                    "message": "Do not use public properties. Use method access instead."
+                }
+            ]
+        }
+    }
+}

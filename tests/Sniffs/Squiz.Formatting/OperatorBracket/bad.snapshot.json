@@ -1,0 +1,56 @@
+{
+    "totals": {
+        "errors": 6,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 6,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 10,
+                    "column": 16,
+                    "type": "ERROR",
+                    "source": "Squiz.Formatting.OperatorBracket.MissingBrackets",
+                    "message": "Operation must be bracketed"
+                },
+                {
+                    "line": 10,
+                    "column": 21,
+                    "type": "ERROR",
+                    "source": "Squiz.Formatting.OperatorBracket.MissingBrackets",
+                    "message": "Operation must be bracketed"
+                },
+                {
+                    "line": 12,
+                    "column": 17,
+                    "type": "ERROR",
+                    "source": "Squiz.Formatting.OperatorBracket.MissingBrackets",
+                    "message": "Operation must be bracketed"
+                },
+                {
+                    "line": 12,
+                    "column": 22,
+                    "type": "ERROR",
+                    "source": "Squiz.Formatting.OperatorBracket.MissingBrackets",
+                    "message": "Operation must be bracketed"
+                },
+                {
+                    "line": 12,
+                    "column": 27,
+                    "type": "ERROR",
+                    "source": "Squiz.Formatting.OperatorBracket.MissingBrackets",
+                    "message": "Operation must be bracketed"
+                },
+                {
+                    "line": 12,
+                    "column": 32,
+                    "type": "ERROR",
+                    "source": "Squiz.Formatting.OperatorBracket.MissingBrackets",
+                    "message": "Operation must be bracketed"
+                }
+            ]
+        }
+    }
+}

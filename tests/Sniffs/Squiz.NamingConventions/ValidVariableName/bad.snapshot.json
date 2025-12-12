@@ -1,0 +1,63 @@
+{
+    "totals": {
+        "errors": 7,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 7,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 7,
+                    "column": 17,
+                    "type": "ERROR",
+                    "source": "Squiz.NamingConventions.ValidVariableName.PrivateNoUnderscore",
+                    "message": "Private member variable \"user_name\" must contain a leading underscore"
+                },
+                {
+                    "line": 7,
+                    "column": 17,
+                    "type": "ERROR",
+                    "source": "Squiz.NamingConventions.ValidVariableName.MemberNotCamelCaps",
+                    "message": "Member variable \"user_name\" is not in valid camel caps format"
+                },
+                {
+                    "line": 8,
+                    "column": 16,
+                    "type": "ERROR",
+                    "source": "Squiz.NamingConventions.ValidVariableName.MemberNotCamelCaps",
+                    "message": "Member variable \"Item_Count\" is not in valid camel caps format"
+                },
+                {
+                    "line": 9,
+                    "column": 15,
+                    "type": "ERROR",
+                    "source": "Squiz.NamingConventions.ValidVariableName.MemberNotCamelCaps",
+                    "message": "Member variable \"DATA_LIST\" is not in valid camel caps format"
+                },
+                {
+                    "line": 13,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.NamingConventions.ValidVariableName.NotCamelCaps",
+                    "message": "Variable \"local_variable\" is not in valid camel caps format"
+                },
+                {
+                    "line": 14,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.NamingConventions.ValidVariableName.NotCamelCaps",
+                    "message": "Variable \"Another_Var\" is not in valid camel caps format"
+                },
+                {
+                    "line": 15,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.NamingConventions.ValidVariableName.NotCamelCaps",
+                    "message": "Variable \"INVALID_NAME\" is not in valid camel caps format"
+                }
+            ]
+        }
+    }
+}

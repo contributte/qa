@@ -1,0 +1,35 @@
+{
+    "totals": {
+        "errors": 3,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 3,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 10,
+                    "column": 14,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.ControlStructures.RequireYodaComparison.RequiredYodaComparison",
+                    "message": "Yoda comparison is required."
+                },
+                {
+                    "line": 14,
+                    "column": 15,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.ControlStructures.RequireYodaComparison.RequiredYodaComparison",
+                    "message": "Yoda comparison is required."
+                },
+                {
+                    "line": 18,
+                    "column": 14,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.ControlStructures.RequireYodaComparison.RequiredYodaComparison",
+                    "message": "Yoda comparison is required."
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "totals": {
+        "errors": 4,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 4,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 10,
+                    "column": 12,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalFunctions.NonFullyQualified",
+                    "message": "Function count() should be referenced via a fully qualified name."
+                },
+                {
+                    "line": 11,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalFunctions.NonFullyQualified",
+                    "message": "Function strtoupper() should be referenced via a fully qualified name."
+                },
+                {
+                    "line": 12,
+                    "column": 11,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalFunctions.NonFullyQualified",
+                    "message": "Function time() should be referenced via a fully qualified name."
+                },
+                {
+                    "line": 13,
+                    "column": 12,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalFunctions.NonFullyQualified",
+                    "message": "Function array_map() should be referenced via a fully qualified name."
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "totals": {
+        "errors": 3,
+        "warnings": 0
+    },
+    "files": {
+        "good.php": {
+            "errors": 3,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 12,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "PEAR.Functions.FunctionDeclaration.Indent",
+                    "message": "Multi-line function declaration not indented correctly; expected 5 spaces but found 2"
+                },
+                {
+                    "line": 13,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "PEAR.Functions.FunctionDeclaration.Indent",
+                    "message": "Multi-line function declaration not indented correctly; expected 5 spaces but found 2"
+                },
+                {
+                    "line": 14,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "PEAR.Functions.FunctionDeclaration.Indent",
+                    "message": "Multi-line function declaration not indented correctly; expected 5 spaces but found 2"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "good.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 18,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "PEAR.NamingConventions.ValidFunctionName.PrivateNoUnderscore",
+                    "message": "Private method name \"GoodValidFunctionName::privateMethod\" must be prefixed with an underscore"
+                }
+            ]
+        }
+    }
+}

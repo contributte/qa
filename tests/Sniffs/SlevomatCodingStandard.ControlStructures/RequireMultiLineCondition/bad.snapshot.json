@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 10,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.ControlStructures.RequireMultiLineCondition.RequiredMultiLineCondition",
+                    "message": "Condition of \"if\" should be split to more lines so each condition part is on its own line."
+                }
+            ]
+        }
+    }
+}

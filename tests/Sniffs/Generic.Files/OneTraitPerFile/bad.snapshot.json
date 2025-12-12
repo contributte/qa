@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 10,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Generic.Files.OneTraitPerFile.MultipleFound",
+                    "message": "Only one trait is allowed in a file"
+                }
+            ]
+        }
+    }
+}

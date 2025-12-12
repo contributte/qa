@@ -1,0 +1,56 @@
+{
+    "totals": {
+        "errors": 6,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 6,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 3,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "PEAR.NamingConventions.ValidClassName.StartWithCapital",
+                    "message": "Class name must begin with a capital letter"
+                },
+                {
+                    "line": 3,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "PEAR.NamingConventions.ValidClassName.Invalid",
+                    "message": "Class name is not valid; consider Bad_Class_Name instead"
+                },
+                {
+                    "line": 12,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "PEAR.NamingConventions.ValidClassName.StartWithCapital",
+                    "message": "Class name must begin with a capital letter"
+                },
+                {
+                    "line": 12,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "PEAR.NamingConventions.ValidClassName.Invalid",
+                    "message": "Class name is not valid; consider Another_Invalid_Class instead"
+                },
+                {
+                    "line": 21,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "PEAR.NamingConventions.ValidClassName.StartWithCapital",
+                    "message": "Interface name must begin with a capital letter"
+                },
+                {
+                    "line": 21,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "PEAR.NamingConventions.ValidClassName.Invalid",
+                    "message": "Interface name is not valid; consider Invalid_Interface_Name instead"
+                }
+            ]
+        }
+    }
+}

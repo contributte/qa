@@ -12,15 +12,15 @@
                     "line": 10,
                     "column": 10,
                     "type": "ERROR",
-                    "source": "Squiz.PHP.Heredoc.NotAllowed",
-                    "message": "Use of heredoc and nowdoc syntax (\"<<<\") is not allowed; use standard strings or inline HTML instead"
+                    "source": "Squiz.PHP.Heredoc.HeredocNotAllowed",
+                    "message": "Use of heredoc syntax (<<<EOT) is not allowed; use standard strings or inline HTML instead"
                 },
                 {
                     "line": 19,
                     "column": 10,
                     "type": "ERROR",
-                    "source": "Squiz.PHP.Heredoc.NotAllowed",
-                    "message": "Use of heredoc and nowdoc syntax (\"<<<\") is not allowed; use standard strings or inline HTML instead"
+                    "source": "Squiz.PHP.Heredoc.HeredocNotAllowed",
+                    "message": "Use of heredoc syntax (<<<HTML) is not allowed; use standard strings or inline HTML instead"
                 }
             ]
         }

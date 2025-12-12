@@ -1,0 +1,70 @@
+{
+    "totals": {
+        "errors": 8,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 8,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 4,
+                    "column": 22,
+                    "type": "ERROR",
+                    "source": "Generic.PHP.LowerCaseType.ParamTypeFound",
+                    "message": "PHP parameter type declarations must be lowercase; expected \"string\" but found \"String\""
+                },
+                {
+                    "line": 4,
+                    "column": 36,
+                    "type": "ERROR",
+                    "source": "Generic.PHP.LowerCaseType.ParamTypeFound",
+                    "message": "PHP parameter type declarations must be lowercase; expected \"int\" but found \"Int\""
+                },
+                {
+                    "line": 4,
+                    "column": 48,
+                    "type": "ERROR",
+                    "source": "Generic.PHP.LowerCaseType.ParamTypeFound",
+                    "message": "PHP parameter type declarations must be lowercase; expected \"bool\" but found \"Bool\""
+                },
+                {
+                    "line": 4,
+                    "column": 61,
+                    "type": "ERROR",
+                    "source": "Generic.PHP.LowerCaseType.ReturnTypeFound",
+                    "message": "PHP return type declarations must be lowercase; expected \"array\" but found \"Array\""
+                },
+                {
+                    "line": 12,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "Generic.PHP.LowerCaseType.PropertyTypeFound",
+                    "message": "PHP property type declarations must be lowercase; expected \"string\" but found \"String\""
+                },
+                {
+                    "line": 14,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "Generic.PHP.LowerCaseType.PropertyTypeFound",
+                    "message": "PHP property type declarations must be lowercase; expected \"int\" but found \"Int\""
+                },
+                {
+                    "line": 16,
+                    "column": 30,
+                    "type": "ERROR",
+                    "source": "Generic.PHP.LowerCaseType.ReturnTypeFound",
+                    "message": "PHP return type declarations must be lowercase; expected \"int\" but found \"Int\""
+                },
+                {
+                    "line": 16,
+                    "column": 34,
+                    "type": "ERROR",
+                    "source": "Generic.PHP.LowerCaseType.ReturnTypeFound",
+                    "message": "PHP return type declarations must be lowercase; expected \"float\" but found \"Float\""
+                }
+            ]
+        }
+    }
+}

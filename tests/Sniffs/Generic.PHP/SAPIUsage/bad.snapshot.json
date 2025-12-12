@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 6,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "Generic.PHP.SAPIUsage.FunctionFound",
+                    "message": "Use the PHP_SAPI constant instead of calling php_sapi_name()"
+                }
+            ]
+        }
+    }
+}

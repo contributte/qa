@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 0,
+        "warnings": 2
+    },
+    "files": {
+        "bad.php": {
+            "errors": 0,
+            "warnings": 2,
+            "messages": [
+                {
+                    "line": 8,
+                    "column": 4,
+                    "type": "WARNING",
+                    "source": "Generic.PHP.DiscourageGoto.Found",
+                    "message": "Use of the GOTO language construct is discouraged"
+                },
+                {
+                    "line": 13,
+                    "column": 2,
+                    "type": "WARNING",
+                    "source": "Generic.PHP.DiscourageGoto.Found",
+                    "message": "Use of the GOTO language construct is discouraged"
+                }
+            ]
+        }
+    }
+}

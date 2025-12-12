@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 8,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Commenting.RequireOneLineDocComment.MultiLineDocComment",
+                    "message": "Found multi-line doc comment with single line content, use one-line doc comment instead."
+                },
+                {
+                    "line": 15,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Commenting.RequireOneLineDocComment.MultiLineDocComment",
+                    "message": "Found multi-line doc comment with single line content, use one-line doc comment instead."
+                }
+            ]
+        }
+    }
+}

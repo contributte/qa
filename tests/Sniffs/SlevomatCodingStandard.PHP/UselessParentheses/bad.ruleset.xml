@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.PHP.UselessParentheses">
+	<rule ref="SlevomatCodingStandard.PHP.UselessParentheses"/>
+</ruleset>

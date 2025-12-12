@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "good.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 6,
+                    "column": 17,
+                    "type": "ERROR",
+                    "source": "PEAR.NamingConventions.ValidVariableName.PrivateNoUnderscore",
+                    "message": "Private member variable \"userName\" must be prefixed with an underscore"
+                },
+                {
+                    "line": 8,
+                    "column": 14,
+                    "type": "ERROR",
+                    "source": "PEAR.NamingConventions.ValidVariableName.PrivateNoUnderscore",
+                    "message": "Private member variable \"userAge\" must be prefixed with an underscore"
+                }
+            ]
+        }
+    }
+}

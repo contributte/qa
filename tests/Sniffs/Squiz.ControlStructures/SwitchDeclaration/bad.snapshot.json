@@ -1,0 +1,98 @@
+{
+    "totals": {
+        "errors": 12,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 12,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 12,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.SwitchDeclaration.CaseIndent",
+                    "message": "CASE keyword must be indented 4 spaces from SWITCH keyword"
+                },
+                {
+                    "line": 13,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.SwitchDeclaration.BreakIndent",
+                    "message": "Case breaking statement must be indented 4 spaces from SWITCH keyword"
+                },
+                {
+                    "line": 13,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.SwitchDeclaration.SpacingAfterBreak",
+                    "message": "Case breaking statements must be followed by a single blank line"
+                },
+                {
+                    "line": 14,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.SwitchDeclaration.CaseIndent",
+                    "message": "CASE keyword must be indented 4 spaces from SWITCH keyword"
+                },
+                {
+                    "line": 15,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.SwitchDeclaration.BreakIndent",
+                    "message": "Case breaking statement must be indented 4 spaces from SWITCH keyword"
+                },
+                {
+                    "line": 15,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.SwitchDeclaration.SpacingAfterBreak",
+                    "message": "Case breaking statements must be followed by a single blank line"
+                },
+                {
+                    "line": 16,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.SwitchDeclaration.CaseIndent",
+                    "message": "CASE keyword must be indented 4 spaces from SWITCH keyword"
+                },
+                {
+                    "line": 17,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.SwitchDeclaration.BreakIndent",
+                    "message": "Case breaking statement must be indented 4 spaces from SWITCH keyword"
+                },
+                {
+                    "line": 17,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.SwitchDeclaration.SpacingAfterBreak",
+                    "message": "Case breaking statements must be followed by a single blank line"
+                },
+                {
+                    "line": 18,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.SwitchDeclaration.DefaultIndent",
+                    "message": "DEFAULT keyword must be indented 4 spaces from SWITCH keyword"
+                },
+                {
+                    "line": 18,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.SwitchDeclaration.ContentAfterDefault",
+                    "message": "DEFAULT statement must be on a line by itself. Found content after"
+                },
+                {
+                    "line": 18,
+                    "column": 12,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.SwitchDeclaration.ContentBeforeBreak",
+                    "message": "Case breaking statement must be on a line by itself. Found content before"
+                }
+            ]
+        }
+    }
+}

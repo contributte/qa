@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 0,
+        "warnings": 1
+    },
+    "files": {
+        "good.php": {
+            "errors": 0,
+            "warnings": 1,
+            "messages": [
+                {
+                    "line": 3,
+                    "column": 1,
+                    "type": "WARNING",
+                    "source": "Generic.Commenting.Todo.CommentFound",
+                    "message": "Comment refers to a TODO task"
+                }
+            ]
+        }
+    }
+}

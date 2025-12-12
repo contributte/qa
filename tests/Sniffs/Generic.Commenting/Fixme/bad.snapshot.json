@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 3,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Generic.Commenting.Fixme.TaskFound",
+                    "message": "Comment refers to a FIXME task \"This needs to be fixed\""
+                },
+                {
+                    "line": 6,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "Generic.Commenting.Fixme.TaskFound",
+                    "message": "Comment refers to a FIXME task \"refactor this\""
+                }
+            ]
+        }
+    }
+}

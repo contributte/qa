@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 10,
+                    "column": 20,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Commenting.DisallowCommentAfterCode.DisallowedCommentAfterCode",
+                    "message": "Comment after code is disallowed."
+                },
+                {
+                    "line": 11,
+                    "column": 16,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Commenting.DisallowCommentAfterCode.DisallowedCommentAfterCode",
+                    "message": "Comment after code is disallowed."
+                }
+            ]
+        }
+    }
+}

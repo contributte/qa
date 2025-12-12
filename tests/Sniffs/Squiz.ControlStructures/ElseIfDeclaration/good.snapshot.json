@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "good.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 12,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ElseIfDeclaration.NotAllowed",
+                    "message": "Usage of ELSEIF not allowed; use ELSE IF instead"
+                },
+                {
+                    "line": 14,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.ElseIfDeclaration.NotAllowed",
+                    "message": "Usage of ELSEIF not allowed; use ELSE IF instead"
+                }
+            ]
+        }
+    }
+}

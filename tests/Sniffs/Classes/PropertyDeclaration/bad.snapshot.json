@@ -1,0 +1,49 @@
+{
+    "totals": {
+        "errors": 5,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 5,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 6,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.PropertyDeclaration.MultipleSpacesBeforeTypeHint",
+                    "message": "There must be exactly one space before type hint of property $name."
+                },
+                {
+                    "line": 6,
+                    "column": 11,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.PropertyDeclaration.MultipleSpacesBetweenTypeHintAndProperty",
+                    "message": "There must be exactly one space between type hint and property $name."
+                },
+                {
+                    "line": 7,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.PropertyDeclaration.MultipleSpacesBeforeTypeHint",
+                    "message": "There must be exactly one space before type hint of property $count."
+                },
+                {
+                    "line": 7,
+                    "column": 12,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.PropertyDeclaration.MultipleSpacesBetweenTypeHintAndProperty",
+                    "message": "There must be exactly one space between type hint and property $count."
+                },
+                {
+                    "line": 8,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Classes.PropertyDeclaration.MultipleSpacesBeforeTypeHint",
+                    "message": "There must be exactly one space before type hint of property $value."
+                }
+            ]
+        }
+    }
+}

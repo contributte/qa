@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "good.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 13,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "Squiz.Commenting.ClosingDeclarationComment.Missing",
+                    "message": "Expected //end process()"
+                },
+                {
+                    "line": 15,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Squiz.Commenting.ClosingDeclarationComment.Missing",
+                    "message": "Expected //end class"
+                }
+            ]
+        }
+    }
+}

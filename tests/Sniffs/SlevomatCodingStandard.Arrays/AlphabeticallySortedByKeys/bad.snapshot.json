@@ -1,0 +1,35 @@
+{
+    "totals": {
+        "errors": 3,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 3,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 3,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Arrays.AlphabeticallySortedByKeys.IncorrectKeyOrder",
+                    "message": "Keyed multi-line arrays must be sorted alphabetically."
+                },
+                {
+                    "line": 10,
+                    "column": 11,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Arrays.AlphabeticallySortedByKeys.IncorrectKeyOrder",
+                    "message": "Keyed multi-line arrays must be sorted alphabetically."
+                },
+                {
+                    "line": 17,
+                    "column": 13,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Arrays.AlphabeticallySortedByKeys.IncorrectKeyOrder",
+                    "message": "Keyed multi-line arrays must be sorted alphabetically."
+                }
+            ]
+        }
+    }
+}

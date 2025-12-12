@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 19,
+                    "column": 15,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.ControlStructures.RequireNullSafeObjectOperator.RequiredNullSafeObjectOperator",
+                    "message": "Operator ?-> is required."
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 7,
+                    "column": 6,
+                    "type": "ERROR",
+                    "source": "Squiz.Scope.MemberVarScope.Missing",
+                    "message": "Scope modifier not specified for member variable \"$propertyWithoutVisibility\""
+                },
+                {
+                    "line": 9,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "Squiz.Scope.MemberVarScope.Missing",
+                    "message": "Scope modifier not specified for member variable \"$propertyWithoutKeyword\""
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "totals": {
+        "errors": 10,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 10,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 4,
+                    "column": 11,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.ArbitraryParenthesesSpacing.SpaceAfterOpen",
+                    "message": "Expected 0 space after open parenthesis; 1 found"
+                },
+                {
+                    "line": 4,
+                    "column": 21,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.ArbitraryParenthesesSpacing.SpaceBeforeClose",
+                    "message": "Expected 0 space before close parenthesis; 1 found"
+                },
+                {
+                    "line": 6,
+                    "column": 6,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.ArbitraryParenthesesSpacing.SpaceAfterOpen",
+                    "message": "Expected 0 space after open parenthesis; 1 found"
+                },
+                {
+                    "line": 6,
+                    "column": 22,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.ArbitraryParenthesesSpacing.SpaceBeforeClose",
+                    "message": "Expected 0 space before close parenthesis; 1 found"
+                },
+                {
+                    "line": 6,
+                    "column": 27,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.ArbitraryParenthesesSpacing.SpaceAfterOpen",
+                    "message": "Expected 0 space after open parenthesis; 1 found"
+                },
+                {
+                    "line": 6,
+                    "column": 43,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.ArbitraryParenthesesSpacing.SpaceBeforeClose",
+                    "message": "Expected 0 space before close parenthesis; 1 found"
+                },
+                {
+                    "line": 10,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.ArbitraryParenthesesSpacing.SpaceAfterOpen",
+                    "message": "Expected 0 space after open parenthesis; 1 found"
+                },
+                {
+                    "line": 10,
+                    "column": 20,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.ArbitraryParenthesesSpacing.SpaceBeforeClose",
+                    "message": "Expected 0 space before close parenthesis; 1 found"
+                },
+                {
+                    "line": 10,
+                    "column": 24,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.ArbitraryParenthesesSpacing.SpaceAfterOpen",
+                    "message": "Expected 0 space after open parenthesis; 1 found"
+                },
+                {
+                    "line": 10,
+                    "column": 35,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.ArbitraryParenthesesSpacing.SpaceBeforeClose",
+                    "message": "Expected 0 space before close parenthesis; 1 found"
+                }
+            ]
+        }
+    }
+}

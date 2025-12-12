@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 6,
+                    "column": 8,
+                    "type": "ERROR",
+                    "source": "Generic.ControlStructures.DisallowYodaConditions.Found",
+                    "message": "Usage of Yoda conditions is not allowed; switch the expression order"
+                },
+                {
+                    "line": 10,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "Generic.ControlStructures.DisallowYodaConditions.Found",
+                    "message": "Usage of Yoda conditions is not allowed; switch the expression order"
+                }
+            ]
+        }
+    }
+}

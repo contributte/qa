@@ -1,0 +1,19 @@
+<?php declare(strict_types = 1);
+
+class User
+{
+
+	public function __construct(
+		private string $name,
+		private int $age,
+		private readonly string $email
+	)
+	{
+	}
+
+	public function getName(): string
+	{
+		return $this->name;
+	}
+
+}

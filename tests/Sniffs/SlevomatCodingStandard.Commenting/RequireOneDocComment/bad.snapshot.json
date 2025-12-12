@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 8,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Commenting.RequireOneDocComment.MultipleDocComments",
+                    "message": "Only one PHPDoc comment is allowed for a documentable entity; found two adjacent doc comments."
+                }
+            ]
+        }
+    }
+}

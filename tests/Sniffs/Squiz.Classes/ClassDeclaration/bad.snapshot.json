@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 5,
+                    "column": 18,
+                    "type": "ERROR",
+                    "source": "Squiz.Classes.ClassDeclaration.OpenBraceNewLine",
+                    "message": "Opening brace of a class must be on the line after the definition"
+                }
+            ]
+        }
+    }
+}

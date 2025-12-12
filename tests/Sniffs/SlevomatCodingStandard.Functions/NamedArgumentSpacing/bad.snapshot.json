@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 10,
+                    "column": 22,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Functions.NamedArgumentSpacing.WhitespaceBeforeColon",
+                    "message": "There must be no whitespace between named argument \"arg1\" and colon."
+                },
+                {
+                    "line": 10,
+                    "column": 38,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Functions.NamedArgumentSpacing.NoWhitespaceAfterColon",
+                    "message": "There must be exactly one space after colon in named argument \"arg2\"."
+                }
+            ]
+        }
+    }
+}

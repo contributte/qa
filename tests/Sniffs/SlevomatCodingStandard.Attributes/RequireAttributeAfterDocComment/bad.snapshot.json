@@ -1,0 +1,35 @@
+{
+    "totals": {
+        "errors": 3,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 3,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 5,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Attributes.RequireAttributeAfterDocComment.AttributeBeforeDocComment",
+                    "message": "Attribute should be placed after documentation comment."
+                },
+                {
+                    "line": 17,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Attributes.RequireAttributeAfterDocComment.AttributeBeforeDocComment",
+                    "message": "Attribute should be placed after documentation comment."
+                },
+                {
+                    "line": 23,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Attributes.RequireAttributeAfterDocComment.AttributeBeforeDocComment",
+                    "message": "Attribute should be placed after documentation comment."
+                }
+            ]
+        }
+    }
+}

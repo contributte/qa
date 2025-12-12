@@ -1,0 +1,35 @@
+{
+    "totals": {
+        "errors": 3,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 3,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 4,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Generic.NamingConventions.TraitNameSuffix.Missing",
+                    "message": "Trait names must be suffixed with \"Trait\"; found \"Timestampable\""
+                },
+                {
+                    "line": 13,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Generic.NamingConventions.TraitNameSuffix.Missing",
+                    "message": "Trait names must be suffixed with \"Trait\"; found \"Loggable\""
+                },
+                {
+                    "line": 23,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Generic.NamingConventions.TraitNameSuffix.Missing",
+                    "message": "Trait names must be suffixed with \"Trait\"; found \"Singleton\""
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "good.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 13,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Squiz.Commenting.BlockComment.NoEmptyLineAfter",
+                    "message": "Empty line required after block comment"
+                }
+            ]
+        }
+    }
+}

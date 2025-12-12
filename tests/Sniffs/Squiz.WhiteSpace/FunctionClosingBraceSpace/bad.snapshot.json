@@ -1,0 +1,35 @@
+{
+    "totals": {
+        "errors": 3,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 3,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 10,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.FunctionClosingBraceSpace.SpacingBeforeClose",
+                    "message": "Expected 1 blank line before closing function brace; 0 found"
+                },
+                {
+                    "line": 14,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.FunctionClosingBraceSpace.SpacingBeforeClose",
+                    "message": "Expected 1 blank line before closing function brace; 0 found"
+                },
+                {
+                    "line": 20,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.FunctionClosingBraceSpace.SpacingBeforeClose",
+                    "message": "Expected 1 blank line before closing function brace; 0 found"
+                }
+            ]
+        }
+    }
+}

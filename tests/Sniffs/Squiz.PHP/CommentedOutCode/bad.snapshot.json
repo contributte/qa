@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 0,
+        "warnings": 1
+    },
+    "files": {
+        "bad.php": {
+            "errors": 0,
+            "warnings": 1,
+            "messages": [
+                {
+                    "line": 11,
+                    "column": 3,
+                    "type": "WARNING",
+                    "source": "Squiz.PHP.CommentedOutCode.Found",
+                    "message": "This comment is 48% valid code; is this commented out code?"
+                }
+            ]
+        }
+    }
+}

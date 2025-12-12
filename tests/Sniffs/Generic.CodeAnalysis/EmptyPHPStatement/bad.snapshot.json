@@ -1,0 +1,56 @@
+{
+    "totals": {
+        "errors": 0,
+        "warnings": 6
+    },
+    "files": {
+        "bad.php": {
+            "errors": 0,
+            "warnings": 6,
+            "messages": [
+                {
+                    "line": 4,
+                    "column": 12,
+                    "type": "WARNING",
+                    "source": "Generic.CodeAnalysis.EmptyPHPStatement.SemicolonWithoutCodeDetected",
+                    "message": "Empty PHP statement detected: superfluous semicolon."
+                },
+                {
+                    "line": 5,
+                    "column": 13,
+                    "type": "WARNING",
+                    "source": "Generic.CodeAnalysis.EmptyPHPStatement.SemicolonWithoutCodeDetected",
+                    "message": "Empty PHP statement detected: superfluous semicolon."
+                },
+                {
+                    "line": 9,
+                    "column": 9,
+                    "type": "WARNING",
+                    "source": "Generic.CodeAnalysis.EmptyPHPStatement.SemicolonWithoutCodeDetected",
+                    "message": "Empty PHP statement detected: superfluous semicolon."
+                },
+                {
+                    "line": 10,
+                    "column": 9,
+                    "type": "WARNING",
+                    "source": "Generic.CodeAnalysis.EmptyPHPStatement.SemicolonWithoutCodeDetected",
+                    "message": "Empty PHP statement detected: superfluous semicolon."
+                },
+                {
+                    "line": 17,
+                    "column": 10,
+                    "type": "WARNING",
+                    "source": "Generic.CodeAnalysis.EmptyPHPStatement.SemicolonWithoutCodeDetected",
+                    "message": "Empty PHP statement detected: superfluous semicolon."
+                },
+                {
+                    "line": 18,
+                    "column": 10,
+                    "type": "WARNING",
+                    "source": "Generic.CodeAnalysis.EmptyPHPStatement.SemicolonWithoutCodeDetected",
+                    "message": "Empty PHP statement detected: superfluous semicolon."
+                }
+            ]
+        }
+    }
+}

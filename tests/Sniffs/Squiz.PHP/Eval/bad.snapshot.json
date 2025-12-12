@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 0,
+        "warnings": 2
+    },
+    "files": {
+        "bad.php": {
+            "errors": 0,
+            "warnings": 2,
+            "messages": [
+                {
+                    "line": 9,
+                    "column": 3,
+                    "type": "WARNING",
+                    "source": "Squiz.PHP.Eval.Discouraged",
+                    "message": "Use of eval() is discouraged"
+                },
+                {
+                    "line": 14,
+                    "column": 13,
+                    "type": "WARNING",
+                    "source": "Squiz.PHP.Eval.Discouraged",
+                    "message": "Use of eval() is discouraged"
+                }
+            ]
+        }
+    }
+}

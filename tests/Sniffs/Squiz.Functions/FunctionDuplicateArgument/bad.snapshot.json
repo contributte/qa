@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 8,
+                    "column": 45,
+                    "type": "ERROR",
+                    "source": "Squiz.Functions.FunctionDuplicateArgument.Found",
+                    "message": "Variable \"$value\" appears more than once in function declaration"
+                },
+                {
+                    "line": 14,
+                    "column": 57,
+                    "type": "ERROR",
+                    "source": "Squiz.Functions.FunctionDuplicateArgument.Found",
+                    "message": "Variable \"$first\" appears more than once in function declaration"
+                }
+            ]
+        }
+    }
+}

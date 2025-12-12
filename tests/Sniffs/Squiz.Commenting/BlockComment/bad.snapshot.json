@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 10,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.Commenting.BlockComment.NoNewLine",
+                    "message": "Block comment text must start on a new line"
+                }
+            ]
+        }
+    }
+}

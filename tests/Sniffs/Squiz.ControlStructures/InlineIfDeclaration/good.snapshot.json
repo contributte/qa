@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "good.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 12,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.InlineIfDeclaration.NotSingleLine",
+                    "message": "Inline shorthand IF statement must be declared on a single line"
+                }
+            ]
+        }
+    }
+}

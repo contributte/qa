@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "good.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 21,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "Squiz.NamingConventions.ValidFunctionName.PrivateNoUnderscore",
+                    "message": "Private method name \"GoodExample::validateInput\" must be prefixed with an underscore"
+                }
+            ]
+        }
+    }
+}

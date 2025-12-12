@@ -1,0 +1,49 @@
+{
+    "totals": {
+        "errors": 5,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 5,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 4,
+                    "column": 14,
+                    "type": "ERROR",
+                    "source": "Generic.CodeAnalysis.RequireExplicitBooleanOperatorPrecedence.MissingParentheses",
+                    "message": "Mixing different binary boolean operators within an expression without using parentheses to clarify precedence is not allowed."
+                },
+                {
+                    "line": 8,
+                    "column": 14,
+                    "type": "ERROR",
+                    "source": "Generic.CodeAnalysis.RequireExplicitBooleanOperatorPrecedence.MissingParentheses",
+                    "message": "Mixing different binary boolean operators within an expression without using parentheses to clarify precedence is not allowed."
+                },
+                {
+                    "line": 13,
+                    "column": 28,
+                    "type": "ERROR",
+                    "source": "Generic.CodeAnalysis.RequireExplicitBooleanOperatorPrecedence.MissingParentheses",
+                    "message": "Mixing different binary boolean operators within an expression without using parentheses to clarify precedence is not allowed."
+                },
+                {
+                    "line": 13,
+                    "column": 38,
+                    "type": "ERROR",
+                    "source": "Generic.CodeAnalysis.RequireExplicitBooleanOperatorPrecedence.MissingParentheses",
+                    "message": "Mixing different binary boolean operators within an expression without using parentheses to clarify precedence is not allowed."
+                },
+                {
+                    "line": 16,
+                    "column": 14,
+                    "type": "ERROR",
+                    "source": "Generic.CodeAnalysis.RequireExplicitBooleanOperatorPrecedence.MissingParentheses",
+                    "message": "Mixing different binary boolean operators within an expression without using parentheses to clarify precedence is not allowed."
+                }
+            ]
+        }
+    }
+}

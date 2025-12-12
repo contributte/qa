@@ -1,0 +1,77 @@
+{
+    "totals": {
+        "errors": 9,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 9,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 10,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.LowercaseDeclaration.FoundUppercase",
+                    "message": "IF keyword must be lowercase; expected \"if\" but found \"IF\""
+                },
+                {
+                    "line": 12,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.LowercaseDeclaration.FoundUppercase",
+                    "message": "ELSEIF keyword must be lowercase; expected \"elseif\" but found \"ELSEIF\""
+                },
+                {
+                    "line": 14,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.LowercaseDeclaration.FoundUppercase",
+                    "message": "ELSE keyword must be lowercase; expected \"else\" but found \"ELSE\""
+                },
+                {
+                    "line": 18,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.LowercaseDeclaration.FoundUppercase",
+                    "message": "FOR keyword must be lowercase; expected \"for\" but found \"FOR\""
+                },
+                {
+                    "line": 22,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.LowercaseDeclaration.FoundUppercase",
+                    "message": "FOREACH keyword must be lowercase; expected \"foreach\" but found \"FOREACH\""
+                },
+                {
+                    "line": 26,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.LowercaseDeclaration.FoundUppercase",
+                    "message": "WHILE keyword must be lowercase; expected \"while\" but found \"WHILE\""
+                },
+                {
+                    "line": 30,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.LowercaseDeclaration.FoundUppercase",
+                    "message": "DO keyword must be lowercase; expected \"do\" but found \"DO\""
+                },
+                {
+                    "line": 32,
+                    "column": 5,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.LowercaseDeclaration.FoundUppercase",
+                    "message": "WHILE keyword must be lowercase; expected \"while\" but found \"WHILE\""
+                },
+                {
+                    "line": 34,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.LowercaseDeclaration.FoundUppercase",
+                    "message": "SWITCH keyword must be lowercase; expected \"switch\" but found \"SWITCH\""
+                }
+            ]
+        }
+    }
+}

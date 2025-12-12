@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "good.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 7,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.MemberVarSpacing.FirstIncorrect",
+                    "message": "Expected 1 blank line(s) before first member var; 0 found"
+                }
+            ]
+        }
+    }
+}

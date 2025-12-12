@@ -1,0 +1,49 @@
+{
+    "totals": {
+        "errors": 5,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 5,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 10,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "PEAR.ControlStructures.ControlSignature.Found",
+                    "message": "Expected \"if (...) {\\n\"; found \"if(...){\\n\""
+                },
+                {
+                    "line": 12,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "PEAR.ControlStructures.ControlSignature.Found",
+                    "message": "Expected \"} elseif (...) {\\n\"; found \"}elseif(...){\\n\""
+                },
+                {
+                    "line": 14,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "PEAR.ControlStructures.ControlSignature.Found",
+                    "message": "Expected \"} else {\\n\"; found \"}else{\\n\""
+                },
+                {
+                    "line": 18,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "PEAR.ControlStructures.ControlSignature.Found",
+                    "message": "Expected \"while (...) {\\n\"; found \"while(...){\\n\""
+                },
+                {
+                    "line": 22,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "PEAR.ControlStructures.ControlSignature.Found",
+                    "message": "Expected \"foreach (...) {\\n\"; found \"foreach(...){\\n\""
+                }
+            ]
+        }
+    }
+}

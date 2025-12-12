@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 12,
+                    "column": 13,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.PHP.UselessParentheses.UselessParentheses",
+                    "message": "Useless parentheses."
+                },
+                {
+                    "line": 13,
+                    "column": 15,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.PHP.UselessParentheses.UselessParentheses",
+                    "message": "Useless parentheses."
+                }
+            ]
+        }
+    }
+}

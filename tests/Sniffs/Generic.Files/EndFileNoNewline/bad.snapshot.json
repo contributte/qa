@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 3,
+                    "column": 31,
+                    "type": "ERROR",
+                    "source": "Generic.Files.EndFileNoNewline.Found",
+                    "message": "File must not end with a newline character"
+                }
+            ]
+        }
+    }
+}

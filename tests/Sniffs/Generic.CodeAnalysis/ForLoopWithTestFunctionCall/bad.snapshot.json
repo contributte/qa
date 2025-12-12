@@ -1,0 +1,35 @@
+{
+    "totals": {
+        "errors": 0,
+        "warnings": 3
+    },
+    "files": {
+        "bad.php": {
+            "errors": 0,
+            "warnings": 3,
+            "messages": [
+                {
+                    "line": 5,
+                    "column": 1,
+                    "type": "WARNING",
+                    "source": "Generic.CodeAnalysis.ForLoopWithTestFunctionCall.NotAllowed",
+                    "message": "Avoid function calls in a FOR loop test part"
+                },
+                {
+                    "line": 10,
+                    "column": 1,
+                    "type": "WARNING",
+                    "source": "Generic.CodeAnalysis.ForLoopWithTestFunctionCall.NotAllowed",
+                    "message": "Avoid function calls in a FOR loop test part"
+                },
+                {
+                    "line": 15,
+                    "column": 1,
+                    "type": "WARNING",
+                    "source": "Generic.CodeAnalysis.ForLoopWithTestFunctionCall.NotAllowed",
+                    "message": "Avoid function calls in a FOR loop test part"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 9,
+                    "column": 21,
+                    "type": "ERROR",
+                    "source": "Squiz.PHP.DisallowInlineIf.Found",
+                    "message": "Inline IF statements are not allowed"
+                },
+                {
+                    "line": 14,
+                    "column": 21,
+                    "type": "ERROR",
+                    "source": "Squiz.PHP.DisallowInlineIf.Found",
+                    "message": "Inline IF statements are not allowed"
+                }
+            ]
+        }
+    }
+}

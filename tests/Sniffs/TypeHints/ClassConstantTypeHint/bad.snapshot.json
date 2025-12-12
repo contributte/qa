@@ -1,0 +1,56 @@
+{
+    "totals": {
+        "errors": 6,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 6,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 6,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.ClassConstantTypeHint.MissingNativeTypeHint",
+                    "message": "Constant NAME does not have native type hint."
+                },
+                {
+                    "line": 8,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.ClassConstantTypeHint.MissingNativeTypeHint",
+                    "message": "Constant MAX_SIZE does not have native type hint."
+                },
+                {
+                    "line": 10,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.ClassConstantTypeHint.MissingNativeTypeHint",
+                    "message": "Constant IS_ENABLED does not have native type hint."
+                },
+                {
+                    "line": 12,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.ClassConstantTypeHint.MissingNativeTypeHint",
+                    "message": "Constant OPTIONS does not have native type hint."
+                },
+                {
+                    "line": 14,
+                    "column": 10,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.ClassConstantTypeHint.MissingNativeTypeHint",
+                    "message": "Constant PI does not have native type hint."
+                },
+                {
+                    "line": 16,
+                    "column": 12,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.TypeHints.ClassConstantTypeHint.MissingNativeTypeHint",
+                    "message": "Constant NULLABLE does not have native type hint."
+                }
+            ]
+        }
+    }
+}

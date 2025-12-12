@@ -1,0 +1,35 @@
+{
+    "totals": {
+        "errors": 3,
+        "warnings": 0
+    },
+    "files": {
+        "bad.php": {
+            "errors": 3,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 10,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.Commenting.InlineComment.NoSpaceBefore",
+                    "message": "No space found before comment text; expected \"// this is a bad inline comment\" but found \"//this is a bad inline comment\""
+                },
+                {
+                    "line": 10,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.Commenting.InlineComment.NotCapital",
+                    "message": "Inline comments must start with a capital letter"
+                },
+                {
+                    "line": 10,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Squiz.Commenting.InlineComment.InvalidEndChar",
+                    "message": "Inline comments must end in full-stops, exclamation marks, or question marks"
+                }
+            ]
+        }
+    }
+}

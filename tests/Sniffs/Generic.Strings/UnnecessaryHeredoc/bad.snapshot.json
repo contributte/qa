@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 0,
+        "warnings": 2
+    },
+    "files": {
+        "bad.php": {
+            "errors": 0,
+            "warnings": 2,
+            "messages": [
+                {
+                    "line": 4,
+                    "column": 11,
+                    "type": "WARNING",
+                    "source": "Generic.Strings.UnnecessaryHeredoc.Found",
+                    "message": "Detected heredoc without interpolation or expressions. Use nowdoc syntax instead"
+                },
+                {
+                    "line": 9,
+                    "column": 9,
+                    "type": "WARNING",
+                    "source": "Generic.Strings.UnnecessaryHeredoc.Found",
+                    "message": "Detected heredoc without interpolation or expressions. Use nowdoc syntax instead"
+                }
+            ]
+        }
+    }
+}

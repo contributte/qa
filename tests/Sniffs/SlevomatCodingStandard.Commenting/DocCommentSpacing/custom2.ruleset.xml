@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.Commenting.DocCommentSpacing - custom spacing">
+	<rule ref="SlevomatCodingStandard.Commenting.DocCommentSpacing">
+		<properties>
+			<property name="linesCountBetweenDescriptionAndAnnotations" value="2"/>
+			<property name="linesCountBetweenDifferentAnnotationsTypes" value="1"/>
+		</properties>
+	</rule>
+</ruleset>

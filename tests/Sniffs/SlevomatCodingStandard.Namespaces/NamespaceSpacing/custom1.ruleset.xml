@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.Namespaces.NamespaceSpacing - no spacing">
+	<rule ref="SlevomatCodingStandard.Namespaces.NamespaceSpacing">
+		<properties>
+			<property name="linesCountBeforeNamespace" value="0"/>
+			<property name="linesCountAfterNamespace" value="0"/>
+		</properties>
+	</rule>
+</ruleset>

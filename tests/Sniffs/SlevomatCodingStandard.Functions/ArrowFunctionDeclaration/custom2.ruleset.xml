@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.Functions.ArrowFunctionDeclaration - allow multiline">
+	<rule ref="SlevomatCodingStandard.Functions.ArrowFunctionDeclaration">
+		<properties>
+			<property name="allowMultiLine" value="true"/>
+		</properties>
+	</rule>
+</ruleset>

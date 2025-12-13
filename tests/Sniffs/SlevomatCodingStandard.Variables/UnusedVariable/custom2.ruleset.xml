@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.Variables.UnusedVariable - report unused values in foreach">
+	<rule ref="SlevomatCodingStandard.Variables.UnusedVariable">
+		<properties>
+			<property name="ignoreUnusedValuesWhenOnlyKeysAreUsedInForeach" value="false"/>
+		</properties>
+	</rule>
+</ruleset>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.Classes.ModernClassNameReference - disable on objects">
+	<rule ref="SlevomatCodingStandard.Classes.ModernClassNameReference">
+		<properties>
+			<property name="enableOnObjects" value="false"/>
+		</properties>
+	</rule>
+</ruleset>

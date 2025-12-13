@@ -195,6 +195,7 @@
 	<rule ref="Squiz.PHP.GlobalKeyword"/>
 	<rule ref="Squiz.PHP.Heredoc">
 		<exclude name="Squiz.PHP.Heredoc.NotAllowed"/>
+		<exclude name="Squiz.PHP.Heredoc.NowdocNotAllowed"/>
 	</rule>
 	<rule ref="Squiz.PHP.InnerFunctions"/>
 	<rule ref="Squiz.PHP.LowercasePHPFunctions"/>

@@ -9,6 +9,8 @@
  *   php bin/snapshots --set=8.0          # Generate only set 8.0
  *   php bin/snapshots --sniffs           # Generate only sniff snapshots
  *   php bin/snapshots --sniff=Generic.Arrays.DisallowLongArraySyntax
+ *   php bin/snapshots --issues           # Generate only issue snapshots
+ *   php bin/snapshots --issue=19         # Generate only specific issue snapshot
  */
 
 $rootDir = dirname(__DIR__);
@@ -23,8 +25,10 @@ use Tests\Toolkit\Codesniffer;
 // Parse CLI arguments
 $filterSet = null;
 $filterSniff = null;
+$filterIssue = null;
 $sniffsOnly = false;
 $setsOnly = false;
+$issuesOnly = false;
 
 foreach ($argv as $arg) {
 	if (str_starts_with($arg, '--set=')) {
@@ -37,6 +41,11 @@ foreach ($argv as $arg) {
 		$sniffsOnly = true;
 	}
 
+	if (str_starts_with($arg, '--issue=')) {
+		$filterIssue = substr($arg, 8);
+		$issuesOnly = true;
+	}
+
 	if ($arg === '--sniffs') {
 		$sniffsOnly = true;
 	}
@@ -44,13 +53,17 @@ foreach ($argv as $arg) {
 	if ($arg === '--sets') {
 		$setsOnly = true;
 	}
+
+	if ($arg === '--issues') {
+		$issuesOnly = true;
+	}
 }
 
 // ============================================================================
 // Part 1: Generate Set Snapshots
 // ============================================================================
 
-if (!$sniffsOnly) {
+if (!$sniffsOnly && !$issuesOnly) {
 	$setsDir = $rootDir . '/tests/Sets';
 
 	echo "=== Generating Set Snapshots ===\n\n";
@@ -126,7 +139,7 @@ if (!$sniffsOnly) {
 // Part 2: Generate Sniff Snapshots
 // ============================================================================
 
-if (!$setsOnly) {
+if (!$setsOnly && !$issuesOnly) {
 	$sniffsDir = $rootDir . '/tests/Sniffs';
 
 	echo "\n=== Generating Sniff Snapshots ===\n\n";
@@ -194,6 +207,73 @@ if (!$setsOnly) {
 	}
 
 	echo "\nSniff snapshots: {$generated} generated.\n";
+}
+
+// ============================================================================
+// Part 3: Generate Issue Snapshots
+// ============================================================================
+
+if (!$setsOnly && !$sniffsOnly) {
+	$issuesDir = $rootDir . '/tests/Issue';
+
+	echo "\n=== Generating Issue Snapshots ===\n\n";
+
+	$generated = 0;
+
+	if (is_dir($issuesDir)) {
+		// Find all issue directories (e.g., 19)
+		foreach (Finder::findDirectories('*')->in($issuesDir) as $issueDir) {
+			$issueName = $issueDir->getBasename();
+
+			if ($filterIssue !== null && $filterIssue !== $issueName) {
+				continue;
+			}
+
+			// Find all PHP test files in the issue directory
+			foreach (Finder::findFiles('*.php')->in($issueDir->getPathname()) as $phpFile) {
+				$baseName = $phpFile->getBasename('.php');
+				$snapshotPath = $issueDir->getPathname() . '/' . $baseName . '.snapshot.json';
+				$rulesetPath = $issueDir->getPathname() . '/' . $baseName . '.ruleset.xml';
+
+				if (!file_exists($rulesetPath)) {
+					echo "Warning: Ruleset not found: {$rulesetPath}\n";
+
+					continue;
+				}
+
+				$process = new Process([
+					'vendor/bin/phpcs',
+					'--standard=' . $rulesetPath,
+					'--report=json',
+					'-q',
+					$phpFile->getPathname(),
+				], $rootDir);
+				$process->run();
+
+				$data = json_decode($process->getOutput(), true);
+
+				if ($data === null) {
+					echo "Error: Failed to parse phpcs output for Issue/{$issueName}/{$baseName}.php\n";
+
+					continue;
+				}
+
+				$normalized = Codesniffer::normalize($data);
+				$json = json_encode($normalized, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES) . "\n";
+
+				file_put_contents($snapshotPath, $json);
+
+				$errorCount = $normalized['totals']['errors'];
+				$warningCount = $normalized['totals']['warnings'];
+				echo "Generated: Issue/{$issueName}/{$baseName}.snapshot.json ({$errorCount} errors, {$warningCount} warnings)\n";
+				$generated++;
+			}
+		}
+	} else {
+		echo "No Issue directory found.\n";
+	}
+
+	echo "\nIssue snapshots: {$generated} generated.\n";
 }
 
 echo "\nDone!\n";

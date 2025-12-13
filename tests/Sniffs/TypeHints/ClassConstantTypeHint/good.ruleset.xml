@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ruleset name="Test ClassConstantTypeHint">
+	<config name="php_version" value="80300"/>
 	<rule ref="SlevomatCodingStandard.TypeHints.ClassConstantTypeHint"/>
 </ruleset>

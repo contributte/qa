@@ -128,3 +128,75 @@ tests/Sniffs/Generic.Files/LineLength/
 - Second line: Comment explaining test (e.g., `// Test: lineLimit=120`)
 - Use tabs for indentation
 - Include code that exercises the specific parameter being tested
+
+## Issue Testing
+
+Issue tests validate that specific GitHub issues are properly handled. These tests are located in `tests/Issue/{number}/`.
+
+### Creating Issue Tests
+
+1. **Create issue directory**: `tests/Issue/{number}/`
+2. **Create test files**:
+   - `good.php` - Code that should pass without errors (regression test)
+   - `good.ruleset.xml` - Ruleset with relevant sniffs
+   - Optionally: `bad.php` / `bad.ruleset.xml` for cases that should produce errors
+3. **Regenerate snapshots**: `php bin/snapshots --issues` or `php bin/snapshots --issue={number}`
+4. **Run tests**: `make tests`
+
+**Example issue test structure:**
+
+```
+tests/Issue/19/
+├── good.php                  # Code demonstrating the fix works
+├── good.ruleset.xml          # Ruleset with relevant sniffs
+└── good.snapshot.json        # Expected output (0 errors for good.php)
+```
+
+**Example good.php:**
+
+```php
+<?php declare(strict_types = 1);
+
+// Issue #19: Traits are removed from enum
+// @link https://github.com/contributte/qa/issues/19
+// Test: Enum with traits should pass without errors
+
+namespace Tests\Issue19;
+
+trait EnumValues
+{
+	// trait implementation
+}
+
+enum ImageTransform: int
+{
+	use EnumValues;
+
+	case Fit = 1;
+}
+```
+
+**Example good.ruleset.xml:**
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test Issue #19 - Enum with traits">
+	<!-- Issue #19: Traits should not be removed from enum -->
+	<!-- @link https://github.com/contributte/qa/issues/19 -->
+	<rule ref="SlevomatCodingStandard.Classes.ClassStructure"/>
+	<rule ref="SlevomatCodingStandard.Classes.TraitUseDeclaration"/>
+</ruleset>
+```
+
+**Commands for issue testing:**
+
+```bash
+# Generate all issue snapshots
+php bin/snapshots --issues
+
+# Generate specific issue snapshot
+php bin/snapshots --issue=19
+
+# Test code manually against an issue ruleset
+vendor/bin/phpcs --standard=tests/Issue/19/good.ruleset.xml tests/Issue/19/good.php
+```

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.Classes.ClassConstantVisibility - fixable true">
+	<rule ref="SlevomatCodingStandard.Classes.ClassConstantVisibility">
+		<properties>
+			<property name="fixable" value="true"/>
+		</properties>
+	</rule>
+</ruleset>

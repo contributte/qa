@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "custom2.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 1,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Internal.Exception",
+                    "message": "An error occurred during processing; checking has been aborted. The error message was: You need configure all class groups. These groups are missing from your configuration: uses, enum cases, public constants, protected constants, private constants, public static properties, protected static properties, private static properties, public static final methods, public static abstract methods, protected static final methods, protected static abstract methods, public final methods, public abstract methods, protected final methods, protected abstract methods, constructor, static constructors, destructor, public static methods, protected static methods, private static methods, magic methods.\\nThe error originated in the SlevomatCodingStandard.Classes.ClassStructure sniff on line 220."
+                }
+            ]
+        }
+    }
+}

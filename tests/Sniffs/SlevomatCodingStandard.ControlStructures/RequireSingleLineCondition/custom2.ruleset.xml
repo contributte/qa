@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.ControlStructures.RequireSingleLineCondition - 120 chars">
+	<rule ref="SlevomatCodingStandard.ControlStructures.RequireSingleLineCondition">
+		<properties>
+			<property name="maxLineLength" value="120"/>
+		</properties>
+	</rule>
+</ruleset>

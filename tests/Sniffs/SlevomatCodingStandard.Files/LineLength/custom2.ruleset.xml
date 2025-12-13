@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.Files.LineLength - ignore comments">
+	<rule ref="SlevomatCodingStandard.Files.LineLength">
+		<properties>
+			<property name="ignoreComments" value="true"/>
+		</properties>
+	</rule>
+</ruleset>

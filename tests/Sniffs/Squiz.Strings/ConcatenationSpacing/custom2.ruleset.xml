@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test Squiz.Strings.ConcatenationSpacing - spacing 0">
+	<rule ref="Squiz.Strings.ConcatenationSpacing">
+		<properties>
+			<property name="spacing" value="0"/>
+			<property name="ignoreNewlines" value="false"/>
+		</properties>
+	</rule>
+</ruleset>

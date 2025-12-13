@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test PEAR.WhiteSpace.ObjectOperatorIndent - 2-space indent">
+	<rule ref="PEAR.WhiteSpace.ObjectOperatorIndent">
+		<properties>
+			<property name="indent" value="2"/>
+		</properties>
+	</rule>
+</ruleset>

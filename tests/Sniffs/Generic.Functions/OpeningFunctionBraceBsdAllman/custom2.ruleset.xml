@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test Generic.Functions.OpeningFunctionBraceBsdAllman - skip closures">
+	<rule ref="Generic.Functions.OpeningFunctionBraceBsdAllman">
+		<properties>
+			<property name="checkClosures" value="false"/>
+		</properties>
+	</rule>
+</ruleset>

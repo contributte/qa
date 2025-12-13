@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test Squiz.ControlStructures.ControlSignature - 1 space before colon">
+	<rule ref="Squiz.ControlStructures.ControlSignature">
+		<properties>
+			<property name="requiredSpacesBeforeColon" value="1"/>
+		</properties>
+	</rule>
+</ruleset>

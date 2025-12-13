@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.Commenting.ForbiddenComments - getter setter">
+	<rule ref="SlevomatCodingStandard.Commenting.ForbiddenComments">
+		<properties>
+			<property name="forbiddenCommentPatterns" type="array">
+				<element value="~^\S+ [gs]etter\.\z~i"/>
+			</property>
+		</properties>
+	</rule>
+</ruleset>

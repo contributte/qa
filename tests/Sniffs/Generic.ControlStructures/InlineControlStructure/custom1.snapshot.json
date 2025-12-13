@@ -1,0 +1,13 @@
+{
+    "totals": {
+        "errors": 0,
+        "warnings": 0
+    },
+    "files": {
+        "custom1.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+        }
+    }
+}

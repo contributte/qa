@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test Generic.WhiteSpace.ArbitraryParenthesesSpacing - no spacing">
+	<rule ref="Generic.WhiteSpace.ArbitraryParenthesesSpacing">
+		<properties>
+			<property name="spacing" value="0"/>
+		</properties>
+	</rule>
+</ruleset>

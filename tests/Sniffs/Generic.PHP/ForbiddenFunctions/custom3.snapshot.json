@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "custom3.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 4,
+                    "column": 11,
+                    "type": "ERROR",
+                    "source": "Generic.PHP.ForbiddenFunctions.FoundWithAlternative",
+                    "message": "The use of function sizeof() is forbidden; use count() instead"
+                }
+            ]
+        }
+    }
+}

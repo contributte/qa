@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test PSR12.ControlStructures.ControlStructureSpacing - 4 space indent">
+	<rule ref="PSR12.ControlStructures.ControlStructureSpacing">
+		<properties>
+			<property name="indent" value="4"/>
+		</properties>
+	</rule>
+</ruleset>

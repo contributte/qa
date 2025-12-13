@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces - 1 line">
+	<rule ref="SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces">
+		<properties>
+			<property name="linesCountAfterOpeningBrace" value="1"/>
+			<property name="linesCountBeforeClosingBrace" value="1"/>
+		</properties>
+	</rule>
+</ruleset>

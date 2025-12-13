@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test Generic.Arrays.ArrayIndent - 2 space indent">
+	<rule ref="Generic.Arrays.ArrayIndent">
+		<properties>
+			<property name="indent" value="2"/>
+		</properties>
+	</rule>
+</ruleset>

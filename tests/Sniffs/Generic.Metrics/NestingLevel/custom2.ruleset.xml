@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test Generic.Metrics.NestingLevel - stricter error threshold">
+	<rule ref="Generic.Metrics.NestingLevel">
+		<properties>
+			<property name="absoluteNestingLevel" value="5"/>
+		</properties>
+	</rule>
+</ruleset>

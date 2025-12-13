@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.Commenting.ForbiddenComments - constructor">
+	<rule ref="SlevomatCodingStandard.Commenting.ForbiddenComments">
+		<properties>
+			<property name="forbiddenCommentPatterns" type="array">
+				<element value="~^(?:(?!private|protected|static)\S+ )?(?:con|de)structor\.\z~i"/>
+			</property>
+		</properties>
+	</rule>
+</ruleset>

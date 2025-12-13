@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test Squiz.ControlStructures.SwitchDeclaration - 4 space indent">
+	<rule ref="Squiz.ControlStructures.SwitchDeclaration">
+		<properties>
+			<property name="indent" value="4"/>
+		</properties>
+	</rule>
+</ruleset>

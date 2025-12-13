@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test PSR2.ControlStructures.ControlStructureSpacing - one space">
+	<rule ref="PSR2.ControlStructures.ControlStructureSpacing">
+		<properties>
+			<property name="requiredSpacesAfterOpen" value="1"/>
+			<property name="requiredSpacesBeforeClose" value="1"/>
+		</properties>
+	</rule>
+</ruleset>

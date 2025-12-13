@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.Classes.ClassStructure - standard ordering">
+	<rule ref="SlevomatCodingStandard.Classes.ClassStructure">
+		<properties>
+			<property name="groups" type="array">
+				<element value="uses"/>
+				<element value="public constants"/>
+				<element value="protected constants"/>
+				<element value="private constants"/>
+				<element value="public properties"/>
+				<element value="protected properties"/>
+				<element value="private properties"/>
+				<element value="constructor"/>
+				<element value="public methods"/>
+				<element value="protected methods"/>
+				<element value="private methods"/>
+			</property>
+		</properties>
+	</rule>
+</ruleset>

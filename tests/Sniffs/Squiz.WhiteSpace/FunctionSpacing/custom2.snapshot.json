@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "custom2.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 7,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.FunctionSpacing.BeforeFirst",
+                    "message": "Expected 2 blank lines before function; 1 found"
+                },
+                {
+                    "line": 14,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "Squiz.WhiteSpace.FunctionSpacing.AfterLast",
+                    "message": "Expected 2 blank lines after function; 1 found"
+                }
+            ]
+        }
+    }
+}

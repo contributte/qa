@@ -9,7 +9,8 @@
       "Bash(php bin/snapshots:*)",
       "Bash(make tests:*)",
       "WebFetch(domain:raw.githubusercontent.com)",
-      "WebFetch(domain:github.com)"
+      "WebFetch(domain:github.com)",
+      "Bash(php bin/inspect:*)"
     ],
     "deny": [],
     "ask": []

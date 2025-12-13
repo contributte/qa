@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.ControlStructures.BlockControlStructureSpacing - if for foreach">
+	<rule ref="SlevomatCodingStandard.ControlStructures.BlockControlStructureSpacing">
+		<properties>
+			<property name="controlStructures" type="array">
+				<element value="if"/>
+				<element value="for"/>
+				<element value="foreach"/>
+			</property>
+		</properties>
+	</rule>
+</ruleset>

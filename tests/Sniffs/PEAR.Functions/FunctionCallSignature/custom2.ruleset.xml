@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test PEAR.Functions.FunctionCallSignature - 2-space indent">
+	<rule ref="PEAR.Functions.FunctionCallSignature">
+		<properties>
+			<property name="indent" value="2"/>
+		</properties>
+	</rule>
+</ruleset>

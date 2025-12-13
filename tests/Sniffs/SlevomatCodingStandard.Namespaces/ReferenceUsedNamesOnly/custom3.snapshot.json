@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 2,
+        "warnings": 0
+    },
+    "files": {
+        "custom3.php": {
+            "errors": 2,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 15,
+                    "column": 26,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly.ReferenceViaFullyQualifiedName",
+                    "message": "Class \\DateTime should not be referenced via a fully qualified name, but via a use statement."
+                },
+                {
+                    "line": 17,
+                    "column": 14,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly.ReferenceViaFullyQualifiedName",
+                    "message": "Class \\DateTime should not be referenced via a fully qualified name, but via a use statement."
+                }
+            ]
+        }
+    }
+}

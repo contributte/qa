@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 0,
+        "warnings": 1
+    },
+    "files": {
+        "custom1.php": {
+            "errors": 0,
+            "warnings": 1,
+            "messages": [
+                {
+                    "line": 6,
+                    "column": 137,
+                    "type": "WARNING",
+                    "source": "Generic.Files.LineLength.TooLong",
+                    "message": "Line exceeds 120 characters; contains 137 characters"
+                }
+            ]
+        }
+    }
+}

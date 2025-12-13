@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test Generic.Formatting.MultipleStatementAlignment - max padding 50">
+	<rule ref="Generic.Formatting.MultipleStatementAlignment">
+		<properties>
+			<property name="maxPadding" value="50"/>
+		</properties>
+	</rule>
+</ruleset>

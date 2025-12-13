@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test Squiz.WhiteSpace.MemberVarSpacing - one line spacing">
+	<rule ref="Squiz.WhiteSpace.MemberVarSpacing">
+		<properties>
+			<property name="spacing" value="1"/>
+		</properties>
+	</rule>
+</ruleset>

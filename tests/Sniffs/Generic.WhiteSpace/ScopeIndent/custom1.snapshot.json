@@ -1,0 +1,56 @@
+{
+    "totals": {
+        "errors": 6,
+        "warnings": 0
+    },
+    "files": {
+        "custom1.php": {
+            "errors": 6,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 7,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.ScopeIndent.IncorrectExact",
+                    "message": "Line indented incorrectly; expected 1 tabs, found 1 spaces"
+                },
+                {
+                    "line": 8,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.ScopeIndent.Incorrect",
+                    "message": "Line indented incorrectly; expected at least 1 tabs, found 1 spaces"
+                },
+                {
+                    "line": 9,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.ScopeIndent.IncorrectExact",
+                    "message": "Line indented incorrectly; expected 2 tabs, found 2 spaces"
+                },
+                {
+                    "line": 10,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.ScopeIndent.Incorrect",
+                    "message": "Line indented incorrectly; expected at least 3 tabs, found 3 spaces"
+                },
+                {
+                    "line": 11,
+                    "column": 3,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.ScopeIndent.IncorrectExact",
+                    "message": "Line indented incorrectly; expected 2 tabs, found 2 spaces"
+                },
+                {
+                    "line": 12,
+                    "column": 2,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.ScopeIndent.IncorrectExact",
+                    "message": "Line indented incorrectly; expected 1 tabs, found 1 spaces"
+                }
+            ]
+        }
+    }
+}

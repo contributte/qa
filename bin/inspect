@@ -1,0 +1,250 @@
+#!/usr/bin/env php
+<?php declare(strict_types=1);
+
+/**
+ * Inspects all available sniffs and lists their public properties with values and descriptions.
+ *
+ * Usage:
+ *   php bin/inspect                              # List all sniffs
+ *   php bin/inspect --filter=LineLength         # Filter sniffs by name
+ *   php bin/inspect --standard=Generic          # Filter by standard (Generic, PEAR, PSR2, Squiz, Slevomat, etc.)
+ */
+
+$rootDir = dirname(__DIR__);
+
+require $rootDir . '/vendor/autoload.php';
+
+use Nette\Loaders\RobotLoader;
+use PHP_CodeSniffer\Sniffs\Sniff;
+
+// Parse CLI arguments
+$filter = null;
+$standardFilter = null;
+
+foreach ($argv as $arg) {
+	if (str_starts_with($arg, '--filter=')) {
+		$filter = substr($arg, 9);
+	}
+
+	if (str_starts_with($arg, '--standard=')) {
+		$standardFilter = substr($arg, 11);
+	}
+}
+
+// Use RobotLoader to discover all classes
+$loader = new RobotLoader();
+$loader->setTempDirectory(sys_get_temp_dir() . '/contributte-qa-inspect');
+$loader->addDirectory($rootDir . '/vendor/squizlabs/php_codesniffer/src/Sniffs');
+$loader->addDirectory($rootDir . '/vendor/squizlabs/php_codesniffer/src/Standards');
+$loader->addDirectory($rootDir . '/vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs');
+$loader->register();
+
+// Get all indexed classes
+$classes = $loader->getIndexedClasses();
+
+$sniffs = [];
+
+foreach ($classes as $className => $filePath) {
+	// Only process Sniff classes
+	if (!str_ends_with($className, 'Sniff')) {
+		continue;
+	}
+
+	// Check if class implements Sniff interface
+	try {
+		$reflection = new ReflectionClass($className);
+
+		if (!$reflection->implementsInterface(Sniff::class)) {
+			continue;
+		}
+
+		if ($reflection->isAbstract() || $reflection->isInterface()) {
+			continue;
+		}
+	} catch (Throwable) {
+		continue;
+	}
+
+	// Build sniff code name (e.g., Generic.Files.LineLength)
+	$sniffCode = buildSniffCode($className);
+
+	if ($sniffCode === null) {
+		continue;
+	}
+
+	// Apply filters
+	if ($filter !== null && stripos($sniffCode, $filter) === false) {
+		continue;
+	}
+
+	if ($standardFilter !== null && !str_starts_with($sniffCode, $standardFilter . '.')) {
+		continue;
+	}
+
+	$sniffs[$sniffCode] = [
+		'fqcn' => $className,
+		'file' => $filePath,
+		'reflection' => $reflection,
+	];
+}
+
+// Sort sniffs alphabetically
+ksort($sniffs);
+
+// Output sniffs with their properties
+$outputCount = 0;
+
+foreach ($sniffs as $sniffCode => $info) {
+	$reflection = $info['reflection'];
+
+	// Get public properties
+	$properties = $reflection->getProperties(ReflectionProperty::IS_PUBLIC);
+	$propertyData = [];
+
+	foreach ($properties as $property) {
+		// Skip static properties
+		if ($property->isStatic()) {
+			continue;
+		}
+
+		$name = $property->getName();
+		$docComment = $property->getDocComment();
+
+		// Parse description from PHPDoc
+		$description = '';
+		$type = '';
+
+		if ($docComment !== false) {
+			// Extract @var type
+			if (preg_match('/@var\s+(\S+)/', $docComment, $varMatch)) {
+				$type = $varMatch[1];
+			}
+
+			// Extract description (first non-tag line after /*)
+			$lines = explode("\n", $docComment);
+			$descLines = [];
+
+			foreach ($lines as $line) {
+				$line = trim($line, " \t*");
+
+				if ($line === '' || $line === '/' || str_starts_with($line, '/*') || str_starts_with($line, '@')) {
+					continue;
+				}
+
+				$descLines[] = $line;
+			}
+
+			$description = implode(' ', $descLines);
+		}
+
+		// Get default value
+		$defaultValue = null;
+
+		if ($property->hasDefaultValue()) {
+			$defaultValue = $property->getDefaultValue();
+		}
+
+		$propertyData[] = [
+			'name' => $name,
+			'type' => $type,
+			'default' => $defaultValue,
+			'description' => $description,
+		];
+	}
+
+	// Output
+	echo "\033[1;33m{$sniffCode}\033[0m\n";
+
+	if (empty($propertyData)) {
+		echo "  \033[90m(no configurable properties)\033[0m\n";
+	} else {
+		foreach ($propertyData as $prop) {
+			$defaultStr = formatValue($prop['default']);
+			$typeStr = $prop['type'] !== '' ? " \033[36m({$prop['type']})\033[0m" : '';
+
+			echo "  \033[32m{$prop['name']}\033[0m{$typeStr} = {$defaultStr}\n";
+
+			if ($prop['description'] !== '') {
+				echo "    \033[90m{$prop['description']}\033[0m\n";
+			}
+		}
+	}
+
+	echo "\n";
+	$outputCount++;
+}
+
+echo "Total: {$outputCount} sniffs\n";
+
+/**
+ * Build sniff code from fully qualified class name.
+ */
+function buildSniffCode(string $fqcn): ?string
+{
+	// PHP_CodeSniffer standards: PHP_CodeSniffer\Standards\Generic\Sniffs\Files\LineLengthSniff
+	// -> Generic.Files.LineLength
+	if (preg_match('/PHP_CodeSniffer\\\\Standards\\\\(\w+)\\\\Sniffs\\\\(\w+)\\\\(\w+)Sniff$/', $fqcn, $match)) {
+		$standard = $match[1];
+		$category = $match[2];
+		$sniffName = $match[3];
+
+		return "{$standard}.{$category}.{$sniffName}";
+	}
+
+	// Slevomat: SlevomatCodingStandard\Sniffs\Files\LineLengthSniff
+	// -> SlevomatCodingStandard.Files.LineLength
+	if (preg_match('/SlevomatCodingStandard\\\\Sniffs\\\\(\w+)\\\\(\w+)Sniff$/', $fqcn, $match)) {
+		$category = $match[1];
+		$sniffName = $match[2];
+
+		return "SlevomatCodingStandard.{$category}.{$sniffName}";
+	}
+
+	return null;
+}
+
+/**
+ * Format a value for display.
+ */
+function formatValue(mixed $value): string
+{
+	if ($value === null) {
+		return "\033[35mnull\033[0m";
+	}
+
+	if (is_bool($value)) {
+		return $value ? "\033[35mtrue\033[0m" : "\033[35mfalse\033[0m";
+	}
+
+	if (is_int($value) || is_float($value)) {
+		return "\033[35m{$value}\033[0m";
+	}
+
+	if (is_string($value)) {
+		if ($value === '') {
+			return "\033[35m''\033[0m";
+		}
+
+		return "\033[35m'{$value}'\033[0m";
+	}
+
+	if (is_array($value)) {
+		if (empty($value)) {
+			return "\033[35m[]\033[0m";
+		}
+
+		$items = [];
+
+		foreach ($value as $k => $v) {
+			if (is_int($k)) {
+				$items[] = formatValue($v);
+			} else {
+				$items[] = "'{$k}' => " . formatValue($v);
+			}
+		}
+
+		return "\033[35m[" . implode(', ', $items) . "]\033[0m";
+	}
+
+	return "\033[35m" . gettype($value) . "\033[0m";
+}

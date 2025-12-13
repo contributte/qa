@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.Files.LineLength - 120 limit">
+	<rule ref="SlevomatCodingStandard.Files.LineLength">
+		<properties>
+			<property name="lineLengthLimit" value="120"/>
+		</properties>
+	</rule>
+</ruleset>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.Commenting.UselessFunctionDocComment - traversable">
+	<rule ref="SlevomatCodingStandard.Commenting.UselessFunctionDocComment">
+		<properties>
+			<property name="traversableTypeHints" type="array">
+				<element value="Traversable"/>
+			</property>
+		</properties>
+	</rule>
+</ruleset>

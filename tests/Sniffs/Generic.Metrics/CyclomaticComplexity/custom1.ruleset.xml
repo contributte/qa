@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test Generic.Metrics.CyclomaticComplexity - stricter threshold">
+	<rule ref="Generic.Metrics.CyclomaticComplexity">
+		<properties>
+			<property name="complexity" value="5"/>
+		</properties>
+	</rule>
+</ruleset>

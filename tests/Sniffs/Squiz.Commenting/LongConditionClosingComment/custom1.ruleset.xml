@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test Squiz.Commenting.LongConditionClosingComment - 10 line limit">
+	<rule ref="Squiz.Commenting.LongConditionClosingComment">
+		<properties>
+			<property name="lineLimit" value="10"/>
+		</properties>
+	</rule>
+</ruleset>

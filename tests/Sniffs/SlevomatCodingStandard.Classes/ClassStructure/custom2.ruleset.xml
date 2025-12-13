@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.Classes.ClassStructure - methods first">
+	<rule ref="SlevomatCodingStandard.Classes.ClassStructure">
+		<properties>
+			<property name="groups" type="array">
+				<element value="public methods"/>
+				<element value="protected methods"/>
+				<element value="private methods"/>
+				<element value="public properties"/>
+				<element value="protected properties"/>
+				<element value="private properties"/>
+			</property>
+		</properties>
+	</rule>
+</ruleset>

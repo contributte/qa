@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.ControlStructures.BlockControlStructureSpacing - try switch">
+	<rule ref="SlevomatCodingStandard.ControlStructures.BlockControlStructureSpacing">
+		<properties>
+			<property name="controlStructures" type="array">
+				<element value="try"/>
+				<element value="switch"/>
+			</property>
+		</properties>
+	</rule>
+</ruleset>

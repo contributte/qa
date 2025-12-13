@@ -1,0 +1,28 @@
+{
+    "totals": {
+        "errors": 0,
+        "warnings": 2
+    },
+    "files": {
+        "custom2.php": {
+            "errors": 0,
+            "warnings": 2,
+            "messages": [
+                {
+                    "line": 4,
+                    "column": 8,
+                    "type": "WARNING",
+                    "source": "Generic.Formatting.MultipleStatementAlignment.NotSame",
+                    "message": "Equals sign not aligned with surrounding assignments; expected 16 spaces but found 1 space"
+                },
+                {
+                    "line": 5,
+                    "column": 15,
+                    "type": "WARNING",
+                    "source": "Generic.Formatting.MultipleStatementAlignment.NotSame",
+                    "message": "Equals sign not aligned with surrounding assignments; expected 9 spaces but found 1 space"
+                }
+            ]
+        }
+    }
+}

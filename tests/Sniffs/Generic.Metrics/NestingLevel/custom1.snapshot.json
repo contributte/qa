@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 0,
+        "warnings": 1
+    },
+    "files": {
+        "custom1.php": {
+            "errors": 0,
+            "warnings": 1,
+            "messages": [
+                {
+                    "line": 4,
+                    "column": 1,
+                    "type": "WARNING",
+                    "source": "Generic.Metrics.NestingLevel.TooHigh",
+                    "message": "Function's nesting level (4) exceeds 3; consider refactoring the function"
+                }
+            ]
+        }
+    }
+}

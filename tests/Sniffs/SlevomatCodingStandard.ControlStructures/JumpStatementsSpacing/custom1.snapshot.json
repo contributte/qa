@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "custom1.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 11,
+                    "column": 4,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.ControlStructures.JumpStatementsSpacing.IncorrectLinesCountBeforeFirstControlStructure",
+                    "message": "Expected 0 lines before \"return\", found 1."
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "totals": {
+        "errors": 5,
+        "warnings": 0
+    },
+    "files": {
+        "custom1.php": {
+            "errors": 5,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 7,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.SwitchDeclaration.BreakIndent",
+                    "message": "Case breaking statement must be indented 4 spaces from SWITCH keyword"
+                },
+                {
+                    "line": 7,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.SwitchDeclaration.SpacingAfterBreak",
+                    "message": "Case breaking statements must be followed by a single blank line"
+                },
+                {
+                    "line": 10,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.SwitchDeclaration.BreakIndent",
+                    "message": "Case breaking statement must be indented 4 spaces from SWITCH keyword"
+                },
+                {
+                    "line": 10,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.SwitchDeclaration.SpacingAfterBreak",
+                    "message": "Case breaking statements must be followed by a single blank line"
+                },
+                {
+                    "line": 13,
+                    "column": 9,
+                    "type": "ERROR",
+                    "source": "Squiz.ControlStructures.SwitchDeclaration.BreakIndent",
+                    "message": "Case breaking statement must be indented 4 spaces from SWITCH keyword"
+                }
+            ]
+        }
+    }
+}

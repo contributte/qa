@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test Squiz.Functions.FunctionDeclarationArgumentSpacing - one equals spacing">
+	<rule ref="Squiz.Functions.FunctionDeclarationArgumentSpacing">
+		<properties>
+			<property name="equalsSpacing" value="1"/>
+		</properties>
+	</rule>
+</ruleset>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.Whitespaces.DuplicateSpaces - ignore annotations">
+	<rule ref="SlevomatCodingStandard.Whitespaces.DuplicateSpaces">
+		<properties>
+			<property name="ignoreSpacesInAnnotation" value="1"/>
+		</properties>
+	</rule>
+</ruleset>

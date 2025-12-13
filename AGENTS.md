@@ -66,3 +66,65 @@ When adding, removing, or updating a sniff:
 4. **Regenerate snapshots**: `php bin/snapshots --sniffs`
 5. **Regenerate documentation**: `make docs`
 6. **Run tests**: `make tests`
+
+## Sniff Parameter Testing
+
+Helper scripts in `.dev/` for discovering and testing sniff parameters:
+
+```bash
+# List all sniffs and their configurable properties
+.dev/list-sniff-options.sh
+.dev/list-sniff-options.sh --filter=LineLength      # Filter by sniff name
+.dev/list-sniff-options.sh --standard=Generic       # Filter by standard
+
+# List sniffs that already have custom parameter tests
+.dev/list-tested-sniffs.sh
+
+# List sniffs with configurable options but no custom tests yet
+.dev/list-untested-sniffs.sh
+```
+
+### Creating Custom Parameter Tests
+
+For sniffs with configurable properties, create custom tests in `tests/Sniffs/{Standard.Category}/{SniffName}/`:
+
+1. **Find sniff properties**: Run `php bin/inspect --filter=SniffName` to see available properties
+2. **Create test files** for each parameter configuration:
+   - `custom1.php` - PHP code that exercises the parameter
+   - `custom1.ruleset.xml` - Ruleset with the specific property value
+   - `custom2.php` / `custom2.ruleset.xml` - Additional configuration variants
+3. **Regenerate snapshots**: `php bin/snapshots --sniffs`
+4. **Run tests**: `make tests`
+
+**Example custom test structure:**
+
+```
+tests/Sniffs/Generic.Files/LineLength/
+├── good.php                  # Standard good test
+├── good.ruleset.xml
+├── bad.php                   # Standard bad test
+├── bad.ruleset.xml
+├── custom1.php               # Test lineLimit=120
+├── custom1.ruleset.xml
+├── custom2.php               # Test ignoreComments=true
+└── custom2.ruleset.xml
+```
+
+**Example custom1.ruleset.xml:**
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test Generic.Files.LineLength - custom limit">
+	<rule ref="Generic.Files.LineLength">
+		<properties>
+			<property name="lineLimit" value="120"/>
+		</properties>
+	</rule>
+</ruleset>
+```
+
+**PHP test file conventions:**
+- First line: `<?php declare(strict_types = 1);`
+- Second line: Comment explaining test (e.g., `// Test: lineLimit=120`)
+- Use tabs for indentation
+- Include code that exercises the specific parameter being tested

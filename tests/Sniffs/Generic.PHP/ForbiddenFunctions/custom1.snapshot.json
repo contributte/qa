@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "custom1.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 4,
+                    "column": 12,
+                    "type": "ERROR",
+                    "source": "Generic.PHP.ForbiddenFunctions.FoundWithAlternative",
+                    "message": "The use of function chop() is forbidden; use rtrim() instead"
+                }
+            ]
+        }
+    }
+}

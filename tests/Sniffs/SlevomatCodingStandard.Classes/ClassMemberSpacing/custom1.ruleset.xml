@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.Classes.ClassMemberSpacing - 1 line">
+	<rule ref="SlevomatCodingStandard.Classes.ClassMemberSpacing">
+		<properties>
+			<property name="linesCountBetweenMembers" value="1"/>
+		</properties>
+	</rule>
+</ruleset>

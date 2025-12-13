@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.Functions.FunctionLength - 100 lines">
+	<rule ref="SlevomatCodingStandard.Functions.FunctionLength">
+		<properties>
+			<property name="maxLinesLength" value="100"/>
+		</properties>
+	</rule>
+</ruleset>

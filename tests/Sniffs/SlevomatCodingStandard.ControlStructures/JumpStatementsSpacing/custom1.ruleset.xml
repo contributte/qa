@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.ControlStructures.JumpStatementsSpacing - 1 line">
+	<rule ref="SlevomatCodingStandard.ControlStructures.JumpStatementsSpacing">
+		<properties>
+			<property name="linesCountBefore" value="1"/>
+			<property name="linesCountAfter" value="1"/>
+			<property name="jumpStatements" type="array">
+				<element value="continue"/>
+				<element value="return"/>
+				<element value="throw"/>
+			</property>
+		</properties>
+	</rule>
+</ruleset>

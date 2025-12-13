@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test Squiz.WhiteSpace.SuperfluousWhitespace - ignoreBlankLines true">
+	<rule ref="Squiz.WhiteSpace.SuperfluousWhitespace">
+		<properties>
+			<property name="ignoreBlankLines" value="true"/>
+		</properties>
+	</rule>
+</ruleset>

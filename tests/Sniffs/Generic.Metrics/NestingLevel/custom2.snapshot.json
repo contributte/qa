@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "custom2.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 4,
+                    "column": 1,
+                    "type": "ERROR",
+                    "source": "Generic.Metrics.NestingLevel.MaxExceeded",
+                    "message": "Function's nesting level (6) exceeds allowed maximum of 5"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "custom3.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 9,
+                    "column": 13,
+                    "type": "ERROR",
+                    "source": "Generic.WhiteSpace.ScopeIndent.IncorrectExact",
+                    "message": "Line indented incorrectly; expected 8 spaces, found 12"
+                }
+            ]
+        }
+    }
+}

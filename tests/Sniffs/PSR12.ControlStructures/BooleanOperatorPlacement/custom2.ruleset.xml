@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test PSR12.ControlStructures.BooleanOperatorPlacement - operators last">
+	<rule ref="PSR12.ControlStructures.BooleanOperatorPlacement">
+		<properties>
+			<property name="allowOnly" value="last"/>
+		</properties>
+	</rule>
+</ruleset>

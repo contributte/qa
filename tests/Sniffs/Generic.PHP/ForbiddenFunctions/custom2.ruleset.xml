@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test Generic.PHP.ForbiddenFunctions - compact">
+	<rule ref="Generic.PHP.ForbiddenFunctions">
+		<properties>
+			<property name="forbiddenFunctions" type="array">
+				<element key="compact" value="null"/>
+			</property>
+		</properties>
+	</rule>
+</ruleset>

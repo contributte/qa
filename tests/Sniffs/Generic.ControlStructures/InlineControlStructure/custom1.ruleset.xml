@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test Generic.ControlStructures.InlineControlStructure - error">
+	<rule ref="Generic.ControlStructures.InlineControlStructure">
+		<properties>
+			<property name="error" value="true"/>
+		</properties>
+	</rule>
+</ruleset>

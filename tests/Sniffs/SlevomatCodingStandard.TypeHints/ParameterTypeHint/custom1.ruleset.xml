@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.TypeHints.ParameterTypeHint - traversable">
+	<rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHint">
+		<properties>
+			<property name="traversableTypeHints" type="array">
+				<element value="Traversable"/>
+			</property>
+		</properties>
+	</rule>
+</ruleset>

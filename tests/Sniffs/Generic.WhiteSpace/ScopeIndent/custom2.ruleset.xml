@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test Generic.WhiteSpace.ScopeIndent - 2 spaces">
+	<rule ref="Generic.WhiteSpace.ScopeIndent">
+		<properties>
+			<property name="indent" value="2"/>
+			<property name="tabIndent" value="false"/>
+		</properties>
+	</rule>
+</ruleset>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test Squiz.ControlStructures.ForEachLoopDeclaration - no spaces">
+	<rule ref="Squiz.ControlStructures.ForEachLoopDeclaration">
+		<properties>
+			<property name="requiredSpacesAfterOpen" value="0"/>
+			<property name="requiredSpacesBeforeClose" value="0"/>
+		</properties>
+	</rule>
+</ruleset>

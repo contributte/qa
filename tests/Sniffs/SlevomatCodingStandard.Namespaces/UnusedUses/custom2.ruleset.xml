@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.Namespaces.UnusedUses - ignoredAnnotations">
+	<rule ref="SlevomatCodingStandard.Namespaces.UnusedUses">
+		<properties>
+			<property name="searchAnnotations" value="true"/>
+			<property name="ignoredAnnotationNames" type="array">
+				<element value="@testCase"/>
+			</property>
+		</properties>
+	</rule>
+</ruleset>

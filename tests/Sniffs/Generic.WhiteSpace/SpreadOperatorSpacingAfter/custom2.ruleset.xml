@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test Generic.WhiteSpace.SpreadOperatorSpacingAfter - one space">
+	<rule ref="Generic.WhiteSpace.SpreadOperatorSpacingAfter">
+		<properties>
+			<property name="spacing" value="1"/>
+		</properties>
+	</rule>
+</ruleset>

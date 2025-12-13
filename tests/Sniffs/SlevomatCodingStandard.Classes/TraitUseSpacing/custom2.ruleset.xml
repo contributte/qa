@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.Classes.TraitUseSpacing - custom spacing">
+	<rule ref="SlevomatCodingStandard.Classes.TraitUseSpacing">
+		<properties>
+			<property name="linesCountBeforeFirstUse" value="2"/>
+			<property name="linesCountBetweenUses" value="1"/>
+			<property name="linesCountAfterLastUse" value="2"/>
+		</properties>
+	</rule>
+</ruleset>

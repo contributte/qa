@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.Classes.ParentCallSpacing - 2 lines">
+	<rule ref="SlevomatCodingStandard.Classes.ParentCallSpacing">
+		<properties>
+			<property name="linesCountBefore" value="2"/>
+			<property name="linesCountAfter" value="2"/>
+		</properties>
+	</rule>
+</ruleset>

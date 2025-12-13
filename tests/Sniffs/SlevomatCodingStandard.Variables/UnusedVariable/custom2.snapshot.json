@@ -1,0 +1,21 @@
+{
+    "totals": {
+        "errors": 1,
+        "warnings": 0
+    },
+    "files": {
+        "custom2.php": {
+            "errors": 1,
+            "warnings": 0,
+            "messages": [
+                {
+                    "line": 11,
+                    "column": 29,
+                    "type": "ERROR",
+                    "source": "SlevomatCodingStandard.Variables.UnusedVariable.UnusedVariable",
+                    "message": "Unused variable $value."
+                }
+            ]
+        }
+    }
+}

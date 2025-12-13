@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.ControlStructures.RequireNullCoalesceEqualOperator - check if conditions">
+	<rule ref="SlevomatCodingStandard.ControlStructures.RequireNullCoalesceEqualOperator">
+		<properties>
+			<property name="checkIfConditions" value="true"/>
+		</properties>
+	</rule>
+</ruleset>

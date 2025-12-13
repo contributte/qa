@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Test SlevomatCodingStandard.PHP.ReferenceSpacing - no space">
+	<rule ref="SlevomatCodingStandard.PHP.ReferenceSpacing">
+		<properties>
+			<property name="spacesCountAfterReference" value="0"/>
+		</properties>
+	</rule>
+</ruleset>

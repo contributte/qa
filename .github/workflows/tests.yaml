@@ -64,7 +64,7 @@ jobs:
         run: bash .dev/ruleset-diff-report.sh
 
       - name: "Build sniff coverage matrix"
-        run: python3 .dev/sniff-coverage-matrix.py
+        run: php .dev/sniff-coverage-matrix.php
 
       - name: "Upload ruleset diff report"
         uses: actions/upload-artifact@v4

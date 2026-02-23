@@ -28,10 +28,19 @@ final class Codesniffer
 
 		$filePaths = array_keys($output['files']);
 		sort($filePaths);
+		$fileNameCounts = array_count_values(array_map('basename', $filePaths));
+		$fileNameIndexes = [];
 
 		foreach ($filePaths as $filePath) {
 			$fileData = $output['files'][$filePath];
 			$fileName = basename($filePath);
+			$fileKey = $fileName;
+
+			if (($fileNameCounts[$fileName] ?? 0) > 1) {
+				$fileNameIndexes[$fileName] = ($fileNameIndexes[$fileName] ?? 0) + 1;
+				$fileKey = sprintf('%s#%d', $fileName, $fileNameIndexes[$fileName]);
+			}
+
 			$messages = [];
 
 			foreach ($fileData['messages'] ?? [] as $message) {
@@ -50,7 +59,7 @@ final class Codesniffer
 					: $a['column'] <=> $b['column'];
 			});
 
-			$normalized['files'][$fileName] = [
+			$normalized['files'][$fileKey] = [
 				'errors' => $fileData['errors'] ?? 0,
 				'warnings' => $fileData['warnings'] ?? 0,
 				'messages' => $messages,

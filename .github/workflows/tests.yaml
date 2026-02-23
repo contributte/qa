@@ -40,3 +40,25 @@ jobs:
     with:
       php: "8.2"
       composer: "composer update --no-interaction --no-progress --prefer-dist --prefer-stable --prefer-lowest"
+
+  snapshots:
+    name: "Snapshots"
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: "Setup PHP"
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.5"
+          coverage: none
+
+      - name: "Install dependencies"
+        run: composer install --no-interaction --no-progress --prefer-dist
+
+      - name: "Regenerate snapshots"
+        run: php bin/snapshots
+
+      - name: "Check for snapshot drift"
+        run: git diff --exit-code

@@ -3,6 +3,7 @@
 namespace Tests\Cases;
 
 use Generator;
+use JsonException;
 use Nette\Utils\Finder;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
@@ -18,14 +19,29 @@ class SniffTest extends TestCase
 		$process = new Process([
 			'vendor/bin/phpcs',
 			'--standard=' . $ruleset,
+			'--runtime-set',
+			'ignore_errors_on_exit',
+			'1',
+			'--runtime-set',
+			'ignore_warnings_on_exit',
+			'1',
 			'--report=json',
 			'-q',
 			$file,
 		]);
 		$process->setWorkingDirectory(__DIR__ . '/../../');
 		$process->run();
+		self::assertSame(0, $process->getExitCode(), $process->getErrorOutput());
 
-		$actual = Codesniffer::normalize(json_decode(trim($process->getOutput()), true) ?? []);
+		try {
+			$output = json_decode(trim($process->getOutput()), true, 512, JSON_THROW_ON_ERROR);
+		} catch (JsonException $e) {
+			self::fail('Failed to decode phpcs JSON output: ' . $e->getMessage());
+		}
+
+		self::assertIsArray($output);
+
+		$actual = Codesniffer::normalize($output);
 		$expected = json_decode(file_get_contents($snapshot), true);
 
 		self::assertEquals($expected, $actual);

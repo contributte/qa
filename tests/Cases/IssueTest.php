@@ -10,15 +10,15 @@ use PHPUnit\Framework\TestCase;
 use Symfony\Component\Process\Process;
 use Tests\Toolkit\Codesniffer;
 
-class RulesetTest extends TestCase
+class IssueTest extends TestCase
 {
 
-	#[DataProvider('provideSets')]
-	public function testRuleset(string $folder, string $snapshot): void
+	#[DataProvider('provideIssues')]
+	public function testIssue(string $file, string $ruleset, string $snapshot): void
 	{
 		$process = new Process([
 			'vendor/bin/phpcs',
-			'--standard=' . $folder . '/ruleset.xml',
+			'--standard=' . $ruleset,
 			'--runtime-set',
 			'ignore_errors_on_exit',
 			'1',
@@ -27,7 +27,7 @@ class RulesetTest extends TestCase
 			'1',
 			'--report=json',
 			'-q',
-			$folder . '/Fixtures',
+			$file,
 		]);
 		$process->setWorkingDirectory(__DIR__ . '/../../');
 		$process->run();
@@ -47,20 +47,24 @@ class RulesetTest extends TestCase
 		self::assertEquals($expected, $actual);
 	}
 
-	public static function provideSets(): Generator
+	public static function provideIssues(): Generator
 	{
-		$setsDir = __DIR__ . '/../Sets';
+		$issuesDir = __DIR__ . '/../Issue';
 
-		if (!is_dir($setsDir)) {
+		if (!is_dir($issuesDir)) {
 			return;
 		}
 
-		foreach (Finder::findDirectories('*')->in($setsDir) as $setDir) {
-			$folder = $setDir->getPathname();
-			$snapshot = $folder . '/snapshot.json';
+		foreach (Finder::findDirectories('*')->in($issuesDir) as $issueDir) {
+			foreach (Finder::findFiles('*.php')->in($issueDir->getPathname()) as $phpFile) {
+				$baseName = $phpFile->getBasename('.php');
+				$snapshotFile = $issueDir->getPathname() . '/' . $baseName . '.snapshot.json';
+				$rulesetFile = $issueDir->getPathname() . '/' . $baseName . '.ruleset.xml';
 
-			if (file_exists($snapshot)) {
-				yield basename($folder) => [$folder, $snapshot];
+				if (file_exists($snapshotFile) && file_exists($rulesetFile)) {
+					$key = $issueDir->getBasename() . '/' . $baseName;
+					yield $key => [$phpFile->getPathname(), $rulesetFile, $snapshotFile];
+				}
 			}
 		}
 	}

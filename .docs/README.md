@@ -31,8 +31,8 @@ Take a look at our template repository [contributte/bare](https://github.com/con
   <arg name="parallel" value="16"/>
 
   <!-- Rulesets -->
-  <rule ref="./vendor/contributte/qa/ruleset-8.1.xml"/>
-  <!-- <rule ref="./vendor/contributte/qa/ruleset-8.0.xml"/> -->
+  <rule ref="./vendor/contributte/qa/ruleset-8.5.xml"/>
+  <!-- <rule ref="./vendor/contributte/qa/ruleset-8.4.xml"/> -->
   <!-- <rule ref="./vendor/contributte/qa/ruleset-next.xml"/> -->
 
   <!-- Rules -->
@@ -66,7 +66,7 @@ vendor/bin/phpcs --standard=ruleset.xml -e
 Example output:
 
 ```
-The Contributte standard contains 186 sniffs
+The Contributte standard contains 185 sniffs
 
 Generic (27 sniffs)
 -------------------

@@ -63,11 +63,22 @@ jobs:
       - name: "Build ruleset diff report"
         run: bash .dev/ruleset-diff-report.sh
 
+      - name: "Build sniff coverage matrix"
+        run: python3 .dev/sniff-coverage-matrix.py
+
       - name: "Upload ruleset diff report"
         uses: actions/upload-artifact@v4
         with:
           name: ruleset-diff-report
           path: .reports/ruleset-diff.md
+
+      - name: "Upload sniff coverage matrix"
+        uses: actions/upload-artifact@v4
+        with:
+          name: sniff-coverage-matrix
+          path: |
+            .reports/sniff-coverage-matrix.csv
+            .reports/sniff-coverage-summary.md
 
       - name: "Regenerate snapshots"
         run: php bin/snapshots

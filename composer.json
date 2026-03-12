@@ -8,7 +8,7 @@
     "qa",
     "quality assurance"
   ],
-  "type": "library",
+  "type": "phpcodesniffer-standard",
   "license": [
     "MIT"
   ],

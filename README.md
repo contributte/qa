@@ -27,17 +27,13 @@ Tuned & very strict coding standards for PHP projects. Trusted by Contributte, A
 | dev    | master | `^0.5`  | `>=8.2` |
 | stable | master | `^0.4`  | `>=8.0` |
 
-## Usage
+## Installation
 
 To install latest version of `contributte/qa` use [Composer](https://getcomposer.org).
 
 ```
 composer require --dev contributte/qa
 ```
-
-## Installation
-
-Install by running `composer require --dev contributte/qa` command.
 
 ## Example
 
@@ -66,8 +62,8 @@ Take a look at our template repository [contributte/bare](https://github.com/con
   <arg name="parallel" value="16"/>
 
   <!-- Rulesets -->
-  <rule ref="./vendor/contributte/qa/ruleset-8.1.xml"/>
-  <!-- <rule ref="./vendor/contributte/qa/ruleset-8.0.xml"/> -->
+  <rule ref="./vendor/contributte/qa/ruleset-8.2.xml"/>
+  <!-- <rule ref="./vendor/contributte/qa/ruleset-8.3.xml"/> -->
   <!-- <rule ref="./vendor/contributte/qa/ruleset-next.xml"/> -->
 
   <!-- Rules -->

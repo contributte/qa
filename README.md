@@ -18,6 +18,15 @@
 Website 🚀 <a href="https://contributte.org">contributte.org</a> | Contact 👨🏻‍💻 <a href="https://f3l1x.io">f3l1x.io</a> | Twitter 🐦 <a href="https://twitter.com/contributte">@contributte</a>
 </p>
 
+Tuned & very strict coding standards for PHP projects. Trusted by Contributte, Apitte, Nettrine and many others.
+
+## Versions
+
+| State  | Branch | Version | PHP     |
+|--------|--------|---------|---------|
+| dev    | master | `^0.5`  | `>=8.2` |
+| stable | master | `^0.4`  | `>=8.0` |
+
 ## Usage
 
 To install latest version of `contributte/qa` use [Composer](https://getcomposer.org).
@@ -25,8 +34,6 @@ To install latest version of `contributte/qa` use [Composer](https://getcomposer
 ```
 composer require --dev contributte/qa
 ```
-
-## Documentation
 
 ## Installation
 
@@ -204,13 +211,6 @@ protected function($key): void {}
   </properties>
 </rule>
 ```
-
-## Versions
-
-| State  | Branch | Version | PHP     |
-|--------|--------|---------|---------|
-| dev    | master | `^0.5`  | `>=8.2` |
-| stable | master | `^0.4`  | `>=8.0` |
 
 ## Development
 
